@@ -1,0 +1,4 @@
+# boot to mode-select (card menu)
+900 -
+8 start
+300 -
