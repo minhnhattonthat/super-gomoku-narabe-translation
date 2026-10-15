@@ -130,7 +130,7 @@
   "off": "18CBD",
   "jp": "級外",
   "full": "級外",
-  "en": "Unranked",
+  "en": "Unranked{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -139,7 +139,7 @@
   "off": "18CC3",
   "jp": "十級",
   "full": "十級",
-  "en": "10 Kyu",
+  "en": "10 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -148,7 +148,7 @@
   "off": "18CC9",
   "jp": "九級",
   "full": "九級",
-  "en": "9 Kyu",
+  "en": "9 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -157,7 +157,7 @@
   "off": "18CCF",
   "jp": "八級",
   "full": "八級",
-  "en": "8 Kyu",
+  "en": "8 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -166,7 +166,7 @@
   "off": "18CD5",
   "jp": "七級",
   "full": "七級",
-  "en": "7 Kyu",
+  "en": "7 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -175,7 +175,7 @@
   "off": "18CDB",
   "jp": "六級",
   "full": "六級",
-  "en": "6 Kyu",
+  "en": "6 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -184,7 +184,7 @@
   "off": "18CE1",
   "jp": "五級",
   "full": "五級",
-  "en": "5 Kyu",
+  "en": "5 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -193,7 +193,7 @@
   "off": "18CE7",
   "jp": "四級",
   "full": "四級",
-  "en": "4 Kyu",
+  "en": "4 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -202,7 +202,7 @@
   "off": "18CED",
   "jp": "三級",
   "full": "三級",
-  "en": "3 Kyu",
+  "en": "3 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -211,7 +211,7 @@
   "off": "18CF3",
   "jp": "二級",
   "full": "二級",
-  "en": "2 Kyu",
+  "en": "2 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -220,7 +220,7 @@
   "off": "18CF9",
   "jp": "一級",
   "full": "一級",
-  "en": "1 Kyu",
+  "en": "1 Kyu{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -229,7 +229,7 @@
   "off": "18CFF",
   "jp": "名人",
   "full": "名人",
-  "en": "Master",
+  "en": "Master{to:5}",
   "vi": "",
   "kind": "text"
  },

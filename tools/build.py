@@ -17,6 +17,24 @@ ASAR = os.path.join(ROOT, "tools", "asar", "asar.exe")
 TEXT_CPU, TEXT_OFF = 0x918000, 0x88000
 FONT_OFF, FONTW_OFF, SHTAB_OFF = 0x90000, 0x94000, 0x95000
 SIZE = 0x100000
+PRE_OFF = 0xD0000  # $9A:8000.. pre-shifted VWF glyphs (asm/main.asm draw_pre), 64 glyphs per bank, up to $9F
+
+
+def preshift(font):
+    """For each glyph n and shift s (1-8): 16 rows x (tile A word, tile B word), each word = plane0 | plane1 << 8,
+    the glyph row shifted right by s from the left edge of tile A."""
+    n = len(font) // 32
+    assert n <= 6 * 64, "pre-shifted font does not fit in banks $9A-$9F"
+    out = bytearray(b"\xFF" * 0x30000)
+    for g in range(n):
+        base = (g >> 6) * 0x8000 + (g & 63) * 512
+        for s in range(1, 9):
+            o = base + (s - 1) * 64
+            for r in range(16):
+                p0, p1 = font[g * 32 + 2 * r], font[g * 32 + 2 * r + 1]
+                g0, g1 = (p0 << 8) >> s, (p1 << 8) >> s
+                out[o + r * 4:o + r * 4 + 4] = bytes([g0 >> 8, g1 >> 8, g0 & 0xFF, g1 & 0xFF])
+    return bytes(out)
 
 
 def load_script():
@@ -81,6 +99,7 @@ def build(lang, out, mark=False, rom_path=None, overrides=None):
     rom[FONT_OFF:FONT_OFF + len(font)] = font
     rom[FONTW_OFF:FONTW_OFF + len(widths)] = widths
     gfxpatch.apply(rom)
+    rom[PRE_OFF:PRE_OFF + 0x30000] = preshift(font)
     for s in range(1, 9):  # SHTAB ($92:D000) for draw8
         for p in range(256):
             o = SHTAB_OFF + (s - 1) * 512 + p * 2

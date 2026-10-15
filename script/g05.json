@@ -13,7 +13,7 @@
   "off": "189F1",
   "jp": "追詰勝",
   "full": "追詰勝",
-  "en": "Chase-down",
+  "en": "chase win",
   "vi": "",
   "kind": "text"
  },
@@ -22,7 +22,7 @@
   "off": "189F9",
   "jp": "白勝ち",
   "full": "白勝ち",
-  "en": "White wins",
+  "en": "to win",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "18A01",
   "jp": "黒勝ち",
   "full": "黒勝ち",
-  "en": "Black wins",
+  "en": "to win",
   "vi": "",
   "kind": "text"
  },
@@ -148,7 +148,7 @@
   "off": "18A85",
   "jp": "辞典",
   "full": "辞典",
-  "en": "Dictionary",
+  "en": "Terms",
   "vi": "",
   "kind": "text"
  },

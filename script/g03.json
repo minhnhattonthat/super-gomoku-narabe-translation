@@ -130,7 +130,7 @@
   "off": "18751",
   "jp": "COM",
   "full": "COM",
-  "en": "COM",
+  "en": "COM{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -139,7 +139,7 @@
   "off": "18759",
   "jp": "{sp:01}木目三",
   "full": "{sp:01}木目三",
-  "en": "{sp:01}Wood 3",
+  "en": "{sp:01}Wood 3{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -148,7 +148,7 @@
   "off": "18763",
   "jp": "{sp:01}桜{sp:01}二",
   "full": "{sp:01}桜{sp:01}二",
-  "en": "{sp:01}Cherry 2",
+  "en": "{sp:01}Cherry 2{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -157,7 +157,7 @@
   "off": "1876D",
   "jp": "{sp:01}木目四",
   "full": "{sp:01}木目四",
-  "en": "{sp:01}Wood 4",
+  "en": "{sp:01}Wood 4{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -166,7 +166,7 @@
   "off": "18777",
   "jp": "{sp:01}木目五",
   "full": "{sp:01}木目五",
-  "en": "{sp:01}Wood 5",
+  "en": "{sp:01}Wood 5{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "187D7",
   "jp": "効果音",
   "full": "効果音",
-  "en": "Sound Effects",
+  "en": "Effects",
   "vi": "",
   "kind": "text"
  },

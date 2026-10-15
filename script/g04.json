@@ -265,7 +265,7 @@
   "off": "189D3",
   "jp": "打出し",
   "full": "打出し",
-  "en": "plays first",
+  "en": "starts",
   "vi": "",
   "kind": "text"
  },
@@ -274,7 +274,7 @@
   "off": "189DB",
   "jp": "二手で",
   "full": "二手で",
-  "en": "in 2 moves",
+  "en": "2 moves",
   "vi": "",
   "kind": "text"
  },

@@ -102,72 +102,72 @@
   "note": "dictionary page box (11 cells, line clear A7FD)"
  },
  "g00_05": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g00_06": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g00_07": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g04_27": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g04_28": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g04_29": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g04_30": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g04_31": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g05_00": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g05_01": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 49,
+  "note": "P side panel; 49 px: only the last shadow column touches the panel edge at x 248"
  },
  "g05_02": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g05_03": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g05_04": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g05_05": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g05_15": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g05_16": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 32,
+  "note": "dictionary side header, pos 2D: visible x 216-248"
  },
  "g05_22": {
-  "px": 64,
-  "note": "P side panel, 4 cells (screens.md)"
+  "px": 48,
+  "note": "P side panel, visible x 200-248"
  },
  "g04_26": {
   "px": 64,
@@ -175,7 +175,8 @@
  },
  "g00_02": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_03": {
   "px": 176,
@@ -183,215 +184,268 @@
  },
  "g01_23": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g01_24": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g03_12": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g03_19": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g03_20": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g03_21": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g03_22": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g03_23": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g05_23": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g05_17": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g04_10": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g07_02": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g07_03": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g07_04": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g07_05": {
   "px": 192,
-  "note": "H header, JP field 12 cells"
+  "note": "H header, JP field 12 cells",
+  "pad": 12
  },
  "g07_06": {
   "px": 192,
-  "note": "H header, JP field 12 cells"
+  "note": "H header, JP field 12 cells",
+  "pad": 12
  },
  "g00_08": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_09": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_10": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_11": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_12": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_13": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_14": {
   "px": 176,
-  "note": "never shown (screens.md): kept to the header width"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_15": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_16": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_17": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_18": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_19": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g00_20": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g01_28": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g01_29": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g01_30": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g01_31": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_00": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_01": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_02": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_03": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_04": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_05": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_06": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_07": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_08": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_09": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_10": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_11": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_12": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_13": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_14": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_15": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_16": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_17": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_18": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_19": {
   "px": 176,
-  "note": "H header / B box line, 11 cells"
+  "note": "H header line, padded to 11 cells",
+  "pad": 11
  },
  "g02_20": {
   "px": 64,

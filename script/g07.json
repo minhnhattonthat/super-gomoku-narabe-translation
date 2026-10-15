@@ -229,7 +229,7 @@
   "off": "18F65",
   "jp": "{sp:01}富士一",
   "full": "{sp:01}富士一",
-  "en": "{sp:01}Fuji 1",
+  "en": "{sp:01}Fuji 1{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -238,7 +238,7 @@
   "off": "18F6F",
   "jp": "{sp:01}富士二",
   "full": "{sp:01}富士二",
-  "en": "{sp:01}Fuji 2",
+  "en": "{sp:01}Fuji 2{to:5}",
   "vi": "",
   "kind": "text"
  },

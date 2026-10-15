@@ -177,8 +177,9 @@ def expand(e, text, lang):
             out.append(seg)
             page, line = (page + 1, 0) if seg.startswith("{wait") else (page, line + 1)
             continue
-        if (page, line) in ends and not re.search(r"\{(sp:[0-9A-F]+|to:\d+)\}$", seg):
-            seg += "{to:%d}" % ends[(page, line)]
+        end = max(ends.get((page, line), 0), lim.get("pad", 0))
+        if end and not re.search(r"\{(sp:[0-9A-F]+|to:\d+)\}$", seg):
+            seg += "{to:%d}" % end
         out.append(seg)
     text = "".join(out)
 

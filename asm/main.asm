@@ -34,6 +34,13 @@ lorom
 !DIGF = $7E192A            ; draw_fresh: drawing a digit
 !DIGNEXT = $7E192C         ; draw_fresh: $7C at which the next digit joins this one
 !NOCACHE = $7E192E         ; the running instant draw has dynamic content
+!GN = $7E1930              ; draw_pre: glyph index (code - $200)
+!CW2 = $7E1932             ; scratch
+!KAW = $7E1934             ; keep masks as words (both planes)
+!KBW = $7E1936
+!sKAW = $1934              ; the same, for DB = a bank in $80-$BF (low WRAM mirror)
+!sKBW = $1936
+!PREBANK = $9A             ; pre-shifted glyphs, build.py PRE_OFF
 
 ; ---------------------------------------------------------------- text bank
 org $81A756 : lda.l !TEXT+$1A,x      ; {var}: group 13
@@ -446,15 +453,9 @@ clear_partial:
     bcc +
     lda #$0008
 +   sta.l !WD
-    lda.w #!FONT+($20*32)
-    sta $22
-    clc
-    adc #$0010
-    sta $26
-    lda.w #!FONT>>16
-    sta $24
-    sta $28
-    jsr draw8
+    lda #$0020                       ; the (empty) space glyph
+    sta.l !GN
+    jsr draw_pre
     lda.l !VX
     clc
     adc.l !WD
@@ -607,30 +608,155 @@ eng_draw:
     lda $16
     sec
     sbc #$0200
+    sta.l !GN
     tax
     lda.l !FONTW,x
     and #$00FF
     sta.l !WD
     sta.l !VW
-    txa
+    beq +
+    jsr draw_pre
++   rts
+
+; Latin/Vietnamese glyph GN, width WD at VX, from the pre-shifted copy (build.py: PRE, 64 glyphs per bank from
+; PREBANK, glyph n at $8000 + (n & 63) * 512, shift s at + (s - 1) * 64, row r at + r * 4: tile A word, tile B word,
+; each word = plane 0 | plane 1 << 8). DB is set to the data bank: banks $80-$BF still map I/O and low WRAM at
+; $0000-$5FFF, so the game's IRQ keeps working.
+macro prerow(r)
+    ldy.w #(<r>&7)*2
+    lda [$22],y
+    and.w !sKAW
+    ora.w <r>*4,x
+    sta [$22],y
+    lda [$26],y
+    and.w !sKBW
+    ora.w <r>*4+2,x
+    sta [$26],y
+endmacro
+
+draw_pre:
+    jsr setup_tiles
+    lda.l !GN
+    and #$003F
+    xba
+    asl
+    sta.l !CW2
+    lda.l !SH
+    dec
+    asl
     asl
     asl
     asl
     asl
     asl
     clc
-    adc.w #!FONT
+    adc.l !CW2
+    clc
+    adc #$8000
+    tax
+    phb
+    lda.l !GN
+    lsr
+    lsr
+    lsr
+    lsr
+    lsr
+    lsr
+    clc
+    adc.w #!PREBANK
+    sep #$20
+    pha
+    plb
+    rep #$20
+    %prerow(0)
+    %prerow(1)
+    %prerow(2)
+    %prerow(3)
+    %prerow(4)
+    %prerow(5)
+    %prerow(6)
+    %prerow(7)
+    lda $22
+    clc
+    adc #$0100
     sta $22
+    lda $26
     clc
-    adc #$0010
+    adc #$0100
     sta $26
-    lda.w #!FONT>>16
+    %prerow(8)
+    %prerow(9)
+    %prerow(10)
+    %prerow(11)
+    %prerow(12)
+    %prerow(13)
+    %prerow(14)
+    %prerow(15)
+    plb
+    rts
+
+; SH (1-8), [$22] tile A and [$26] tile B in the buffer (x & 7 == 0 -> shift 8 into the previous tile),
+; KA/KB keep masks (low byte) and KAW/KBW (both bytes) for a WD px glyph
+setup_tiles:
+    lda.l !VX
+    and #$0007
+    bne +
+    lda #$0008
++   sta.l !SH
+    tax
+    lda.l !VX
+    lsr
+    lsr
+    lsr
+    cpx #$0008
+    bne +
+    dec
++   pha
+    inc
+    jsr tileoff
+    clc
+    adc.w #!BUF
+    sta $26
+    pla
+    jsr tileoff
+    clc
+    adc.w #!BUF
+    sta $22
+    lda.w #!BUF>>16
     sta $24
     sta $28
     lda.l !WD
+    tax
+    lda #$FFFF
+-   cpx #$0000
     beq +
-    jsr draw8
-+   rts
+    lsr
+    dex
+    bra -
++   eor #$FFFF
+    pha
+    lda.l !SH
+    tax
+    pla
+-   lsr
+    dex
+    bne -
+    eor #$FFFF
+    sta.l !KB
+    and #$00FF
+    sta.l !CW2
+    xba
+    ora.l !CW2
+    sta.l !KBW
+    lda.l !KB
+    xba
+    and #$00FF
+    sta.l !KA
+    sta.l !CW2
+    xba
+    ora.l !CW2
+    sta.l !KAW
+    rts
 
 ; tile offset (top half) of tile A (0-31) within the current line
 tileoff:

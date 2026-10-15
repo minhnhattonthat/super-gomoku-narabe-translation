@@ -3,11 +3,11 @@
 # =DATA keeps the Japanese in every language (passwords compared with input).
 g00_00	You shouldn't fight a battle you can't win.
 g00_01	You shouldn't fight a battle you can't win.
-g00_02	{sp:01}Move {move}: {turn} to play{to:9}
+g00_02	{sp:01}Move {move}: {turn} to play
 g00_03	{sp:01}Move {num:00}: {var:00} to play{to:9}
 g00_04	Hint:{nl}Watch the screen closely{nl}and mash the A Button!!{wait:00}
-g00_05	First
-g00_06	Second
+g00_05	First{to:3}
+g00_06	Second{to:3}
 g00_07	{sp:01}wins
 g00_08	Turn the music off.
 g00_09	Turn the music on.
@@ -28,13 +28,13 @@ g00_23	1P Face
 g00_24	2P Face
 g00_25	Board
 g00_26	Confirm
-g00_27	{sp:01}Wood 1
-g00_28	{sp:01}Wood 2
-g00_29	{sp:01}Cherry 1
+g00_27	{sp:01}Wood 1{to:5}
+g00_28	{sp:01}Wood 2{to:5}
+g00_29	{sp:01}Cherry 1{to:5}
 g00_30	Pesu
 g00_31	Masao
 g01_00	{sp:01}1P
-g01_01	2P
+g01_01	2P{to:4}
 g01_02	Norihisa
 g01_03	Naoko
 g01_04	Junji
@@ -111,11 +111,11 @@ g03_10	Shagetsu{to:4}
 g03_11	Meigetsu{to:4}
 g03_12	{var:00} wins!
 g03_13	2P/COM
-g03_14	COM
-g03_15	{sp:01}Wood 3
-g03_16	{sp:01}Cherry 2
-g03_17	{sp:01}Wood 4
-g03_18	{sp:01}Wood 5
+g03_14	COM{to:4}
+g03_15	{sp:01}Wood 3{to:5}
+g03_16	{sp:01}Cherry 2{to:5}
+g03_17	{sp:01}Wood 4{to:5}
+g03_18	{sp:01}Wood 5{to:5}
 g03_19	Five
 g03_20	Double-Four Foul
 g03_21	Double-Three Foul
@@ -126,7 +126,7 @@ g03_25	Back
 g03_26	Sound settings?
 g03_27	Stereo{to:7}Mono
 g03_28	Music
-g03_29	Sound Effects
+g03_29	Effects
 g03_30	Start{to:5}A Button
 g03_31	Display settings?
 g04_00	Text Speed
@@ -158,13 +158,13 @@ g04_25	=DATA
 g04_26	No.{sp:02}
 g04_27	Black
 g04_28	White
-g04_29	plays first
-g04_30	in 2 moves
+g04_29	starts
+g04_30	2 moves
 g04_31	Fours
 g05_00	4-3 win
-g05_01	Chase-down
-g05_02	White wins
-g05_03	Black wins
+g05_01	chase win
+g05_02	to win
+g05_03	to win
 g05_04	in a row
 g05_05	=DATA
 g05_06	Chase-Down
@@ -177,7 +177,7 @@ g05_12	Song: Life
 g05_13	Song: Journey
 g05_14	please.
 g05_15	Renju
-g05_16	Dictionary
+g05_16	Terms
 g05_17	Please choose an entry.
 g05_18	Five
 g05_19	Overline
@@ -207,18 +207,18 @@ g06_10	1P Order
 g06_11	Wins Needed
 g06_12	Move Limit
 g06_13	wins
-g06_14	Unranked
-g06_15	10 Kyu
-g06_16	9 Kyu
-g06_17	8 Kyu
-g06_18	7 Kyu
-g06_19	6 Kyu
-g06_20	5 Kyu
-g06_21	4 Kyu
-g06_22	3 Kyu
-g06_23	2 Kyu
-g06_24	1 Kyu
-g06_25	Master
+g06_14	Unranked{to:5}
+g06_15	10 Kyu{to:5}
+g06_16	9 Kyu{to:5}
+g06_17	8 Kyu{to:5}
+g06_18	7 Kyu{to:5}
+g06_19	6 Kyu{to:5}
+g06_20	5 Kyu{to:5}
+g06_21	4 Kyu{to:5}
+g06_22	3 Kyu{to:5}
+g06_23	2 Kyu{to:5}
+g06_24	1 Kyu{to:5}
+g06_25	Master{to:5}
 g06_26	=DATA
 g06_27	{sp:01}75 moves{to:5}
 g06_28	100 moves{to:5}
@@ -250,8 +250,8 @@ g07_21	No finesse in drawing,{nl}but finesse in resting.
 g07_22	Defend with a knight's move.
 g07_23	Your enemy's key point{nl}is your key point.
 g07_24	Don't block the stone,{nl}block the line.
-g07_25	{sp:01}Fuji 1
-g07_26	{sp:01}Fuji 2
+g07_25	{sp:01}Fuji 1{to:5}
+g07_26	{sp:01}Fuji 2{to:5}
 g07_27	The board has 15 lines running across and 15 running down.{wait:00}The black dot in the center is called "tengen."{wait:00}
 g07_28	Five stones of the same color in an unbroken row.{wait:00}{se:01}Whoever makes a five first wins the game.{wait:00}White wins with five or more in a row,{wait:00}but Black wins only with exactly five.{wait:00}
 g07_29	Sometimes six stones end up in a row at once.{wait:00}{se:0F}This is called an "overline."{wait:00}An overline still wins for White,{wait:00}but for Black it is a forbidden move, so Black loses.{wait:00}

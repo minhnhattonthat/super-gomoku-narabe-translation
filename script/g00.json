@@ -22,7 +22,7 @@
   "off": "1828B",
   "jp": "{sp:04}手目{sp:02}番",
   "full": "{sp:04}手目{sp:02}番",
-  "en": "{sp:01}Move {move}: {turn} to play{to:9}",
+  "en": "{sp:01}Move {move}: {turn} to play",
   "vi": "",
   "kind": "text"
  },
@@ -49,7 +49,7 @@
   "off": "182D7",
   "jp": "先手",
   "full": "先手",
-  "en": "First",
+  "en": "First{to:3}",
   "vi": "",
   "kind": "text"
  },
@@ -58,7 +58,7 @@
   "off": "182DD",
   "jp": "後手",
   "full": "後手",
-  "en": "Second",
+  "en": "Second{to:3}",
   "vi": "",
   "kind": "text"
  },
@@ -247,7 +247,7 @@
   "off": "183ED",
   "jp": "{sp:01}木目一",
   "full": "{sp:01}木目一",
-  "en": "{sp:01}Wood 1",
+  "en": "{sp:01}Wood 1{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "183F7",
   "jp": "{sp:01}木目二",
   "full": "{sp:01}木目二",
-  "en": "{sp:01}Wood 2",
+  "en": "{sp:01}Wood 2{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "18401",
   "jp": "{sp:01}桜{sp:01}一",
   "full": "{sp:01}桜{sp:01}一",
-  "en": "{sp:01}Cherry 1",
+  "en": "{sp:01}Cherry 1{to:5}",
   "vi": "",
   "kind": "text"
  },
