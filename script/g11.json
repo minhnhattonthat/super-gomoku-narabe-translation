@@ -86,7 +86,7 @@
   "jp": "このパスワードを{nl}{sp:02}NAXATまで{nl}{sp:02}おくってください。",
   "full": "このパスワードを{nl}{sp:02}NAXATまで{nl}{sp:02}おくってください。",
   "en": "Please send this password{nl}{sp:02}to NAXAT{nl}{sp:02}by mail.",
-  "vi": "",
+  "vi": "Hãy gửi mật khẩu này{nl}{sp:02}qua đường bưu điện{nl}{sp:02}tới NAXAT.",
   "kind": "text"
  }
 ]

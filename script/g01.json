@@ -5,7 +5,7 @@
   "jp": "{sp:01}1{sp:01}P{sp:02}",
   "full": "{sp:01}1{sp:01}P{sp:02}",
   "en": "{sp:01}1P",
-  "vi": "",
+  "vi": "{sp:01}1P",
   "kind": "text"
  },
  {
@@ -14,7 +14,7 @@
   "jp": "2{sp:01}P",
   "full": "2{sp:01}P",
   "en": "2P{to:4}",
-  "vi": "",
+  "vi": "2P{to:4}",
   "kind": "text"
  },
  {
@@ -23,7 +23,7 @@
   "jp": "のりひさ",
   "full": "のりひさ",
   "en": "Norihisa",
-  "vi": "",
+  "vi": "Norihisa",
   "kind": "text"
  },
  {
@@ -32,7 +32,7 @@
   "jp": "なおこ{sp:01}",
   "full": "なおこ{sp:01}",
   "en": "Naoko",
-  "vi": "",
+  "vi": "Naoko",
   "kind": "text"
  },
  {
@@ -41,7 +41,7 @@
   "jp": "じゅんじ",
   "full": "じゅんじ",
   "en": "Junji",
-  "vi": "",
+  "vi": "Junji",
   "kind": "text"
  },
  {
@@ -50,7 +50,7 @@
   "jp": "ともゆき",
   "full": "ともゆき",
   "en": "Tomoyuki",
-  "vi": "",
+  "vi": "Tomoyuki",
   "kind": "text"
  },
  {
@@ -59,7 +59,7 @@
   "jp": "えいこ{sp:01}",
   "full": "えいこ{sp:01}",
   "en": "Eiko",
-  "vi": "",
+  "vi": "Eiko",
   "kind": "text"
  },
  {
@@ -68,7 +68,7 @@
   "jp": "ごろう{sp:01}",
   "full": "ごろう{sp:01}",
   "en": "Goro",
-  "vi": "",
+  "vi": "Goro",
   "kind": "text"
  },
  {
@@ -77,7 +77,7 @@
   "jp": "じゅりあ",
   "full": "じゅりあ",
   "en": "Julia",
-  "vi": "",
+  "vi": "Julia",
   "kind": "text"
  },
  {
@@ -86,7 +86,7 @@
   "jp": "げんしち",
   "full": "げんしち",
   "en": "Genshichi",
-  "vi": "",
+  "vi": "Genshichi",
   "kind": "text"
  },
  {
@@ -95,7 +95,7 @@
   "jp": "み{sp:01}み{sp:01}",
   "full": "み{sp:01}み{sp:01}",
   "en": "Mimi",
-  "vi": "",
+  "vi": "Mimi",
   "kind": "text"
  },
  {
@@ -104,7 +104,7 @@
   "jp": "めいじん",
   "full": "めいじん",
   "en": "Master",
-  "vi": "",
+  "vi": "Cao thủ",
   "kind": "text"
  },
  {
@@ -113,7 +113,7 @@
   "jp": "モードを{ph:0B}",
   "full": "モードを選んでください。",
   "en": "Please choose a mode.",
-  "vi": "",
+  "vi": "Hãy chọn chế độ chơi.",
   "kind": "text"
  },
  {
@@ -122,7 +122,7 @@
   "jp": "{sp:01}対{sp:01}局{sp:01}",
   "full": "{sp:01}対{sp:01}局{sp:01}",
   "en": "{center:48}Match{to:7}",
-  "vi": "",
+  "vi": "{center:48}Đấu cờ{to:7}",
   "kind": "text"
  },
  {
@@ -131,7 +131,7 @@
   "jp": "{sp:01}詰め連珠",
   "full": "{sp:01}詰め連珠",
   "en": "{center:48}Renju Puzzles{to:7}",
-  "vi": "",
+  "vi": "{center:48}Câu đố Renju{to:7}",
   "kind": "text"
  },
  {
@@ -140,7 +140,7 @@
   "jp": "{sp:01}連珠辞典",
   "full": "{sp:01}連珠辞典",
   "en": "{center:48}Renju Dictionary{to:7}",
-  "vi": "",
+  "vi": "{center:48}Từ điển Renju{to:7}",
   "kind": "text"
  },
  {
@@ -149,7 +149,7 @@
   "jp": "オプション",
   "full": "オプション",
   "en": "{center:48}Options{to:7}",
-  "vi": "",
+  "vi": "{center:48}Tùy chọn{to:7}",
   "kind": "text"
  },
  {
@@ -158,7 +158,7 @@
   "jp": "フリー対局{sp:01}",
   "full": "フリー対局{sp:01}",
   "en": "{center:48}Free Match{to:7}",
-  "vi": "",
+  "vi": "{center:48}Đấu tự do{to:7}",
   "kind": "text"
  },
  {
@@ -167,7 +167,7 @@
   "jp": "名{sp:01}人{sp:01}戦",
   "full": "名{sp:01}人{sp:01}戦",
   "en": "{center:48}Master Cup{to:7}",
-  "vi": "",
+  "vi": "{center:48}Cúp Cao thủ{to:7}",
   "kind": "text"
  },
  {
@@ -176,7 +176,7 @@
   "jp": "何を設定{ph:02}か?",
   "full": "何を設定しますか?",
   "en": "What would you like to set?",
-  "vi": "",
+  "vi": "Bạn muốn cài đặt gì?",
   "kind": "text"
  },
  {
@@ -185,7 +185,7 @@
   "jp": "音{ph:09}",
   "full": "音をいじる",
   "en": "Sound",
-  "vi": "",
+  "vi": "Âm thanh",
   "kind": "text"
  },
  {
@@ -194,7 +194,7 @@
   "jp": "表示{ph:09}",
   "full": "表示をいじる",
   "en": "Display",
-  "vi": "",
+  "vi": "Hiển thị",
   "kind": "text"
  },
  {
@@ -203,7 +203,7 @@
   "jp": "何を{ph:02}か?",
   "full": "何をしますか?",
   "en": "What would you like to do?",
-  "vi": "",
+  "vi": "Bạn muốn làm gì?",
   "kind": "text"
  },
  {
@@ -212,7 +212,7 @@
   "jp": "珠型を{ph:0B}",
   "full": "珠型を選んでください。",
   "en": "Please choose an opening.",
-  "vi": "",
+  "vi": "Hãy chọn khai cuộc.",
   "kind": "text"
  },
  {
@@ -221,7 +221,7 @@
   "jp": "珠型は{ph:07}{sp:01}",
   "full": "珠型はどうしますか?{sp:01}",
   "en": "Which opening?",
-  "vi": "",
+  "vi": "Khai cuộc nào?",
   "kind": "text"
  },
  {
@@ -230,7 +230,7 @@
   "jp": "{ph:05}型",
   "full": "直接型",
   "en": "Direct{to:4}",
-  "vi": "",
+  "vi": "Trực tiếp{to:4}",
   "kind": "text"
  },
  {
@@ -239,7 +239,7 @@
   "jp": "{ph:06}型",
   "full": "間接型",
   "en": "Indirect{to:4}",
-  "vi": "",
+  "vi": "Gián tiếp{to:4}",
   "kind": "text"
  },
  {
@@ -248,7 +248,7 @@
   "jp": "COMまかせ",
   "full": "COMまかせ",
   "en": "Let COM pick{to:4}",
-  "vi": "",
+  "vi": "COM chọn{to:4}",
   "kind": "text"
  },
  {
@@ -257,7 +257,7 @@
   "jp": "{ph:05}1号{sp:01}寒星",
   "full": "直接1号{sp:01}寒星",
   "en": "Direct 1: Kansei",
-  "vi": "",
+  "vi": "Trực tiếp 1: Kansei",
   "kind": "text"
  },
  {
@@ -266,7 +266,7 @@
   "jp": "{ph:05}2号{sp:01}渓月",
   "full": "直接2号{sp:01}渓月",
   "en": "Direct 2: Keigetsu",
-  "vi": "",
+  "vi": "Trực tiếp 2: Keigetsu",
   "kind": "text"
  },
  {
@@ -275,7 +275,7 @@
   "jp": "{ph:05}3号{sp:01}疎星",
   "full": "直接3号{sp:01}疎星",
   "en": "Direct 3: Sosei",
-  "vi": "",
+  "vi": "Trực tiếp 3: Sosei",
   "kind": "text"
  },
  {
@@ -284,7 +284,7 @@
   "jp": "{ph:05}4号{sp:01}花月",
   "full": "直接4号{sp:01}花月",
   "en": "Direct 4: Kagetsu",
-  "vi": "",
+  "vi": "Trực tiếp 4: Kagetsu",
   "kind": "text"
  }
 ]

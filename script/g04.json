@@ -5,7 +5,7 @@
   "jp": "文字{ph:08}",
   "full": "文字スピード",
   "en": "Text Speed",
-  "vi": "",
+  "vi": "Tốc độ chữ",
   "kind": "text"
  },
  {
@@ -14,7 +14,7 @@
   "jp": "速い{sp:01}ふつう{sp:01}遅い",
   "full": "速い{sp:01}ふつう{sp:01}遅い",
   "en": "Fast{to:3}Normal{to:7}Slow",
-  "vi": "",
+  "vi": "Nhanh{to:3}Thường{to:7}Chậm",
   "kind": "text"
  },
  {
@@ -23,7 +23,7 @@
   "jp": "ふつう",
   "full": "ふつう",
   "en": "Normal",
-  "vi": "",
+  "vi": "Thường",
   "kind": "text"
  },
  {
@@ -32,7 +32,7 @@
   "jp": "遅い",
   "full": "遅い",
   "en": "Slow",
-  "vi": "",
+  "vi": "Chậm",
   "kind": "text"
  },
  {
@@ -41,7 +41,7 @@
   "jp": "カーソル{ph:08}",
   "full": "カーソルスピード",
   "en": "Cursor Speed",
-  "vi": "",
+  "vi": "Tốc độ con trỏ",
   "kind": "text"
  },
  {
@@ -50,7 +50,7 @@
   "jp": "ストップ{sp:01}B{ph:0A}",
   "full": "ストップ{sp:01}Bボタン",
   "en": "Stop{to:5}B Button",
-  "vi": "",
+  "vi": "Dừng{to:5}Nút B",
   "kind": "text"
  },
  {
@@ -59,7 +59,7 @@
   "jp": "問題を{ph:0B}",
   "full": "問題を選んでください。",
   "en": "Please choose a problem.",
-  "vi": "",
+  "vi": "Hãy chọn câu đố.",
   "kind": "text"
  },
  {
@@ -68,7 +68,7 @@
   "jp": "追い詰め{sp:03}二手勝ち",
   "full": "追い詰め{sp:03}二手勝ち",
   "en": "Chase-Down{to:7}Win in Two",
-  "vi": "",
+  "vi": "Dồn đuổi{to:7}Thắng 2 nước",
   "kind": "text"
  },
  {
@@ -77,7 +77,7 @@
   "jp": "四追勝ち{sp:03}実力認定",
   "full": "四追勝ち{sp:03}実力認定",
   "en": "Four-Chase{to:7}Rank Test",
-  "vi": "",
+  "vi": "Đuổi bốn{to:7}Xếp hạng",
   "kind": "text"
  },
  {
@@ -86,7 +86,7 @@
   "jp": "問題{sp:02}番",
   "full": "問題{sp:02}番",
   "en": "No.{sp:02}",
-  "vi": "",
+  "vi": "Số{sp:02}",
   "kind": "text"
  },
  {
@@ -95,7 +95,7 @@
   "jp": "何を{ph:02}か?{sp:04}",
   "full": "何をしますか?{sp:04}",
   "en": "What would you like to do?",
-  "vi": "",
+  "vi": "Bạn muốn làm gì?",
   "kind": "text"
  },
  {
@@ -113,7 +113,7 @@
   "jp": "{ph:0D}をいれて下さい。",
   "full": "パスワードをいれて下さい。",
   "en": "Please enter the password.",
-  "vi": "",
+  "vi": "Hãy nhập mật khẩu.",
   "kind": "text"
  },
  {
@@ -122,7 +122,7 @@
   "jp": "あなたの{ph:0D}です。",
   "full": "あなたのパスワードです。",
   "en": "This is your password.",
-  "vi": "",
+  "vi": "Đây là mật khẩu của bạn.",
   "kind": "text"
  },
  {
@@ -131,7 +131,7 @@
   "jp": "{ph:0D}がちがいます。{sp:01}",
   "full": "パスワードがちがいます。{sp:01}",
   "en": "Wrong password.",
-  "vi": "",
+  "vi": "Sai mật khẩu.",
   "kind": "text"
  },
  {
@@ -176,7 +176,7 @@
   "jp": "なにぬねの{sp:04}決まり",
   "full": "なにぬねの{sp:04}決まり",
   "en": "なにぬねの{to:9}Done",
-  "vi": "",
+  "vi": "なにぬねの{to:9}Xong",
   "kind": "text"
  },
  {
@@ -185,7 +185,7 @@
   "jp": "はひふへほ{sp:04}始めから",
   "full": "はひふへほ{sp:04}始めから",
   "en": "はひふへほ{to:9}Reset",
-  "vi": "",
+  "vi": "はひふへほ{to:9}Xóa",
   "kind": "text"
  },
  {
@@ -239,7 +239,7 @@
   "jp": "問題{sp:02}番",
   "full": "問題{sp:02}番",
   "en": "No.{sp:02}",
-  "vi": "",
+  "vi": "Số{sp:02}",
   "kind": "text"
  },
  {
@@ -248,7 +248,7 @@
   "jp": "黒から",
   "full": "黒から",
   "en": "Black",
-  "vi": "",
+  "vi": "Đen",
   "kind": "text"
  },
  {
@@ -257,7 +257,7 @@
   "jp": "白から",
   "full": "白から",
   "en": "White",
-  "vi": "",
+  "vi": "Trắng",
   "kind": "text"
  },
  {
@@ -266,7 +266,7 @@
   "jp": "打出し",
   "full": "打出し",
   "en": "starts",
-  "vi": "",
+  "vi": "đi trước",
   "kind": "text"
  },
  {
@@ -275,7 +275,7 @@
   "jp": "二手で",
   "full": "二手で",
   "en": "2 moves",
-  "vi": "",
+  "vi": "2 nước",
   "kind": "text"
  },
  {
@@ -284,7 +284,7 @@
   "jp": "四の",
   "full": "四の",
   "en": "Fours",
-  "vi": "",
+  "vi": "Bốn",
   "kind": "text"
  }
 ]

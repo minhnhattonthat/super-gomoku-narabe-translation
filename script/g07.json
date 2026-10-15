@@ -5,7 +5,7 @@
   "jp": "200",
   "full": "200",
   "en": "200 moves{to:5}",
-  "vi": "",
+  "vi": "200 nước{to:5}",
   "kind": "text"
  },
  {
@@ -14,7 +14,7 @@
   "jp": "225",
   "full": "225",
   "en": "225 moves{to:5}",
-  "vi": "",
+  "vi": "225 nước{to:5}",
   "kind": "text"
  },
  {
@@ -23,7 +23,7 @@
   "jp": "中止{ph:02}か?{sp:04}",
   "full": "中止しますか?{sp:04}",
   "en": "Quit this game?",
-  "vi": "",
+  "vi": "Dừng ván này?",
   "kind": "text"
  },
  {
@@ -32,7 +32,7 @@
   "jp": "解答決定ですか?{sp:03}",
   "full": "解答決定ですか?{sp:03}",
   "en": "Is this your answer?",
-  "vi": "",
+  "vi": "Đây là đáp án của bạn?",
   "kind": "text"
  },
  {
@@ -41,7 +41,7 @@
   "jp": "正解です。{sp:06}",
   "full": "正解です。{sp:06}",
   "en": "Correct!",
-  "vi": "",
+  "vi": "Chính xác!",
   "kind": "text"
  },
  {
@@ -50,7 +50,7 @@
   "jp": "まちがいです。{sp:05}",
   "full": "まちがいです。{sp:05}",
   "en": "Wrong.",
-  "vi": "",
+  "vi": "Sai rồi.",
   "kind": "text"
  },
  {
@@ -59,7 +59,7 @@
   "jp": "続けますか?{sp:06}",
   "full": "続けますか?{sp:06}",
   "en": "Continue?",
-  "vi": "",
+  "vi": "Chơi tiếp?",
   "kind": "text"
  },
  {
@@ -68,7 +68,7 @@
   "jp": "名人戦では、ヒントは{nl}出せません。{nl}がんばってください。{wait:00}",
   "full": "名人戦では、ヒントは{nl}出せません。{nl}がんばってください。{wait:00}",
   "en": "Hints are not available{nl}in the Master Cup.{nl}Good luck!{wait:00}",
-  "vi": "",
+  "vi": "Không có gợi ý{nl}trong Cúp Cao thủ.{nl}Chúc may mắn!{wait:00}",
   "kind": "text"
  },
  {
@@ -77,7 +77,7 @@
   "jp": "{sp:05}連{sp:01}珠{nl}{sp:05}スタッフ",
   "full": "{sp:05}連{sp:01}珠{nl}{sp:05}スタッフ",
   "en": "{sp:05}Renju{nl}{sp:05}Staff",
-  "vi": "",
+  "vi": "{sp:05}Renju{nl}{sp:05}Ban thực hiện",
   "kind": "text"
  },
  {
@@ -86,7 +86,7 @@
   "jp": "{sp:01}監{sp:01}修{nl}{sp:05}坂田{sp:01}吾朗",
   "full": "{sp:01}監{sp:01}修{nl}{sp:05}坂田{sp:01}吾朗",
   "en": "Supervisor{nl}{sp:05}Goro Sakata",
-  "vi": "",
+  "vi": "Giám sát{nl}{sp:05}Goro Sakata",
   "kind": "text"
  },
  {
@@ -95,7 +95,7 @@
   "jp": "制作協力{nl}{sp:05}松浦{sp:01}浩",
   "full": "制作協力{nl}{sp:05}松浦{sp:01}浩",
   "en": "Production Support{nl}{sp:05}Hiroshi Matsuura",
-  "vi": "",
+  "vi": "Hỗ trợ sản xuất{nl}{sp:05}Hiroshi Matsuura",
   "kind": "text"
  },
  {
@@ -104,7 +104,7 @@
   "jp": "き{sp:01}画{nl}{sp:05}ふじさく中の",
   "full": "き{sp:01}画{nl}{sp:05}ふじさく中の",
   "en": "Planning{nl}{sp:05}Nakano (Fujisaku)",
-  "vi": "",
+  "vi": "Lên ý tưởng{nl}{sp:05}Nakano (Fujisaku)",
   "kind": "text"
  },
  {
@@ -113,7 +113,7 @@
   "jp": "グラフィック{nl}{sp:05}ふじさく中の",
   "full": "グラフィック{nl}{sp:05}ふじさく中の",
   "en": "Graphics{nl}{sp:05}Nakano (Fujisaku)",
-  "vi": "",
+  "vi": "Đồ họa{nl}{sp:05}Nakano (Fujisaku)",
   "kind": "text"
  },
  {
@@ -122,7 +122,7 @@
   "jp": "グラフィック{nl}{sp:05}いちかわ中の",
   "full": "グラフィック{nl}{sp:05}いちかわ中の",
   "en": "Graphics{nl}{sp:05}Nakano (Ichikawa)",
-  "vi": "",
+  "vi": "Đồ họa{nl}{sp:05}Nakano (Ichikawa)",
   "kind": "text"
  },
  {
@@ -131,7 +131,7 @@
   "jp": "テスト・プレイ{nl}{sp:05}たいへん",
   "full": "テスト・プレイ{nl}{sp:05}たいへん",
   "en": "Test Play{nl}{sp:05}What an ordeal!",
-  "vi": "",
+  "vi": "Chơi thử{nl}{sp:05}Vất vả lắm!",
   "kind": "text"
  },
  {
@@ -140,7 +140,7 @@
   "jp": "サウンド{nl}{sp:05}とうご{sp:01}????",
   "full": "サウンド{nl}{sp:05}とうご{sp:01}????",
   "en": "Sound{nl}{sp:05}Togo ????",
-  "vi": "",
+  "vi": "Âm thanh{nl}{sp:05}Togo ????",
   "kind": "text"
  },
  {
@@ -149,7 +149,7 @@
   "jp": "せい作きょう力{nl}{sp:05}G・BABA",
   "full": "せい作きょう力{nl}{sp:05}G・BABA",
   "en": "Production Support{nl}{sp:05}G. BABA",
-  "vi": "",
+  "vi": "Hỗ trợ sản xuất{nl}{sp:05}G. BABA",
   "kind": "text"
  },
  {
@@ -158,7 +158,7 @@
   "jp": "せい作きょう力{nl}{sp:05}G・BABA",
   "full": "せい作きょう力{nl}{sp:05}G・BABA",
   "en": "Production Support{nl}{sp:05}G. BABA",
-  "vi": "",
+  "vi": "Hỗ trợ sản xuất{nl}{sp:05}G. BABA",
   "kind": "text"
  },
  {
@@ -176,7 +176,7 @@
   "jp": "トブに妙あり",
   "full": "トブに妙あり",
   "en": "There is finesse in jumping.",
-  "vi": "",
+  "vi": "Nước nhảy có cái hay.",
   "kind": "text"
  },
  {
@@ -185,7 +185,7 @@
   "jp": "ヒイたほうへ止めよ",
   "full": "ヒイたほうへ止めよ",
   "en": "Block on the side the three was drawn toward.",
-  "vi": "",
+  "vi": "Chặn về phía ba đã kéo tới.",
   "kind": "text"
  },
  {
@@ -194,7 +194,7 @@
   "jp": "ヒクに妙なく{nl}ヤスムに妙あり",
   "full": "ヒクに妙なく{nl}ヤスムに妙あり",
   "en": "No finesse in drawing,{nl}but finesse in resting.",
-  "vi": "",
+  "vi": "Kéo không có cái hay,{nl}nghỉ mới có cái hay.",
   "kind": "text"
  },
  {
@@ -203,7 +203,7 @@
   "jp": "防ぎはケイて",
   "full": "防ぎはケイて",
   "en": "Defend with a knight's move.",
-  "vi": "",
+  "vi": "Phòng thủ bằng nước mã.",
   "kind": "text"
  },
  {
@@ -212,7 +212,7 @@
   "jp": "敵の急所は{nl}わが急所",
   "full": "敵の急所は{nl}わが急所",
   "en": "Your enemy's key point{nl}is your key point.",
-  "vi": "",
+  "vi": "Điểm yếu của địch{nl}là điểm yếu của ta.",
   "kind": "text"
  },
  {
@@ -221,7 +221,7 @@
   "jp": "石を止めずに{nl}筋を止めよ",
   "full": "石を止めずに{nl}筋を止めよ",
   "en": "Don't block the stone,{nl}block the line.",
-  "vi": "",
+  "vi": "Đừng chặn quân,{nl}hãy chặn đường.",
   "kind": "text"
  },
  {
@@ -230,7 +230,7 @@
   "jp": "{sp:01}富士一",
   "full": "{sp:01}富士一",
   "en": "{sp:01}Fuji 1{to:5}",
-  "vi": "",
+  "vi": "{sp:01}Phú Sĩ 1{to:5}",
   "kind": "text"
  },
  {
@@ -239,7 +239,7 @@
   "jp": "{sp:01}富士二",
   "full": "{sp:01}富士二",
   "en": "{sp:01}Fuji 2{to:5}",
-  "vi": "",
+  "vi": "{sp:01}Phú Sĩ 2{to:5}",
   "kind": "text"
  },
  {
@@ -248,7 +248,7 @@
   "jp": "タテ・ヨコ{nl}各15本ずつの線で{nl}できています。{wait:00}中央の黒い点を{nl}「天元」といいます。{wait:00}",
   "full": "タテ・ヨコ{nl}各15本ずつの線で{nl}できています。{wait:00}中央の黒い点を{nl}「天元」といいます。{wait:00}",
   "en": "The board has 15 lines running across and 15 running down.{wait:00}The black dot in the center is called \"tengen.\"{wait:00}",
-  "vi": "",
+  "vi": "Bàn cờ có 15 đường ngang và 15 đường dọc.{wait:00}Điểm đen ở chính giữa gọi là \"thiên nguyên\".{wait:00}",
   "kind": "text"
  },
  {
@@ -257,7 +257,7 @@
   "jp": "同じいろの石が{nl}五つ連続でならぶ{nl}ことをいいます。{wait:00}{se:01}先に五連のできた方が{nl}勝ちとなります。{wait:00}白は五連以上並ぶと{nl}勝ちで、{wait:00}黒は五連のみで{nl}勝ちです。{wait:00}",
   "full": "同じいろの石が{nl}五つ連続でならぶ{nl}ことをいいます。{wait:00}{se:01}先に五連のできた方が{nl}勝ちとなります。{wait:00}白は五連以上並ぶと{nl}勝ちで、{wait:00}黒は五連のみで{nl}勝ちです。{wait:00}",
   "en": "Five stones of the same color in an unbroken row.{wait:00}{se:01}Whoever makes a five first wins the game.{wait:00}White wins with five or more in a row,{wait:00}but Black wins only with exactly five.{wait:00}",
-  "vi": "",
+  "vi": "Năm quân cùng màu nằm liền một hàng.{wait:00}{se:01}Ai tạo được hàng năm trước thì thắng.{wait:00}Trắng thắng khi có từ năm quân liền trở lên,{wait:00}còn Đen chỉ thắng khi có đúng năm quân.{wait:00}",
   "kind": "text"
  },
  {
@@ -266,7 +266,7 @@
   "jp": "いきなり石が六つ{nl}並んでしまうことが{nl}あります。{wait:00}{se:0F}これを「長連」と{nl}いいます。{wait:00}白は「長連」でも勝ち{nl}ですが、{wait:00}黒は禁手なので{nl}負けとなります。{wait:00}",
   "full": "いきなり石が六つ{nl}並んでしまうことが{nl}あります。{wait:00}{se:0F}これを「長連」と{nl}いいます。{wait:00}白は「長連」でも勝ち{nl}ですが、{wait:00}黒は禁手なので{nl}負けとなります。{wait:00}",
   "en": "Sometimes six stones end up in a row at once.{wait:00}{se:0F}This is called an \"overline.\"{wait:00}An overline still wins for White,{wait:00}but for Black it is a forbidden move, so Black loses.{wait:00}",
-  "vi": "",
+  "vi": "Đôi khi sáu quân bỗng nằm liền một hàng.{wait:00}{se:0F}Đó gọi là \"quá năm\".{wait:00}Với Trắng, quá năm vẫn là thắng,{wait:00}nhưng với Đen đó là nước cấm, nên Đen thua.{wait:00}",
   "kind": "text"
  },
  {
@@ -275,7 +275,7 @@
   "jp": "石が三つ並ぶことを{nl}いいます。{wait:00}次の手で四連に{nl}することができます。{wait:00}{se:10}つまり四連から一つ{nl}石をとったものを{nl}三というのです。{wait:00}{se:11}三には、次の防ぎ手が{nl}あります。{wait:00}{se:12}黒石、白石ともに{nl}片方を防がれると{wait:00}{se:13}次の手で四を{nl}つくっても{wait:00}{se:14}このように{nl}防がれてしまいます。{wait:00}三は四連から、{nl}一つ石をとったもの{nl}ですが、{wait:00}三を連続して打っても{nl}防がれてしまえば{wait:00}勝ちになることは{nl}ないのです。{wait:00}三は弱い追い手に{nl}あたります。{wait:00}",
   "full": "石が三つ並ぶことを{nl}いいます。{wait:00}次の手で四連に{nl}することができます。{wait:00}{se:10}つまり四連から一つ{nl}石をとったものを{nl}三というのです。{wait:00}{se:11}三には、次の防ぎ手が{nl}あります。{wait:00}{se:12}黒石、白石ともに{nl}片方を防がれると{wait:00}{se:13}次の手で四を{nl}つくっても{wait:00}{se:14}このように{nl}防がれてしまいます。{wait:00}三は四連から、{nl}一つ石をとったもの{nl}ですが、{wait:00}三を連続して打っても{nl}防がれてしまえば{wait:00}勝ちになることは{nl}ないのです。{wait:00}三は弱い追い手に{nl}あたります。{wait:00}",
   "en": "Three stones in a row.{wait:00}With the next move it can become a straight four.{wait:00}{se:10}In other words, a three is a straight four with one stone taken away.{wait:00}{se:11}A three can be defended like this.{wait:00}{se:12}For Black and White alike, once one end is blocked,{wait:00}{se:13}even if a four is made with the next move,{wait:00}{se:14}it gets blocked like this.{wait:00}A three is a straight four minus one stone,{wait:00}but playing threes one after another{wait:00}never wins the game if they get blocked.{wait:00}A three is a weak attack.{wait:00}",
-  "vi": "",
+  "vi": "Ba quân nằm liền một hàng.{wait:00}Với nước tiếp theo có thể thành bốn mở.{wait:00}{se:10}Nói cách khác, ba là bốn mở bớt đi một quân.{wait:00}{se:11}Có thể chặn ba như thế này.{wait:00}{se:12}Cả Đen lẫn Trắng, khi một đầu đã bị chặn,{wait:00}{se:13}thì dù nước sau có tạo thành bốn,{wait:00}{se:14}cũng sẽ bị chặn như thế này.{wait:00}Ba là bốn mở bớt đi một quân,{wait:00}nhưng dù đánh ba liên tục,{wait:00}nếu bị chặn thì vẫn không bao giờ thắng.{wait:00}Ba là một nước tấn công yếu.{wait:00}",
   "kind": "text"
  },
  {
@@ -284,7 +284,7 @@
   "jp": "三で、すき間のある{nl}ものをいいます。{wait:00}あいているところに{nl}石をおけば、{wait:00}{se:16}四連になります。{wait:00}{se:17}ただし、このように{nl}止められると、{nl}四連になりません。{wait:00}",
   "full": "三で、すき間のある{nl}ものをいいます。{wait:00}あいているところに{nl}石をおけば、{wait:00}{se:16}四連になります。{wait:00}{se:17}ただし、このように{nl}止められると、{nl}四連になりません。{wait:00}",
   "en": "A three with a gap in it.{wait:00}If you put a stone in the gap,{wait:00}{se:16}it becomes a straight four.{wait:00}{se:17}But if it is blocked like this, it cannot become a straight four.{wait:00}",
-  "vi": "",
+  "vi": "Ba có một khoảng trống.{wait:00}Nếu đặt quân vào khoảng trống,{wait:00}{se:16}nó sẽ thành bốn mở.{wait:00}{se:17}Nhưng nếu bị chặn như thế này thì không thành bốn mở được.{wait:00}",
   "kind": "text"
  }
 ]

@@ -14,7 +14,7 @@
   "jp": "無理な戦い",
   "full": "無理な戦い",
   "en": "A battle you can't win",
-  "vi": "",
+  "vi": "Trận không thể thắng",
   "kind": "text"
  },
  {
@@ -32,7 +32,7 @@
   "jp": "戻ります",
   "full": "戻ります",
   "en": "Go back.",
-  "vi": "",
+  "vi": "Quay lại.",
   "kind": "text"
  },
  {
@@ -41,7 +41,7 @@
   "jp": "ぷれーやー",
   "full": "ぷれーやー",
   "en": "Player",
-  "vi": "",
+  "vi": "Người chơi",
   "kind": "text"
  },
  {
@@ -50,7 +50,7 @@
   "jp": "直接",
   "full": "直接",
   "en": "Direct",
-  "vi": "",
+  "vi": "Trực tiếp",
   "kind": "text"
  },
  {
@@ -59,7 +59,7 @@
   "jp": "間接",
   "full": "間接",
   "en": "Indirect",
-  "vi": "",
+  "vi": "Gián tiếp",
   "kind": "text"
  },
  {
@@ -68,7 +68,7 @@
   "jp": "どうしますか?",
   "full": "どうしますか?",
   "en": "What would you like to do?",
-  "vi": "",
+  "vi": "Bạn muốn làm gì?",
   "kind": "text"
  },
  {
@@ -77,7 +77,7 @@
   "jp": "スピード",
   "full": "スピード",
   "en": "Speed",
-  "vi": "",
+  "vi": "Tốc độ",
   "kind": "text"
  },
  {
@@ -95,7 +95,7 @@
   "jp": "ボタン",
   "full": "ボタン",
   "en": "Button",
-  "vi": "",
+  "vi": "Nút",
   "kind": "text"
  },
  {
@@ -104,7 +104,7 @@
   "jp": "選んでください。",
   "full": "選んでください。",
   "en": "Please choose.",
-  "vi": "",
+  "vi": "Hãy chọn.",
   "kind": "text"
  },
  {
@@ -122,7 +122,7 @@
   "jp": "パスワード",
   "full": "パスワード",
   "en": "Password",
-  "vi": "",
+  "vi": "Mật khẩu",
   "kind": "text"
  }
 ]

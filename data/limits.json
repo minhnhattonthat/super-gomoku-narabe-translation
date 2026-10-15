@@ -1118,5 +1118,17 @@
  "g13_01": {
   "px": 48,
   "note": "{var} in g03_12"
+ },
+ "g05_27": {
+  "px": 96,
+  "note": "bracket round label at cell 9, rest of the line"
+ },
+ "g05_28": {
+  "px": 96,
+  "note": "bracket round label at cell 9, rest of the line"
+ },
+ "g05_29": {
+  "px": 96,
+  "note": "bracket round label at cell 9, rest of the line"
  }
 }

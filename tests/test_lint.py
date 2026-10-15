@@ -4,6 +4,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 import lint  # noqa: E402
 
 
-def test_lint_en():
-    errs = lint.lint("en")
+import pytest
+
+
+@pytest.mark.parametrize("lang", ["en", "vi"])
+def test_lint(lang):
+    errs = lint.lint(lang)
     assert not errs, "\n".join(errs)

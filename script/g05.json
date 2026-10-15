@@ -5,7 +5,7 @@
   "jp": "四三勝",
   "full": "四三勝",
   "en": "4-3 win",
-  "vi": "",
+  "vi": "bốn-ba",
   "kind": "text"
  },
  {
@@ -14,7 +14,7 @@
   "jp": "追詰勝",
   "full": "追詰勝",
   "en": "chase win",
-  "vi": "",
+  "vi": "dồn đuổi",
   "kind": "text"
  },
  {
@@ -23,7 +23,7 @@
   "jp": "白勝ち",
   "full": "白勝ち",
   "en": "to win",
-  "vi": "",
+  "vi": "để thắng",
   "kind": "text"
  },
  {
@@ -32,7 +32,7 @@
   "jp": "黒勝ち",
   "full": "黒勝ち",
   "en": "to win",
-  "vi": "",
+  "vi": "để thắng",
   "kind": "text"
  },
  {
@@ -41,7 +41,7 @@
   "jp": "連続で",
   "full": "連続で",
   "en": "in a row",
-  "vi": "",
+  "vi": "liên tiếp",
   "kind": "text"
  },
  {
@@ -59,7 +59,7 @@
   "jp": "追い詰め",
   "full": "追い詰め",
   "en": "Chase-Down",
-  "vi": "",
+  "vi": "Dồn đuổi",
   "kind": "text"
  },
  {
@@ -68,7 +68,7 @@
   "jp": "二手勝ち",
   "full": "二手勝ち",
   "en": "Win in Two",
-  "vi": "",
+  "vi": "Thắng 2 nước",
   "kind": "text"
  },
  {
@@ -77,7 +77,7 @@
   "jp": "四追勝ち",
   "full": "四追勝ち",
   "en": "Four-Chase",
-  "vi": "",
+  "vi": "Đuổi bốn",
   "kind": "text"
  },
  {
@@ -86,7 +86,7 @@
   "jp": "実力認定",
   "full": "実力認定",
   "en": "Rank Test",
-  "vi": "",
+  "vi": "Xếp hạng",
   "kind": "text"
  },
  {
@@ -95,7 +95,7 @@
   "jp": "問題クリア",
   "full": "問題クリア",
   "en": "Solved!",
-  "vi": "",
+  "vi": "Đã giải!",
   "kind": "text"
  },
  {
@@ -104,7 +104,7 @@
   "jp": "楽曲{sp:01}さくら",
   "full": "楽曲{sp:01}さくら",
   "en": "Song: Sakura",
-  "vi": "",
+  "vi": "Nhạc: Sakura",
   "kind": "text"
  },
  {
@@ -113,7 +113,7 @@
   "jp": "楽曲{sp:01}じんせい",
   "full": "楽曲{sp:01}じんせい",
   "en": "Song: Life",
-  "vi": "",
+  "vi": "Nhạc: Cuộc đời",
   "kind": "text"
  },
  {
@@ -122,7 +122,7 @@
   "jp": "楽曲{sp:01}たび",
   "full": "楽曲{sp:01}たび",
   "en": "Song: Journey",
-  "vi": "",
+  "vi": "Nhạc: Du hành",
   "kind": "text"
  },
  {
@@ -131,7 +131,7 @@
   "jp": "ください。",
   "full": "ください。",
   "en": "please.",
-  "vi": "",
+  "vi": "nhé.",
   "kind": "text"
  },
  {
@@ -140,7 +140,7 @@
   "jp": "連珠",
   "full": "連珠",
   "en": "Renju",
-  "vi": "",
+  "vi": "Renju",
   "kind": "text"
  },
  {
@@ -149,7 +149,7 @@
   "jp": "辞典",
   "full": "辞典",
   "en": "Terms",
-  "vi": "",
+  "vi": "Từ",
   "kind": "text"
  },
  {
@@ -158,7 +158,7 @@
   "jp": "項目を{ph:0B}",
   "full": "項目を選んでください。",
   "en": "Please choose an entry.",
-  "vi": "",
+  "vi": "Hãy chọn mục.",
   "kind": "text"
  },
  {
@@ -167,7 +167,7 @@
   "jp": "五連{sp:01}",
   "full": "五連{sp:01}",
   "en": "Five",
-  "vi": "",
+  "vi": "Năm",
   "kind": "text"
  },
  {
@@ -176,7 +176,7 @@
   "jp": "長連{sp:01}",
   "full": "長連{sp:01}",
   "en": "Overline",
-  "vi": "",
+  "vi": "Quá năm",
   "kind": "text"
  },
  {
@@ -185,7 +185,7 @@
   "jp": "四連{sp:01}",
   "full": "四連{sp:01}",
   "en": "Straight Four",
-  "vi": "",
+  "vi": "Bốn mở",
   "kind": "text"
  },
  {
@@ -194,7 +194,7 @@
   "jp": "トビ四",
   "full": "トビ四",
   "en": "Split Four",
-  "vi": "",
+  "vi": "Bốn gãy",
   "kind": "text"
  },
  {
@@ -203,7 +203,7 @@
   "jp": "問{sp:01}題",
   "full": "問{sp:01}題",
   "en": "Problem",
-  "vi": "",
+  "vi": "Câu đố",
   "kind": "text"
  },
  {
@@ -212,7 +212,7 @@
   "jp": "勝つまで打って下さい。",
   "full": "勝つまで打って下さい。",
   "en": "Keep playing until you win.",
-  "vi": "",
+  "vi": "Hãy đánh đến khi thắng.",
   "kind": "text"
  },
  {
@@ -221,7 +221,7 @@
   "jp": "ふつう{sp:01}四{sp:01}と{nl}いっています{nl}これは四連ですが{se:04}{wait:00}これはただの四です{se:05}{wait:00}間があいたり{nl}片端に他の石が{nl}あったり{wait:00}盤の端についていたり{nl}するものは{nl}四連ではありません{wait:00}",
   "full": "ふつう{sp:01}四{sp:01}と{nl}いっています{nl}これは四連ですが{se:04}{wait:00}これはただの四です{se:05}{wait:00}間があいたり{nl}片端に他の石が{nl}あったり{wait:00}盤の端についていたり{nl}するものは{nl}四連ではありません{wait:00}",
   "en": "People often just say \"four.\" This one is a straight four,{se:04}{wait:00}but this one is just a four.{se:05}{wait:00}One with a gap in it, or with another stone at one end,{wait:00}or touching the edge of the board is not a straight four.{wait:00}",
-  "vi": "",
+  "vi": "Người ta thường chỉ gọi là \"bốn\". Đây là bốn mở,{se:04}{wait:00}còn đây chỉ là bốn thường.{se:05}{wait:00}Bốn có khoảng trống, hay có quân khác chặn một đầu,{wait:00}hay chạm mép bàn cờ thì không phải bốn mở.{wait:00}",
   "kind": "text"
  },
  {
@@ -230,7 +230,7 @@
   "jp": "四の中であき間の{nl}あるものを{nl}トビ四といいます。{wait:00}",
   "full": "四の中であき間の{nl}あるものを{nl}トビ四といいます。{wait:00}",
   "en": "A four with a gap inside it is called a split four.{wait:00}",
-  "vi": "",
+  "vi": "Bốn có khoảng trống ở giữa gọi là bốn gãy.{wait:00}",
   "kind": "text"
  },
  {
@@ -239,7 +239,7 @@
   "jp": "VS",
   "full": "VS",
   "en": "VS",
-  "vi": "",
+  "vi": "VS",
   "kind": "text"
  },
  {
@@ -248,7 +248,7 @@
   "jp": "一回戦",
   "full": "一回戦",
   "en": "Round 1",
-  "vi": "",
+  "vi": "Vòng 1",
   "kind": "text"
  },
  {
@@ -257,7 +257,7 @@
   "jp": "二回戦",
   "full": "二回戦",
   "en": "Round 2",
-  "vi": "",
+  "vi": "Vòng 2",
   "kind": "text"
  },
  {
@@ -266,7 +266,7 @@
   "jp": "決勝戦",
   "full": "決勝戦",
   "en": "Final",
-  "vi": "",
+  "vi": "Chung kết",
   "kind": "text"
  },
  {
@@ -275,7 +275,7 @@
   "jp": "{sp:01}1Pの勝ちです。",
   "full": "{sp:01}1Pの勝ちです。",
   "en": "{sp:01}1P wins!",
-  "vi": "",
+  "vi": "{sp:01}1P thắng!",
   "kind": "text"
  },
  {
@@ -284,7 +284,7 @@
   "jp": "{sp:01}1Pの負けです。",
   "full": "{sp:01}1Pの負けです。",
   "en": "{sp:01}1P loses.",
-  "vi": "",
+  "vi": "{sp:01}1P thua.",
   "kind": "text"
  }
 ]

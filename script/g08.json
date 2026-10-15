@@ -5,7 +5,7 @@
   "jp": "石が四つにならぶことを{nl}いいます。{wait:00}{se:18}黒のように片方を{nl}止められて勝ちに{nl}ならないものを{wait:00}「四」といいますが{wait:00}白のように両端が{nl}あいていて{wait:00}片方をとめられても{nl}次の手で勝ちも同然と{nl}なるものを{wait:00}{se:19}「四連」といいます。{nl}「四」は強い追い手{nl}です。{wait:00}",
   "full": "石が四つにならぶことを{nl}いいます。{wait:00}{se:18}黒のように片方を{nl}止められて勝ちに{nl}ならないものを{wait:00}「四」といいますが{wait:00}白のように両端が{nl}あいていて{wait:00}片方をとめられても{nl}次の手で勝ちも同然と{nl}なるものを{wait:00}{se:19}「四連」といいます。{nl}「四」は強い追い手{nl}です。{wait:00}",
   "en": "Four stones in a row.{wait:00}{se:18}When one end is blocked, as with Black, and it cannot win,{wait:00}it is called a \"four.\"{wait:00}When both ends are open, as with White,{wait:00}so that even with one end blocked the next move is as good as a win,{wait:00}{se:19}it is called a \"straight four.\" A four is a strong attack.{wait:00}",
-  "vi": "",
+  "vi": "Bốn quân nằm liền một hàng.{wait:00}{se:18}Khi một đầu bị chặn như của Đen và không thể thắng,{wait:00}thì gọi là \"bốn\".{wait:00}Khi hai đầu đều trống như của Trắng,{wait:00}dù bị chặn một đầu thì nước sau vẫn coi như thắng,{wait:00}{se:19}thì gọi là \"bốn mở\". Bốn là một nước tấn công mạnh.{wait:00}",
   "kind": "text"
  },
  {
@@ -14,7 +14,7 @@
   "jp": "すき間もある四の{nl}ことをいいます。{wait:00}{se:1A}すき間に石をおけば{nl}五連になります。{wait:00}",
   "full": "すき間もある四の{nl}ことをいいます。{wait:00}{se:1A}すき間に石をおけば{nl}五連になります。{wait:00}",
   "en": "A four with a gap in it.{wait:00}{se:1A}Put a stone in the gap and it becomes a five.{wait:00}",
-  "vi": "",
+  "vi": "Bốn có một khoảng trống.{wait:00}{se:1A}Đặt quân vào khoảng trống sẽ thành hàng năm.{wait:00}",
   "kind": "text"
  },
  {
@@ -23,7 +23,7 @@
   "jp": "一度に四と三が{nl}できることを{nl}いいます。{wait:00}{se:1B}このように石をおくと{nl}四と三が同時にでき、{nl}勝ちにむすびつきます{wait:00}{se:1C}四三でできた四を{nl}防いでも{wait:00}{se:1D}次の手で四連が{nl}つくられてしまいます{wait:00}四三は連珠で勝つため{nl}の、一つの手と{nl}いえます。{wait:00}",
   "full": "一度に四と三が{nl}できることを{nl}いいます。{wait:00}{se:1B}このように石をおくと{nl}四と三が同時にでき、{nl}勝ちにむすびつきます{wait:00}{se:1C}四三でできた四を{nl}防いでも{wait:00}{se:1D}次の手で四連が{nl}つくられてしまいます{wait:00}四三は連珠で勝つため{nl}の、一つの手と{nl}いえます。{wait:00}",
   "en": "Making a four and a three with a single move.{wait:00}{se:1B}Placing a stone like this makes a four and a three at once, which leads to a win.{wait:00}{se:1C}Even if the four of the four-three is blocked,{wait:00}{se:1D}the next move makes a straight four.{wait:00}The four-three is one way to win at renju.{wait:00}",
-  "vi": "",
+  "vi": "Tạo ra bốn và ba chỉ với một nước.{wait:00}{se:1B}Đặt quân như thế này sẽ có bốn và ba cùng lúc, dẫn tới chiến thắng.{wait:00}{se:1C}Dù chặn được bốn của bốn-ba,{wait:00}{se:1D}nước sau vẫn tạo được bốn mở.{wait:00}Bốn-ba là một cách để thắng trong renju.{wait:00}",
   "kind": "text"
  },
  {
@@ -32,7 +32,7 @@
   "jp": "四三の三がかわりに{nl}四になったものです。{wait:00}一手で{nl}四が二つできます。{wait:00}{se:1E}白は四々をうっても{nl}かまいませんが{wait:00}黒は禁手で{nl}負けとなります。{wait:00}四連でも四でも、{nl}四々ができれば{nl}黒は負けです。{wait:00}",
   "full": "四三の三がかわりに{nl}四になったものです。{wait:00}一手で{nl}四が二つできます。{wait:00}{se:1E}白は四々をうっても{nl}かまいませんが{wait:00}黒は禁手で{nl}負けとなります。{wait:00}四連でも四でも、{nl}四々ができれば{nl}黒は負けです。{wait:00}",
   "en": "A four-three in which the three became a four.{wait:00}One move makes two fours.{wait:00}{se:1E}White may play a double-four,{wait:00}but for Black it is a forbidden move and Black loses.{wait:00}Straight fours or plain fours, if Black makes two fours at once, Black loses.{wait:00}",
-  "vi": "",
+  "vi": "Bốn-ba mà ba lại thành bốn.{wait:00}Một nước tạo ra hai bốn.{wait:00}{se:1E}Trắng được phép đánh bốn-bốn,{wait:00}nhưng với Đen đó là nước cấm và Đen thua.{wait:00}Dù là bốn mở hay bốn thường, hễ Đen tạo hai bốn cùng lúc là Đen thua.{wait:00}",
   "kind": "text"
  },
  {
@@ -41,7 +41,7 @@
   "jp": "一手でどうじに{nl}二つ以上の三ができる{nl}ことをいいます。{wait:00}{se:1F}白は三々をつくっても{nl}かまいませんが{wait:00}黒は禁手となり{nl}負けとなります。{wait:00}",
   "full": "一手でどうじに{nl}二つ以上の三ができる{nl}ことをいいます。{wait:00}{se:1F}白は三々をつくっても{nl}かまいませんが{wait:00}黒は禁手となり{nl}負けとなります。{wait:00}",
   "en": "Making two or more threes at once with a single move.{wait:00}{se:1F}White may make a double-three,{wait:00}but for Black it is a forbidden move and Black loses.{wait:00}",
-  "vi": "",
+  "vi": "Tạo ra hai ba trở lên cùng lúc chỉ với một nước.{wait:00}{se:1F}Trắng được phép tạo ba-ba,{wait:00}nhưng với Đen đó là nước cấm và Đen thua.{wait:00}",
   "kind": "text"
  },
  {
@@ -50,7 +50,7 @@
   "jp": "次の手で四連に{nl}ならない三のことを{nl}いいます。{wait:00}{se:20}石をおいても{nl}片方がとじていて{wait:00}{se:21}四連とならないものや{nl}長連スジのため{nl}禁手負けとなる{wait:00}{se:22}三は本当の三とは{nl}いいません。{wait:00}",
   "full": "次の手で四連に{nl}ならない三のことを{nl}いいます。{wait:00}{se:20}石をおいても{nl}片方がとじていて{wait:00}{se:21}四連とならないものや{nl}長連スジのため{nl}禁手負けとなる{wait:00}{se:22}三は本当の三とは{nl}いいません。{wait:00}",
   "en": "A three that cannot become a straight four on the next move.{wait:00}{se:20}Threes where, even with a stone added, one end is closed{wait:00}{se:21}so no straight four forms, or where the four would be an overline and lose by a foul,{wait:00}{se:22}are not real threes.{wait:00}",
-  "vi": "",
+  "vi": "Ba không thể thành bốn mở ở nước tiếp theo.{wait:00}{se:20}Những ba mà dù thêm quân thì một đầu vẫn bị bít{wait:00}{se:21}nên không thành bốn mở, hoặc bốn sẽ thành quá năm và thua vì phạm luật,{wait:00}{se:22}thì không phải ba thật.{wait:00}",
   "kind": "text"
  },
  {
@@ -59,7 +59,7 @@
   "jp": "ウソの三がまざった{nl}四三や、三々のことを{nl}いいます。{wait:00}この三々は禁手となり{nl}ません。{wait:00}{se:23}このように石をおいた{nl}ときがそうです。{wait:00}一見、四三々や三々に{nl}見えますが{wait:00}防がれていたり、{nl}長連筋となっているの{nl}です。{wait:00}",
   "full": "ウソの三がまざった{nl}四三や、三々のことを{nl}いいます。{wait:00}この三々は禁手となり{nl}ません。{wait:00}{se:23}このように石をおいた{nl}ときがそうです。{wait:00}一見、四三々や三々に{nl}見えますが{wait:00}防がれていたり、{nl}長連筋となっているの{nl}です。{wait:00}",
   "en": "A four-three or double-three that includes a false three.{wait:00}Such a double-three is not a forbidden move.{wait:00}{se:23}It happens when stones are placed like this.{wait:00}At a glance it looks like a four-three-three or a double-three,{wait:00}but one of the threes is blocked, or lies on an overline.{wait:00}",
-  "vi": "",
+  "vi": "Bốn-ba hay ba-ba có chứa ba giả.{wait:00}Ba-ba như vậy không phải nước cấm.{wait:00}{se:23}Đó là khi đặt quân như thế này.{wait:00}Thoạt nhìn thì giống bốn-ba-ba hay ba-ba,{wait:00}nhưng một trong các ba đã bị chặn, hoặc nằm trên đường quá năm.{wait:00}",
   "kind": "text"
  },
  {
@@ -68,7 +68,7 @@
   "jp": "黒がうってはいけない{nl}手をいいます。{wait:00}一手でできる三々や{nl}四々、長連をいいます{wait:00}{se:24}黒は打っても、打たさ{nl}れても負けとなります{wait:00}黒先手有利のバランス{nl}をとるためにとりいれ{nl}られたルールです。{wait:00}白は黒を禁手にハメて{nl}勝つこともできます。{wait:00}",
   "full": "黒がうってはいけない{nl}手をいいます。{wait:00}一手でできる三々や{nl}四々、長連をいいます{wait:00}{se:24}黒は打っても、打たさ{nl}れても負けとなります{wait:00}黒先手有利のバランス{nl}をとるためにとりいれ{nl}られたルールです。{wait:00}白は黒を禁手にハメて{nl}勝つこともできます。{wait:00}",
   "en": "The moves Black must not play.{wait:00}Double-threes, double-fours and overlines made with one move.{wait:00}{se:24}Black loses whether Black plays one or is forced into one.{wait:00}The rule was added to balance Black's first-move advantage.{wait:00}White can also win by trapping Black into a forbidden move.{wait:00}",
-  "vi": "",
+  "vi": "Những nước Đen không được đánh.{wait:00}Đó là ba-ba, bốn-bốn và quá năm tạo ra bởi một nước.{wait:00}{se:24}Đen thua dù tự đánh hay bị ép phải đánh.{wait:00}Luật này được thêm vào để cân bằng lợi thế đi trước của Đen.{wait:00}Trắng cũng có thể thắng bằng cách gài Đen vào nước cấm.{wait:00}",
   "kind": "text"
  },
  {
@@ -77,7 +77,7 @@
   "jp": "攻め手をいいます。{wait:00}{se:25}三を打つことを{nl}「ヒク」といいます。{wait:00}{se:26}四を打つことを{wait:00}{se:30}「ノビル」といいます。{wait:00}{se:35}トビ三やトビ四を{nl}うつことを{wait:00}{se:36}「トブ」といいます。{wait:00}{se:27}次に四三勝ちとなる手{nl}を打つことを、{wait:00}{se:28}「ミセル」と{nl}いいます。{wait:00}{se:29}次に四追勝ちとなる{nl}手を打つことを{wait:00}{se:2A}「フクム」といいます。{nl}四追い勝ちとは{wait:00}{se:2B}このように{wait:00}{se:31}四、{wait:00}{se:32}四、四と{wait:00}{se:2C}うっていき{wait:00}{se:2D}四の連続で四三勝ちに{nl}なることをいいます。{wait:00}{se:2E}白が{nl}黒を禁手にする手を{nl}「ハメル」といい、{wait:00}{se:2F}白が黒を{nl}三々禁に{nl}ハメました。{wait:00}{se:34}このように黒が白の{nl}五連を防ごうとして{nl}ハメられるのです。{wait:00}",
   "full": "攻め手をいいます。{wait:00}{se:25}三を打つことを{nl}「ヒク」といいます。{wait:00}{se:26}四を打つことを{wait:00}{se:30}「ノビル」といいます。{wait:00}{se:35}トビ三やトビ四を{nl}うつことを{wait:00}{se:36}「トブ」といいます。{wait:00}{se:27}次に四三勝ちとなる手{nl}を打つことを、{wait:00}{se:28}「ミセル」と{nl}いいます。{wait:00}{se:29}次に四追勝ちとなる{nl}手を打つことを{wait:00}{se:2A}「フクム」といいます。{nl}四追い勝ちとは{wait:00}{se:2B}このように{wait:00}{se:31}四、{wait:00}{se:32}四、四と{wait:00}{se:2C}うっていき{wait:00}{se:2D}四の連続で四三勝ちに{nl}なることをいいます。{wait:00}{se:2E}白が{nl}黒を禁手にする手を{nl}「ハメル」といい、{wait:00}{se:2F}白が黒を{nl}三々禁に{nl}ハメました。{wait:00}{se:34}このように黒が白の{nl}五連を防ごうとして{nl}ハメられるのです。{wait:00}",
   "en": "Attacking moves.{wait:00}{se:25}Playing a three is called \"hiku\" (drawing).{wait:00}{se:26}Playing a four is called{wait:00}{se:30}\"nobiru\" (extending).{wait:00}{se:35}Playing a split three or a split four is called{wait:00}{se:36}\"tobu\" (jumping).{wait:00}{se:27}A move that sets up a four-three win next is called{wait:00}{se:28}\"miseru\" (showing).{wait:00}{se:29}A move that sets up a four-chase win next is called{wait:00}{se:2A}\"fukumu\" (containing). A four-chase win goes{wait:00}{se:2B}like this:{wait:00}{se:31}four,{wait:00}{se:32}four, four,{wait:00}{se:2C}and so on,{wait:00}{se:2D}until fours in a row end in a four-three win.{wait:00}{se:2E}White's move that forces Black into a foul is called \"hameru\" (trapping).{wait:00}{se:2F}White has trapped Black into a double-three foul.{wait:00}{se:34}This is how Black gets trapped while trying to stop White's five.{wait:00}",
-  "vi": "",
+  "vi": "Các nước tấn công.{wait:00}{se:25}Đánh ba gọi là \"hiku\" (kéo).{wait:00}{se:26}Đánh bốn gọi là{wait:00}{se:30}\"nobiru\" (vươn).{wait:00}{se:35}Đánh ba gãy hay bốn gãy gọi là{wait:00}{se:36}\"tobu\" (nhảy).{wait:00}{se:27}Nước chuẩn bị thắng bằng bốn-ba ở nước sau gọi là{wait:00}{se:28}\"miseru\" (phô ra).{wait:00}{se:29}Nước chuẩn bị thắng bằng đuổi bốn ở nước sau gọi là{wait:00}{se:2A}\"fukumu\" (ngậm). Thắng bằng đuổi bốn là{wait:00}{se:2B}như thế này:{wait:00}{se:31}bốn,{wait:00}{se:32}bốn, bốn,{wait:00}{se:2C}cứ thế đánh tiếp,{wait:00}{se:2D}cho đến khi chuỗi bốn kết thúc bằng thắng bốn-ba.{wait:00}{se:2E}Nước của Trắng ép Đen phạm luật gọi là \"hameru\" (gài bẫy).{wait:00}{se:2F}Trắng đã gài Đen vào ba-ba phạm luật.{wait:00}{se:34}Đen bị gài như vậy khi đang cố chặn hàng năm của Trắng.{wait:00}",
   "kind": "text"
  },
  {
@@ -86,7 +86,7 @@
   "jp": "三連の両端を{nl}一間ずつはなれて{wait:00}{se:33}防ぐことをいいます。{wait:00}",
   "full": "三連の両端を{nl}一間ずつはなれて{wait:00}{se:33}防ぐことをいいます。{wait:00}",
   "en": "Blocking both ends of a three,{wait:00}{se:33}each from one space away.{wait:00}",
-  "vi": "",
+  "vi": "Chặn cả hai đầu của ba,{wait:00}{se:33}mỗi bên cách ra một ô.{wait:00}",
   "kind": "text"
  },
  {
@@ -95,7 +95,7 @@
   "jp": "連珠盤{sp:05}",
   "full": "連珠盤{sp:05}",
   "en": "Board",
-  "vi": "",
+  "vi": "Bàn cờ",
   "kind": "text"
  },
  {
@@ -104,7 +104,7 @@
   "jp": "五{sp:01}連{sp:05}",
   "full": "五{sp:01}連{sp:05}",
   "en": "Five",
-  "vi": "",
+  "vi": "Năm",
   "kind": "text"
  },
  {
@@ -113,7 +113,7 @@
   "jp": "長{sp:01}連{sp:05}",
   "full": "長{sp:01}連{sp:05}",
   "en": "Overline",
-  "vi": "",
+  "vi": "Quá năm",
   "kind": "text"
  },
  {
@@ -122,7 +122,7 @@
   "jp": "{sp:01}三{sp:06}",
   "full": "{sp:01}三{sp:06}",
   "en": "Three",
-  "vi": "",
+  "vi": "Ba",
   "kind": "text"
  },
  {
@@ -131,7 +131,7 @@
   "jp": "トビ三{sp:05}",
   "full": "トビ三{sp:05}",
   "en": "Split Three",
-  "vi": "",
+  "vi": "Ba gãy",
   "kind": "text"
  },
  {
@@ -140,7 +140,7 @@
   "jp": "{sp:01}四{sp:06}",
   "full": "{sp:01}四{sp:06}",
   "en": "Four",
-  "vi": "",
+  "vi": "Bốn",
   "kind": "text"
  },
  {
@@ -149,7 +149,7 @@
   "jp": "トビ四{sp:05}",
   "full": "トビ四{sp:05}",
   "en": "Split Four",
-  "vi": "",
+  "vi": "Bốn gãy",
   "kind": "text"
  },
  {
@@ -158,7 +158,7 @@
   "jp": "四{sp:01}三{sp:05}",
   "full": "四{sp:01}三{sp:05}",
   "en": "Four-Three",
-  "vi": "",
+  "vi": "Bốn-ba",
   "kind": "text"
  },
  {
@@ -167,7 +167,7 @@
   "jp": "四{sp:01}々{sp:05}",
   "full": "四{sp:01}々{sp:05}",
   "en": "Double-Four",
-  "vi": "",
+  "vi": "Bốn-bốn",
   "kind": "text"
  },
  {
@@ -176,7 +176,7 @@
   "jp": "三{sp:01}々{sp:05}",
   "full": "三{sp:01}々{sp:05}",
   "en": "Double-Three",
-  "vi": "",
+  "vi": "Ba-ba",
   "kind": "text"
  },
  {
@@ -185,7 +185,7 @@
   "jp": "ウソの三{sp:04}",
   "full": "ウソの三{sp:04}",
   "en": "False Three",
-  "vi": "",
+  "vi": "Ba giả",
   "kind": "text"
  },
  {
@@ -194,7 +194,7 @@
   "jp": "ウソの四三・三々",
   "full": "ウソの四三・三々",
   "en": "False 4-3/Double-Three",
-  "vi": "",
+  "vi": "Bốn-ba/ba-ba giả",
   "kind": "text"
  },
  {
@@ -203,7 +203,7 @@
   "jp": "禁{sp:01}手{sp:05}",
   "full": "禁{sp:01}手{sp:05}",
   "en": "Forbidden Moves",
-  "vi": "",
+  "vi": "Nước cấm",
   "kind": "text"
  },
  {
@@ -212,7 +212,7 @@
   "jp": "追い手{sp:05}",
   "full": "追い手{sp:05}",
   "en": "Attacks",
-  "vi": "",
+  "vi": "Tấn công",
   "kind": "text"
  },
  {
@@ -221,7 +221,7 @@
   "jp": "ナツドメ{sp:04}",
   "full": "ナツドメ{sp:04}",
   "en": "Natsudome",
-  "vi": "",
+  "vi": "Natsudome",
   "kind": "text"
  },
  {

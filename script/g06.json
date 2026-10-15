@@ -5,7 +5,7 @@
   "jp": "げーむ{sp:01}おーばー",
   "full": "げーむ{sp:01}おーばー",
   "en": "Game Over",
-  "vi": "",
+  "vi": "Thua cuộc",
   "kind": "text"
  },
  {
@@ -14,7 +14,7 @@
   "jp": "ゆうしょう!",
   "full": "ゆうしょう!",
   "en": "Champion!",
-  "vi": "",
+  "vi": "Vô địch!",
   "kind": "text"
  },
  {
@@ -23,7 +23,7 @@
   "jp": "あなたは名人戦に",
   "full": "あなたは名人戦に",
   "en": "You have won the",
-  "vi": "",
+  "vi": "Bạn đã vô địch",
   "kind": "text"
  },
  {
@@ -32,7 +32,7 @@
   "jp": "勝利しました。",
   "full": "勝利しました。",
   "en": "Master Cup!",
-  "vi": "",
+  "vi": "Cúp Cao thủ!",
   "kind": "text"
  },
  {
@@ -41,7 +41,7 @@
   "jp": "{sp:01}2Pの勝ちです。",
   "full": "{sp:01}2Pの勝ちです。",
   "en": "{sp:01}2P wins!",
-  "vi": "",
+  "vi": "{sp:01}2P thắng!",
   "kind": "text"
  },
  {
@@ -50,7 +50,7 @@
   "jp": "COMの勝ちです。",
   "full": "COMの勝ちです。",
   "en": "COM wins!",
-  "vi": "",
+  "vi": "COM thắng!",
   "kind": "text"
  },
  {
@@ -59,7 +59,7 @@
   "jp": "続けますか?{nl}{sp:04}はい{sp:02}いいえ",
   "full": "続けますか?{nl}{sp:04}はい{sp:02}いいえ",
   "en": "Continue?{nl}{to:4}Yes{to:8}No",
-  "vi": "",
+  "vi": "Chơi tiếp?{nl}{to:4}Có{to:8}Không",
   "kind": "text"
  },
  {
@@ -68,7 +68,7 @@
   "jp": "設定を{ph:0B}",
   "full": "設定を選んでください。",
   "en": "Please choose your settings.",
-  "vi": "",
+  "vi": "Hãy chọn cài đặt.",
   "kind": "text"
  },
  {
@@ -77,7 +77,7 @@
   "jp": "対戦者",
   "full": "対戦者",
   "en": "Opponent",
-  "vi": "",
+  "vi": "Đối thủ",
   "kind": "text"
  },
  {
@@ -86,7 +86,7 @@
   "jp": "レベル",
   "full": "レベル",
   "en": "Level",
-  "vi": "",
+  "vi": "Cấp độ",
   "kind": "text"
  },
  {
@@ -95,7 +95,7 @@
   "jp": "1Pの先後手",
   "full": "1Pの先後手",
   "en": "1P Order",
-  "vi": "",
+  "vi": "Lượt 1P",
   "kind": "text"
  },
  {
@@ -104,7 +104,7 @@
   "jp": "勝利数",
   "full": "勝利数",
   "en": "Wins Needed",
-  "vi": "",
+  "vi": "Số ván thắng",
   "kind": "text"
  },
  {
@@ -113,7 +113,7 @@
   "jp": "満了",
   "full": "満了",
   "en": "Move Limit",
-  "vi": "",
+  "vi": "Giới hạn",
   "kind": "text"
  },
  {
@@ -122,7 +122,7 @@
   "jp": "勝先勝",
   "full": "勝先勝",
   "en": "wins",
-  "vi": "",
+  "vi": "ván",
   "kind": "text"
  },
  {
@@ -131,7 +131,7 @@
   "jp": "級外",
   "full": "級外",
   "en": "Unranked{to:5}",
-  "vi": "",
+  "vi": "Nhập môn{to:5}",
   "kind": "text"
  },
  {
@@ -140,7 +140,7 @@
   "jp": "十級",
   "full": "十級",
   "en": "10 Kyu{to:5}",
-  "vi": "",
+  "vi": "10 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -149,7 +149,7 @@
   "jp": "九級",
   "full": "九級",
   "en": "9 Kyu{to:5}",
-  "vi": "",
+  "vi": "9 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -158,7 +158,7 @@
   "jp": "八級",
   "full": "八級",
   "en": "8 Kyu{to:5}",
-  "vi": "",
+  "vi": "8 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -167,7 +167,7 @@
   "jp": "七級",
   "full": "七級",
   "en": "7 Kyu{to:5}",
-  "vi": "",
+  "vi": "7 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -176,7 +176,7 @@
   "jp": "六級",
   "full": "六級",
   "en": "6 Kyu{to:5}",
-  "vi": "",
+  "vi": "6 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -185,7 +185,7 @@
   "jp": "五級",
   "full": "五級",
   "en": "5 Kyu{to:5}",
-  "vi": "",
+  "vi": "5 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -194,7 +194,7 @@
   "jp": "四級",
   "full": "四級",
   "en": "4 Kyu{to:5}",
-  "vi": "",
+  "vi": "4 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -203,7 +203,7 @@
   "jp": "三級",
   "full": "三級",
   "en": "3 Kyu{to:5}",
-  "vi": "",
+  "vi": "3 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -212,7 +212,7 @@
   "jp": "二級",
   "full": "二級",
   "en": "2 Kyu{to:5}",
-  "vi": "",
+  "vi": "2 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -221,7 +221,7 @@
   "jp": "一級",
   "full": "一級",
   "en": "1 Kyu{to:5}",
-  "vi": "",
+  "vi": "1 kyu{to:5}",
   "kind": "text"
  },
  {
@@ -230,7 +230,7 @@
   "jp": "名人",
   "full": "名人",
   "en": "Master{to:5}",
-  "vi": "",
+  "vi": "Cao thủ{to:5}",
   "kind": "text"
  },
  {
@@ -248,7 +248,7 @@
   "jp": "{sp:01}75",
   "full": "{sp:01}75",
   "en": "{sp:01}75 moves{to:5}",
-  "vi": "",
+  "vi": "{sp:01}75 nước{to:5}",
   "kind": "text"
  },
  {
@@ -257,7 +257,7 @@
   "jp": "100",
   "full": "100",
   "en": "100 moves{to:5}",
-  "vi": "",
+  "vi": "100 nước{to:5}",
   "kind": "text"
  },
  {
@@ -266,7 +266,7 @@
   "jp": "125",
   "full": "125",
   "en": "125 moves{to:5}",
-  "vi": "",
+  "vi": "125 nước{to:5}",
   "kind": "text"
  },
  {
@@ -275,7 +275,7 @@
   "jp": "150",
   "full": "150",
   "en": "150 moves{to:5}",
-  "vi": "",
+  "vi": "150 nước{to:5}",
   "kind": "text"
  },
  {
@@ -284,7 +284,7 @@
   "jp": "175",
   "full": "175",
   "en": "175 moves{to:5}",
-  "vi": "",
+  "vi": "175 nước{to:5}",
   "kind": "text"
  }
 ]

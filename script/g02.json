@@ -5,7 +5,7 @@
   "jp": "{ph:05}5号{sp:01}残月",
   "full": "直接5号{sp:01}残月",
   "en": "Direct 5: Zangetsu",
-  "vi": "",
+  "vi": "Trực tiếp 5: Zangetsu",
   "kind": "text"
  },
  {
@@ -14,7 +14,7 @@
   "jp": "{ph:05}6号{sp:01}雨月",
   "full": "直接6号{sp:01}雨月",
   "en": "Direct 6: Ugetsu",
-  "vi": "",
+  "vi": "Trực tiếp 6: Ugetsu",
   "kind": "text"
  },
  {
@@ -23,7 +23,7 @@
   "jp": "{ph:05}7号{sp:01}金星",
   "full": "直接7号{sp:01}金星",
   "en": "Direct 7: Kinsei",
-  "vi": "",
+  "vi": "Trực tiếp 7: Kinsei",
   "kind": "text"
  },
  {
@@ -32,7 +32,7 @@
   "jp": "{ph:05}8号{sp:01}松月",
   "full": "直接8号{sp:01}松月",
   "en": "Direct 8: Shogetsu",
-  "vi": "",
+  "vi": "Trực tiếp 8: Shogetsu",
   "kind": "text"
  },
  {
@@ -41,7 +41,7 @@
   "jp": "{ph:05}9号{sp:01}丘月",
   "full": "直接9号{sp:01}丘月",
   "en": "Direct 9: Kyugetsu",
-  "vi": "",
+  "vi": "Trực tiếp 9: Kyugetsu",
   "kind": "text"
  },
  {
@@ -50,7 +50,7 @@
   "jp": "{ph:05}10号{sp:01}新月",
   "full": "直接10号{sp:01}新月",
   "en": "Direct 10: Shingetsu",
-  "vi": "",
+  "vi": "Trực tiếp 10: Shingetsu",
   "kind": "text"
  },
  {
@@ -59,7 +59,7 @@
   "jp": "{ph:05}11号{sp:01}瑞星",
   "full": "直接11号{sp:01}瑞星",
   "en": "Direct 11: Zuisei",
-  "vi": "",
+  "vi": "Trực tiếp 11: Zuisei",
   "kind": "text"
  },
  {
@@ -68,7 +68,7 @@
   "jp": "{ph:05}12号{sp:01}山月",
   "full": "直接12号{sp:01}山月",
   "en": "Direct 12: Sangetsu",
-  "vi": "",
+  "vi": "Trực tiếp 12: Sangetsu",
   "kind": "text"
  },
  {
@@ -77,7 +77,7 @@
   "jp": "{ph:06}1号{sp:01}長星",
   "full": "間接1号{sp:01}長星",
   "en": "Indirect 1: Chosei",
-  "vi": "",
+  "vi": "Gián tiếp 1: Chosei",
   "kind": "text"
  },
  {
@@ -86,7 +86,7 @@
   "jp": "{ph:06}2号{sp:01}峡月",
   "full": "間接2号{sp:01}峡月",
   "en": "Indirect 2: Kyogetsu",
-  "vi": "",
+  "vi": "Gián tiếp 2: Kyogetsu",
   "kind": "text"
  },
  {
@@ -95,7 +95,7 @@
   "jp": "{ph:06}3号{sp:01}恒星",
   "full": "間接3号{sp:01}恒星",
   "en": "Indirect 3: Kosei",
-  "vi": "",
+  "vi": "Gián tiếp 3: Kosei",
   "kind": "text"
  },
  {
@@ -104,7 +104,7 @@
   "jp": "{ph:06}4号{sp:01}水月",
   "full": "間接4号{sp:01}水月",
   "en": "Indirect 4: Suigetsu",
-  "vi": "",
+  "vi": "Gián tiếp 4: Suigetsu",
   "kind": "text"
  },
  {
@@ -113,7 +113,7 @@
   "jp": "{ph:06}5号{sp:01}流星",
   "full": "間接5号{sp:01}流星",
   "en": "Indirect 5: Ryusei",
-  "vi": "",
+  "vi": "Gián tiếp 5: Ryusei",
   "kind": "text"
  },
  {
@@ -122,7 +122,7 @@
   "jp": "{ph:06}6号{sp:01}雲月",
   "full": "間接6号{sp:01}雲月",
   "en": "Indirect 6: Ungetsu",
-  "vi": "",
+  "vi": "Gián tiếp 6: Ungetsu",
   "kind": "text"
  },
  {
@@ -131,7 +131,7 @@
   "jp": "{ph:06}7号{sp:01}浦月",
   "full": "間接7号{sp:01}浦月",
   "en": "Indirect 7: Hogetsu",
-  "vi": "",
+  "vi": "Gián tiếp 7: Hogetsu",
   "kind": "text"
  },
  {
@@ -140,7 +140,7 @@
   "jp": "{ph:06}8号{sp:01}嵐月",
   "full": "間接8号{sp:01}嵐月",
   "en": "Indirect 8: Rangetsu",
-  "vi": "",
+  "vi": "Gián tiếp 8: Rangetsu",
   "kind": "text"
  },
  {
@@ -149,7 +149,7 @@
   "jp": "{ph:06}9号{sp:01}銀月",
   "full": "間接9号{sp:01}銀月",
   "en": "Indirect 9: Gingetsu",
-  "vi": "",
+  "vi": "Gián tiếp 9: Gingetsu",
   "kind": "text"
  },
  {
@@ -158,7 +158,7 @@
   "jp": "{ph:06}10号{sp:01}明星",
   "full": "間接10号{sp:01}明星",
   "en": "Indirect 10: Myojo",
-  "vi": "",
+  "vi": "Gián tiếp 10: Myojo",
   "kind": "text"
  },
  {
@@ -167,7 +167,7 @@
   "jp": "{ph:06}11号{sp:01}斜月",
   "full": "間接11号{sp:01}斜月",
   "en": "Indirect 11: Shagetsu",
-  "vi": "",
+  "vi": "Gián tiếp 11: Shagetsu",
   "kind": "text"
  },
  {
@@ -176,7 +176,7 @@
   "jp": "{ph:06}12号{sp:01}名月",
   "full": "間接12号{sp:01}名月",
   "en": "Indirect 12: Meigetsu",
-  "vi": "",
+  "vi": "Gián tiếp 12: Meigetsu",
   "kind": "text"
  },
  {
@@ -185,7 +185,7 @@
   "jp": "寒星",
   "full": "寒星",
   "en": "Kansei{to:4}",
-  "vi": "",
+  "vi": "Kansei{to:4}",
   "kind": "text"
  },
  {
@@ -194,7 +194,7 @@
   "jp": "渓月",
   "full": "渓月",
   "en": "Keigetsu{to:4}",
-  "vi": "",
+  "vi": "Keigetsu{to:4}",
   "kind": "text"
  },
  {
@@ -203,7 +203,7 @@
   "jp": "疎星",
   "full": "疎星",
   "en": "Sosei{to:4}",
-  "vi": "",
+  "vi": "Sosei{to:4}",
   "kind": "text"
  },
  {
@@ -212,7 +212,7 @@
   "jp": "花月",
   "full": "花月",
   "en": "Kagetsu{to:4}",
-  "vi": "",
+  "vi": "Kagetsu{to:4}",
   "kind": "text"
  },
  {
@@ -221,7 +221,7 @@
   "jp": "残月",
   "full": "残月",
   "en": "Zangetsu{to:4}",
-  "vi": "",
+  "vi": "Zangetsu{to:4}",
   "kind": "text"
  },
  {
@@ -230,7 +230,7 @@
   "jp": "雨月",
   "full": "雨月",
   "en": "Ugetsu{to:4}",
-  "vi": "",
+  "vi": "Ugetsu{to:4}",
   "kind": "text"
  },
  {
@@ -239,7 +239,7 @@
   "jp": "金星",
   "full": "金星",
   "en": "Kinsei{to:4}",
-  "vi": "",
+  "vi": "Kinsei{to:4}",
   "kind": "text"
  },
  {
@@ -248,7 +248,7 @@
   "jp": "松月",
   "full": "松月",
   "en": "Shogetsu{to:4}",
-  "vi": "",
+  "vi": "Shogetsu{to:4}",
   "kind": "text"
  },
  {
@@ -257,7 +257,7 @@
   "jp": "丘月",
   "full": "丘月",
   "en": "Kyugetsu{to:4}",
-  "vi": "",
+  "vi": "Kyugetsu{to:4}",
   "kind": "text"
  },
  {
@@ -266,7 +266,7 @@
   "jp": "新月",
   "full": "新月",
   "en": "Shingetsu{to:4}",
-  "vi": "",
+  "vi": "Shingetsu{to:4}",
   "kind": "text"
  },
  {
@@ -275,7 +275,7 @@
   "jp": "瑞星",
   "full": "瑞星",
   "en": "Zuisei{to:4}",
-  "vi": "",
+  "vi": "Zuisei{to:4}",
   "kind": "text"
  },
  {
@@ -284,7 +284,7 @@
   "jp": "山月",
   "full": "山月",
   "en": "Sangetsu{to:4}",
-  "vi": "",
+  "vi": "Sangetsu{to:4}",
   "kind": "text"
  }
 ]

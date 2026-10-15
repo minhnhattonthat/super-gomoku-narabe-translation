@@ -1,0 +1,380 @@
+# Vietnamese script. id<TAB>text. Merge: python -X utf8 tools/merge.py trans/vi.tsv --lang vi
+# Same layout tokens as trans/en.tsv ({to:N}, {center:N}); glossary: glossary_vi.md.
+g00_00	Đừng đánh trận mà mình không thể thắng.
+g00_01	Đừng đánh trận mà mình không thể thắng.
+g00_02	{sp:01}Nước {move}: {turn} đi
+g00_03	{sp:01}Nước {num:00}: {var:00} đi{to:9}
+g00_04	Gợi ý:{nl}Hãy nhìn kỹ màn hình{nl}và bấm liên tục nút A!!{wait:00}
+g00_05	Đi trước{to:3}
+g00_06	Đi sau{to:3}
+g00_07	{sp:01}thắng
+g00_08	Tắt nhạc.
+g00_09	Bật nhạc.
+g00_10	Tắt hiệu ứng âm thanh.
+g00_11	Bật hiệu ứng âm thanh.
+g00_12	Đổi bản nhạc?
+g00_13	Xin thua?
+g00_14	Quay lại.
+g00_15	Làm gì với quân cờ?
+g00_16	Mở menu.
+g00_17	Lùi lại một nước.
+g00_18	Xem lại từng nước.
+g00_19	Khôi phục thế cờ.
+g00_20	Về nước đầu tiên.
+g00_21	Có{to:4}Không
+g00_22	Đây định là màn hình cài đặt.
+g00_23	Mặt 1P
+g00_24	Mặt 2P
+g00_25	Bàn cờ
+g00_26	Xác nhận
+g00_27	{sp:01}Gỗ 1{to:5}
+g00_28	{sp:01}Gỗ 2{to:5}
+g00_29	{sp:01}Anh đào 1{to:5}
+g00_30	Pesu
+g00_31	Masao
+g01_00	{sp:01}1P
+g01_01	2P{to:4}
+g01_02	Norihisa
+g01_03	Naoko
+g01_04	Junji
+g01_05	Tomoyuki
+g01_06	Eiko
+g01_07	Goro
+g01_08	Julia
+g01_09	Genshichi
+g01_10	Mimi
+g01_11	Cao thủ
+g01_12	Hãy chọn chế độ chơi.
+g01_13	{center:48}Đấu cờ{to:7}
+g01_14	{center:48}Câu đố Renju{to:7}
+g01_15	{center:48}Từ điển Renju{to:7}
+g01_16	{center:48}Tùy chọn{to:7}
+g01_17	{center:48}Đấu tự do{to:7}
+g01_18	{center:48}Cúp Cao thủ{to:7}
+g01_19	Bạn muốn cài đặt gì?
+g01_20	Âm thanh
+g01_21	Hiển thị
+g01_22	Bạn muốn làm gì?
+g01_23	Hãy chọn khai cuộc.
+g01_24	Khai cuộc nào?
+g01_25	Trực tiếp{to:4}
+g01_26	Gián tiếp{to:4}
+g01_27	COM chọn{to:4}
+g01_28	Trực tiếp 1: Kansei
+g01_29	Trực tiếp 2: Keigetsu
+g01_30	Trực tiếp 3: Sosei
+g01_31	Trực tiếp 4: Kagetsu
+g02_00	Trực tiếp 5: Zangetsu
+g02_01	Trực tiếp 6: Ugetsu
+g02_02	Trực tiếp 7: Kinsei
+g02_03	Trực tiếp 8: Shogetsu
+g02_04	Trực tiếp 9: Kyugetsu
+g02_05	Trực tiếp 10: Shingetsu
+g02_06	Trực tiếp 11: Zuisei
+g02_07	Trực tiếp 12: Sangetsu
+g02_08	Gián tiếp 1: Chosei
+g02_09	Gián tiếp 2: Kyogetsu
+g02_10	Gián tiếp 3: Kosei
+g02_11	Gián tiếp 4: Suigetsu
+g02_12	Gián tiếp 5: Ryusei
+g02_13	Gián tiếp 6: Ungetsu
+g02_14	Gián tiếp 7: Hogetsu
+g02_15	Gián tiếp 8: Rangetsu
+g02_16	Gián tiếp 9: Gingetsu
+g02_17	Gián tiếp 10: Myojo
+g02_18	Gián tiếp 11: Shagetsu
+g02_19	Gián tiếp 12: Meigetsu
+g02_20	Kansei{to:4}
+g02_21	Keigetsu{to:4}
+g02_22	Sosei{to:4}
+g02_23	Kagetsu{to:4}
+g02_24	Zangetsu{to:4}
+g02_25	Ugetsu{to:4}
+g02_26	Kinsei{to:4}
+g02_27	Shogetsu{to:4}
+g02_28	Kyugetsu{to:4}
+g02_29	Shingetsu{to:4}
+g02_30	Zuisei{to:4}
+g02_31	Sangetsu{to:4}
+g03_00	Chosei{to:4}
+g03_01	Kyogetsu{to:4}
+g03_02	Kosei{to:4}
+g03_03	Suigetsu{to:4}
+g03_04	Ryusei{to:4}
+g03_05	Ungetsu{to:4}
+g03_06	Hogetsu{to:4}
+g03_07	Rangetsu{to:4}
+g03_08	Gingetsu{to:4}
+g03_09	Myojo{to:4}
+g03_10	Shagetsu{to:4}
+g03_11	Meigetsu{to:4}
+g03_12	{var:00} thắng!
+g03_13	2P/COM
+g03_14	COM{to:4}
+g03_15	{sp:01}Gỗ 3{to:5}
+g03_16	{sp:01}Anh đào 2{to:5}
+g03_17	{sp:01}Gỗ 4{to:5}
+g03_18	{sp:01}Gỗ 5{to:5}
+g03_19	Năm
+g03_20	Phạm luật bốn-bốn
+g03_21	Phạm luật ba-ba
+g03_22	Phạm luật quá năm
+g03_23	Hòa
+g03_24	Xin thua
+g03_25	Quay lại
+g03_26	Cài đặt âm thanh?
+g03_27	Stereo{to:7}Mono
+g03_28	Nhạc
+g03_29	Hiệu ứng
+g03_30	Bắt đầu{to:5}Nút A
+g03_31	Cài đặt hiển thị?
+g04_00	Tốc độ chữ
+g04_01	Nhanh{to:3}Thường{to:7}Chậm
+g04_02	Thường
+g04_03	Chậm
+g04_04	Tốc độ con trỏ
+g04_05	Dừng{to:5}Nút B
+g04_06	Hãy chọn câu đố.
+g04_07	Dồn đuổi{to:7}Thắng 2 nước
+g04_08	Đuổi bốn{to:7}Xếp hạng
+g04_09	Số{sp:02}
+g04_10	Bạn muốn làm gì?
+g04_11	=DATA
+g04_12	Hãy nhập mật khẩu.
+g04_13	Đây là mật khẩu của bạn.
+g04_14	Sai mật khẩu.
+g04_15	=DATA
+g04_16	=DATA
+g04_17	=DATA
+g04_18	=DATA
+g04_19	なにぬねの{to:9}Xong
+g04_20	はひふへほ{to:9}Xóa
+g04_21	=DATA
+g04_22	=DATA
+g04_23	=DATA
+g04_24	=DATA
+g04_25	=DATA
+g04_26	Số{sp:02}
+g04_27	Đen
+g04_28	Trắng
+g04_29	đi trước
+g04_30	2 nước
+g04_31	Bốn
+g05_00	bốn-ba
+g05_01	dồn đuổi
+g05_02	để thắng
+g05_03	để thắng
+g05_04	liên tiếp
+g05_05	=DATA
+g05_06	Dồn đuổi
+g05_07	Thắng 2 nước
+g05_08	Đuổi bốn
+g05_09	Xếp hạng
+g05_10	Đã giải!
+g05_11	Nhạc: Sakura
+g05_12	Nhạc: Cuộc đời
+g05_13	Nhạc: Du hành
+g05_14	nhé.
+g05_15	Renju
+g05_16	Từ
+g05_17	Hãy chọn mục.
+g05_18	Năm
+g05_19	Quá năm
+g05_20	Bốn mở
+g05_21	Bốn gãy
+g05_22	Câu đố
+g05_23	Hãy đánh đến khi thắng.
+g05_24	Người ta thường chỉ gọi là "bốn". Đây là bốn mở,{se:04}{wait:00}còn đây chỉ là bốn thường.{se:05}{wait:00}Bốn có khoảng trống, hay có quân khác chặn một đầu,{wait:00}hay chạm mép bàn cờ thì không phải bốn mở.{wait:00}
+g05_25	Bốn có khoảng trống ở giữa gọi là bốn gãy.{wait:00}
+g05_26	VS
+g05_27	Vòng 1
+g05_28	Vòng 2
+g05_29	Chung kết
+g05_30	{sp:01}1P thắng!
+g05_31	{sp:01}1P thua.
+g06_00	Thua cuộc
+g06_01	Vô địch!
+g06_02	Bạn đã vô địch
+g06_03	Cúp Cao thủ!
+g06_04	{sp:01}2P thắng!
+g06_05	COM thắng!
+g06_06	Chơi tiếp?{nl}{to:4}Có{to:8}Không
+g06_07	Hãy chọn cài đặt.
+g06_08	Đối thủ
+g06_09	Cấp độ
+g06_10	Lượt 1P
+g06_11	Số ván thắng
+g06_12	Giới hạn
+g06_13	ván
+g06_14	Nhập môn{to:5}
+g06_15	10 kyu{to:5}
+g06_16	9 kyu{to:5}
+g06_17	8 kyu{to:5}
+g06_18	7 kyu{to:5}
+g06_19	6 kyu{to:5}
+g06_20	5 kyu{to:5}
+g06_21	4 kyu{to:5}
+g06_22	3 kyu{to:5}
+g06_23	2 kyu{to:5}
+g06_24	1 kyu{to:5}
+g06_25	Cao thủ{to:5}
+g06_26	=DATA
+g06_27	{sp:01}75 nước{to:5}
+g06_28	100 nước{to:5}
+g06_29	125 nước{to:5}
+g06_30	150 nước{to:5}
+g06_31	175 nước{to:5}
+g07_00	200 nước{to:5}
+g07_01	225 nước{to:5}
+g07_02	Dừng ván này?
+g07_03	Đây là đáp án của bạn?
+g07_04	Chính xác!
+g07_05	Sai rồi.
+g07_06	Chơi tiếp?
+g07_07	Không có gợi ý{nl}trong Cúp Cao thủ.{nl}Chúc may mắn!{wait:00}
+g07_08	{sp:05}Renju{nl}{sp:05}Ban thực hiện
+g07_09	Giám sát{nl}{sp:05}Goro Sakata
+g07_10	Hỗ trợ sản xuất{nl}{sp:05}Hiroshi Matsuura
+g07_11	Lên ý tưởng{nl}{sp:05}Nakano (Fujisaku)
+g07_12	Đồ họa{nl}{sp:05}Nakano (Fujisaku)
+g07_13	Đồ họa{nl}{sp:05}Nakano (Ichikawa)
+g07_14	Chơi thử{nl}{sp:05}Vất vả lắm!
+g07_15	Âm thanh{nl}{sp:05}Togo ????
+g07_16	Hỗ trợ sản xuất{nl}{sp:05}G. BABA
+g07_17	Hỗ trợ sản xuất{nl}{sp:05}G. BABA
+g07_18	=DATA
+g07_19	Nước nhảy có cái hay.
+g07_20	Chặn về phía ba đã kéo tới.
+g07_21	Kéo không có cái hay,{nl}nghỉ mới có cái hay.
+g07_22	Phòng thủ bằng nước mã.
+g07_23	Điểm yếu của địch{nl}là điểm yếu của ta.
+g07_24	Đừng chặn quân,{nl}hãy chặn đường.
+g07_25	{sp:01}Phú Sĩ 1{to:5}
+g07_26	{sp:01}Phú Sĩ 2{to:5}
+g07_27	Bàn cờ có 15 đường ngang và 15 đường dọc.{wait:00}Điểm đen ở chính giữa gọi là "thiên nguyên".{wait:00}
+g07_28	Năm quân cùng màu nằm liền một hàng.{wait:00}{se:01}Ai tạo được hàng năm trước thì thắng.{wait:00}Trắng thắng khi có từ năm quân liền trở lên,{wait:00}còn Đen chỉ thắng khi có đúng năm quân.{wait:00}
+g07_29	Đôi khi sáu quân bỗng nằm liền một hàng.{wait:00}{se:0F}Đó gọi là "quá năm".{wait:00}Với Trắng, quá năm vẫn là thắng,{wait:00}nhưng với Đen đó là nước cấm, nên Đen thua.{wait:00}
+g07_30	Ba quân nằm liền một hàng.{wait:00}Với nước tiếp theo có thể thành bốn mở.{wait:00}{se:10}Nói cách khác, ba là bốn mở bớt đi một quân.{wait:00}{se:11}Có thể chặn ba như thế này.{wait:00}{se:12}Cả Đen lẫn Trắng, khi một đầu đã bị chặn,{wait:00}{se:13}thì dù nước sau có tạo thành bốn,{wait:00}{se:14}cũng sẽ bị chặn như thế này.{wait:00}Ba là bốn mở bớt đi một quân,{wait:00}nhưng dù đánh ba liên tục,{wait:00}nếu bị chặn thì vẫn không bao giờ thắng.{wait:00}Ba là một nước tấn công yếu.{wait:00}
+g07_31	Ba có một khoảng trống.{wait:00}Nếu đặt quân vào khoảng trống,{wait:00}{se:16}nó sẽ thành bốn mở.{wait:00}{se:17}Nhưng nếu bị chặn như thế này thì không thành bốn mở được.{wait:00}
+g08_00	Bốn quân nằm liền một hàng.{wait:00}{se:18}Khi một đầu bị chặn như của Đen và không thể thắng,{wait:00}thì gọi là "bốn".{wait:00}Khi hai đầu đều trống như của Trắng,{wait:00}dù bị chặn một đầu thì nước sau vẫn coi như thắng,{wait:00}{se:19}thì gọi là "bốn mở". Bốn là một nước tấn công mạnh.{wait:00}
+g08_01	Bốn có một khoảng trống.{wait:00}{se:1A}Đặt quân vào khoảng trống sẽ thành hàng năm.{wait:00}
+g08_02	Tạo ra bốn và ba chỉ với một nước.{wait:00}{se:1B}Đặt quân như thế này sẽ có bốn và ba cùng lúc, dẫn tới chiến thắng.{wait:00}{se:1C}Dù chặn được bốn của bốn-ba,{wait:00}{se:1D}nước sau vẫn tạo được bốn mở.{wait:00}Bốn-ba là một cách để thắng trong renju.{wait:00}
+g08_03	Bốn-ba mà ba lại thành bốn.{wait:00}Một nước tạo ra hai bốn.{wait:00}{se:1E}Trắng được phép đánh bốn-bốn,{wait:00}nhưng với Đen đó là nước cấm và Đen thua.{wait:00}Dù là bốn mở hay bốn thường, hễ Đen tạo hai bốn cùng lúc là Đen thua.{wait:00}
+g08_04	Tạo ra hai ba trở lên cùng lúc chỉ với một nước.{wait:00}{se:1F}Trắng được phép tạo ba-ba,{wait:00}nhưng với Đen đó là nước cấm và Đen thua.{wait:00}
+g08_05	Ba không thể thành bốn mở ở nước tiếp theo.{wait:00}{se:20}Những ba mà dù thêm quân thì một đầu vẫn bị bít{wait:00}{se:21}nên không thành bốn mở, hoặc bốn sẽ thành quá năm và thua vì phạm luật,{wait:00}{se:22}thì không phải ba thật.{wait:00}
+g08_06	Bốn-ba hay ba-ba có chứa ba giả.{wait:00}Ba-ba như vậy không phải nước cấm.{wait:00}{se:23}Đó là khi đặt quân như thế này.{wait:00}Thoạt nhìn thì giống bốn-ba-ba hay ba-ba,{wait:00}nhưng một trong các ba đã bị chặn, hoặc nằm trên đường quá năm.{wait:00}
+g08_07	Những nước Đen không được đánh.{wait:00}Đó là ba-ba, bốn-bốn và quá năm tạo ra bởi một nước.{wait:00}{se:24}Đen thua dù tự đánh hay bị ép phải đánh.{wait:00}Luật này được thêm vào để cân bằng lợi thế đi trước của Đen.{wait:00}Trắng cũng có thể thắng bằng cách gài Đen vào nước cấm.{wait:00}
+g08_08	Các nước tấn công.{wait:00}{se:25}Đánh ba gọi là "hiku" (kéo).{wait:00}{se:26}Đánh bốn gọi là{wait:00}{se:30}"nobiru" (vươn).{wait:00}{se:35}Đánh ba gãy hay bốn gãy gọi là{wait:00}{se:36}"tobu" (nhảy).{wait:00}{se:27}Nước chuẩn bị thắng bằng bốn-ba ở nước sau gọi là{wait:00}{se:28}"miseru" (phô ra).{wait:00}{se:29}Nước chuẩn bị thắng bằng đuổi bốn ở nước sau gọi là{wait:00}{se:2A}"fukumu" (ngậm). Thắng bằng đuổi bốn là{wait:00}{se:2B}như thế này:{wait:00}{se:31}bốn,{wait:00}{se:32}bốn, bốn,{wait:00}{se:2C}cứ thế đánh tiếp,{wait:00}{se:2D}cho đến khi chuỗi bốn kết thúc bằng thắng bốn-ba.{wait:00}{se:2E}Nước của Trắng ép Đen phạm luật gọi là "hameru" (gài bẫy).{wait:00}{se:2F}Trắng đã gài Đen vào ba-ba phạm luật.{wait:00}{se:34}Đen bị gài như vậy khi đang cố chặn hàng năm của Trắng.{wait:00}
+g08_09	Chặn cả hai đầu của ba,{wait:00}{se:33}mỗi bên cách ra một ô.{wait:00}
+g08_10	Bàn cờ
+g08_11	Năm
+g08_12	Quá năm
+g08_13	Ba
+g08_14	Ba gãy
+g08_15	Bốn
+g08_16	Bốn gãy
+g08_17	Bốn-ba
+g08_18	Bốn-bốn
+g08_19	Ba-ba
+g08_20	Ba giả
+g08_21	Bốn-ba/ba-ba giả
+g08_22	Nước cấm
+g08_23	Tấn công
+g08_24	Natsudome
+g08_25	=DATA
+g08_26	=DATA
+g08_27	=DATA
+g08_28	=DATA
+g08_29	=DATA
+g08_30	=DATA
+g08_31	=DATA
+g09_00	=DATA
+g09_01	=DATA
+g09_02	=DATA
+g09_03	=DATA
+g09_04	=DATA
+g09_05	=DATA
+g09_06	=DATA
+g09_07	=DATA
+g09_08	=DATA
+g09_09	=DATA
+g09_10	=DATA
+g09_11	=DATA
+g09_12	=DATA
+g09_13	=DATA
+g09_14	=DATA
+g09_15	=DATA
+g09_16	=DATA
+g09_17	=DATA
+g09_18	=DATA
+g09_19	=DATA
+g09_20	=DATA
+g09_21	=DATA
+g09_22	=DATA
+g09_23	=DATA
+g09_24	=DATA
+g09_25	=DATA
+g09_26	=DATA
+g09_27	=DATA
+g09_28	=DATA
+g09_29	=DATA
+g09_30	=DATA
+g09_31	=DATA
+g10_00	=DATA
+g10_01	=DATA
+g10_02	=DATA
+g10_03	=DATA
+g10_04	=DATA
+g10_05	=DATA
+g10_06	=DATA
+g10_07	=DATA
+g10_08	=DATA
+g10_09	=DATA
+g10_10	=DATA
+g10_11	=DATA
+g10_12	=DATA
+g10_13	=DATA
+g10_14	=DATA
+g10_15	=DATA
+g10_16	=DATA
+g10_17	=DATA
+g10_18	=DATA
+g10_19	=DATA
+g10_20	=DATA
+g10_21	=DATA
+g10_22	=DATA
+g10_23	=DATA
+g10_24	=DATA
+g10_25	=DATA
+g10_26	=DATA
+g10_27	=DATA
+g10_28	=DATA
+g10_29	=DATA
+g10_30	=DATA
+g10_31	=DATA
+g11_00	=DATA
+g11_01	=DATA
+g11_02	=DATA
+g11_03	=DATA
+g11_04	=DATA
+g11_05	=DATA
+g11_06	=DATA
+g11_07	=DATA
+g11_08	=DATA
+g11_09	Hãy gửi mật khẩu này{nl}{sp:02}qua đường bưu điện{nl}{sp:02}tới NAXAT.
+g12_00	=DATA
+g12_01	Trận không thể thắng
+g12_02	=JP
+g12_03	Quay lại.
+g12_04	Người chơi
+g12_05	Trực tiếp
+g12_06	Gián tiếp
+g12_07	Bạn muốn làm gì?
+g12_08	Tốc độ
+g12_09	=JP
+g12_10	Nút
+g12_11	Hãy chọn.
+g12_12	=DATA
+g12_13	Mật khẩu
+g13_00	Đen
+g13_01	Trắng

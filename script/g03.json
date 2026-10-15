@@ -5,7 +5,7 @@
   "jp": "長星",
   "full": "長星",
   "en": "Chosei{to:4}",
-  "vi": "",
+  "vi": "Chosei{to:4}",
   "kind": "text"
  },
  {
@@ -14,7 +14,7 @@
   "jp": "峡月",
   "full": "峡月",
   "en": "Kyogetsu{to:4}",
-  "vi": "",
+  "vi": "Kyogetsu{to:4}",
   "kind": "text"
  },
  {
@@ -23,7 +23,7 @@
   "jp": "恒星",
   "full": "恒星",
   "en": "Kosei{to:4}",
-  "vi": "",
+  "vi": "Kosei{to:4}",
   "kind": "text"
  },
  {
@@ -32,7 +32,7 @@
   "jp": "水月",
   "full": "水月",
   "en": "Suigetsu{to:4}",
-  "vi": "",
+  "vi": "Suigetsu{to:4}",
   "kind": "text"
  },
  {
@@ -41,7 +41,7 @@
   "jp": "流星",
   "full": "流星",
   "en": "Ryusei{to:4}",
-  "vi": "",
+  "vi": "Ryusei{to:4}",
   "kind": "text"
  },
  {
@@ -50,7 +50,7 @@
   "jp": "雲月",
   "full": "雲月",
   "en": "Ungetsu{to:4}",
-  "vi": "",
+  "vi": "Ungetsu{to:4}",
   "kind": "text"
  },
  {
@@ -59,7 +59,7 @@
   "jp": "浦月",
   "full": "浦月",
   "en": "Hogetsu{to:4}",
-  "vi": "",
+  "vi": "Hogetsu{to:4}",
   "kind": "text"
  },
  {
@@ -68,7 +68,7 @@
   "jp": "嵐月",
   "full": "嵐月",
   "en": "Rangetsu{to:4}",
-  "vi": "",
+  "vi": "Rangetsu{to:4}",
   "kind": "text"
  },
  {
@@ -77,7 +77,7 @@
   "jp": "銀月",
   "full": "銀月",
   "en": "Gingetsu{to:4}",
-  "vi": "",
+  "vi": "Gingetsu{to:4}",
   "kind": "text"
  },
  {
@@ -86,7 +86,7 @@
   "jp": "明星",
   "full": "明星",
   "en": "Myojo{to:4}",
-  "vi": "",
+  "vi": "Myojo{to:4}",
   "kind": "text"
  },
  {
@@ -95,7 +95,7 @@
   "jp": "斜月",
   "full": "斜月",
   "en": "Shagetsu{to:4}",
-  "vi": "",
+  "vi": "Shagetsu{to:4}",
   "kind": "text"
  },
  {
@@ -104,7 +104,7 @@
   "jp": "名月",
   "full": "名月",
   "en": "Meigetsu{to:4}",
-  "vi": "",
+  "vi": "Meigetsu{to:4}",
   "kind": "text"
  },
  {
@@ -113,7 +113,7 @@
   "jp": "{var:00}の勝ちです{sp:04}",
   "full": "{var:00}の勝ちです{sp:04}",
   "en": "{var:00} wins!",
-  "vi": "",
+  "vi": "{var:00} thắng!",
   "kind": "text"
  },
  {
@@ -122,7 +122,7 @@
   "jp": "2P/COM",
   "full": "2P/COM",
   "en": "2P/COM",
-  "vi": "",
+  "vi": "2P/COM",
   "kind": "text"
  },
  {
@@ -131,7 +131,7 @@
   "jp": "COM",
   "full": "COM",
   "en": "COM{to:4}",
-  "vi": "",
+  "vi": "COM{to:4}",
   "kind": "text"
  },
  {
@@ -140,7 +140,7 @@
   "jp": "{sp:01}木目三",
   "full": "{sp:01}木目三",
   "en": "{sp:01}Wood 3{to:5}",
-  "vi": "",
+  "vi": "{sp:01}Gỗ 3{to:5}",
   "kind": "text"
  },
  {
@@ -149,7 +149,7 @@
   "jp": "{sp:01}桜{sp:01}二",
   "full": "{sp:01}桜{sp:01}二",
   "en": "{sp:01}Cherry 2{to:5}",
-  "vi": "",
+  "vi": "{sp:01}Anh đào 2{to:5}",
   "kind": "text"
  },
  {
@@ -158,7 +158,7 @@
   "jp": "{sp:01}木目四",
   "full": "{sp:01}木目四",
   "en": "{sp:01}Wood 4{to:5}",
-  "vi": "",
+  "vi": "{sp:01}Gỗ 4{to:5}",
   "kind": "text"
  },
  {
@@ -167,7 +167,7 @@
   "jp": "{sp:01}木目五",
   "full": "{sp:01}木目五",
   "en": "{sp:01}Wood 5{to:5}",
-  "vi": "",
+  "vi": "{sp:01}Gỗ 5{to:5}",
   "kind": "text"
  },
  {
@@ -176,7 +176,7 @@
   "jp": "五{sp:01}連",
   "full": "五{sp:01}連",
   "en": "Five",
-  "vi": "",
+  "vi": "Năm",
   "kind": "text"
  },
  {
@@ -185,7 +185,7 @@
   "jp": "四々禁",
   "full": "四々禁",
   "en": "Double-Four Foul",
-  "vi": "",
+  "vi": "Phạm luật bốn-bốn",
   "kind": "text"
  },
  {
@@ -194,7 +194,7 @@
   "jp": "三々禁",
   "full": "三々禁",
   "en": "Double-Three Foul",
-  "vi": "",
+  "vi": "Phạm luật ba-ba",
   "kind": "text"
  },
  {
@@ -203,7 +203,7 @@
   "jp": "長連禁",
   "full": "長連禁",
   "en": "Overline Foul",
-  "vi": "",
+  "vi": "Phạm luật quá năm",
   "kind": "text"
  },
  {
@@ -212,7 +212,7 @@
   "jp": "満局",
   "full": "満局",
   "en": "Draw",
-  "vi": "",
+  "vi": "Hòa",
   "kind": "text"
  },
  {
@@ -221,7 +221,7 @@
   "jp": "投{sp:01}了",
   "full": "投{sp:01}了",
   "en": "Resign",
-  "vi": "",
+  "vi": "Xin thua",
   "kind": "text"
  },
  {
@@ -230,7 +230,7 @@
   "jp": "戻る",
   "full": "戻る",
   "en": "Back",
-  "vi": "",
+  "vi": "Quay lại",
   "kind": "text"
  },
  {
@@ -239,7 +239,7 @@
   "jp": "音を{ph:07}",
   "full": "音をどうしますか?",
   "en": "Sound settings?",
-  "vi": "",
+  "vi": "Cài đặt âm thanh?",
   "kind": "text"
  },
  {
@@ -248,7 +248,7 @@
   "jp": "ステレオ{sp:03}モノラル",
   "full": "ステレオ{sp:03}モノラル",
   "en": "Stereo{to:7}Mono",
-  "vi": "",
+  "vi": "Stereo{to:7}Mono",
   "kind": "text"
  },
  {
@@ -257,7 +257,7 @@
   "jp": "{sp:01}曲",
   "full": "{sp:01}曲",
   "en": "Music",
-  "vi": "",
+  "vi": "Nhạc",
   "kind": "text"
  },
  {
@@ -266,7 +266,7 @@
   "jp": "効果音",
   "full": "効果音",
   "en": "Effects",
-  "vi": "",
+  "vi": "Hiệu ứng",
   "kind": "text"
  },
  {
@@ -275,7 +275,7 @@
   "jp": "スタート{sp:01}A{ph:0A}",
   "full": "スタート{sp:01}Aボタン",
   "en": "Start{to:5}A Button",
-  "vi": "",
+  "vi": "Bắt đầu{to:5}Nút A",
   "kind": "text"
  },
  {
@@ -284,7 +284,7 @@
   "jp": "表示を{ph:07}",
   "full": "表示をどうしますか?",
   "en": "Display settings?",
-  "vi": "",
+  "vi": "Cài đặt hiển thị?",
   "kind": "text"
  }
 ]

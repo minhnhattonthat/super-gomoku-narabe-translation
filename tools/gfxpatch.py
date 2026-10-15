@@ -112,6 +112,10 @@ CERT_TEXT = {
            "tournament": ["victory in every", "round of the", "Master Cup."],
            "puzzle": ["solving the hard", "{cat}", "problems."],
            "cats": ["Chase-Down", "Win in Two", "Four-Chase"]},
+    "vi": {"lines": ["Xin trao tặng bạn", "bằng khen này", "để vinh danh"],
+           "tournament": ["chiến thắng", "trọn vẹn tại", "Cúp Cao thủ."],
+           "puzzle": ["việc giải các câu đố", "{cat}", "đầy thử thách."],
+           "cats": ["Dồn đuổi", "Thắng 2 nước", "Đuổi bốn"]},
 }
 
 
