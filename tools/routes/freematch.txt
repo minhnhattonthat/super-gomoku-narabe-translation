@@ -1,0 +1,12 @@
+# cold boot -> mode menu -> Match -> Free match -> settings -> Decide -> in game
+900 -
+8 start
+300 -
+8 a
+200 -
+8 a
+300 -
+8 up
+30 -
+8 a
+400 -
