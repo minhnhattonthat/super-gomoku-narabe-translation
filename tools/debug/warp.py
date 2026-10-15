@@ -18,6 +18,7 @@ from concurrent.futures import ThreadPoolExecutor
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 HERE = os.path.join(ROOT, "tools", "debug")
 EMU = os.path.join(ROOT, ".claude", "skills", "translate-retro-game", "scripts", "emu.py")
+EXTRA = []  # --script / --var passthrough to emu.py
 
 
 def parse(path):
@@ -101,7 +102,7 @@ def run(scenes, name, rom, out, then=None, every=30, quiet=False):
     shots = ",".join(str(x) for x in range(mark, total, every)) or str(total - 1)
     cmd = [sys.executable, "-X", "utf8", EMU, rom, "--out", out, "--route", rpath, "--shots", shots, "--sheet",
            "--script", os.path.join(HERE, "warp.lua"), "--var", "ACTS={" + ",".join(acts) + "}",
-           "--var", f"MARK={mark}", "--state-out", state, "--timeout", str(120 + total // 60)]
+           "--var", f"MARK={mark}", "--state-out", state, "--timeout", str(120 + total // 60)] + EXTRA
     r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, encoding="utf8", errors="replace")
     ids = []
     log = os.path.join(out, "log.txt")
@@ -133,7 +134,11 @@ def main():
     ap.add_argument("--jobs", type=int, default=3)
     ap.add_argument("--list", action="store_true")
     ap.add_argument("--selftest", action="store_true", help="parse scenes.txt and check every scene flattens")
+    ap.add_argument("--script", action="append", default=[], help="extra Lua probe (repeatable), passed to emu.py")
+    ap.add_argument("--var", action="append", default=[], help="extra NAME=LUA global for the probes")
     a = ap.parse_args()
+    EXTRA.extend(x for s in a.script for x in ("--script", os.path.abspath(s)))
+    EXTRA.extend(x for v in a.var for x in ("--var", v))
     scenes = parse(a.scenes)
     if a.selftest:
         for n in scenes:

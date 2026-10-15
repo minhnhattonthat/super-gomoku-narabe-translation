@@ -98,7 +98,7 @@ def build(lang, out, mark=False, rom_path=None, overrides=None):
     assert len(font) <= 0x4000 and len(widths) <= 0x1000
     rom[FONT_OFF:FONT_OFF + len(font)] = font
     rom[FONTW_OFF:FONTW_OFF + len(widths)] = widths
-    gfxpatch.apply(rom)
+    gfxpatch.apply(rom, lang)
     rom[PRE_OFF:PRE_OFF + 0x30000] = preshift(font)
     for s in range(1, 9):  # SHTAB ($92:D000) for draw8
         for p in range(256):

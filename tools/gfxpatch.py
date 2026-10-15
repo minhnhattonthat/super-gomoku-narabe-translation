@@ -100,27 +100,109 @@ def edit_card(raw):
     return bytes(raw)
 
 
+# ---- certificates (BG1 palette 5: 0 clear, 1 black, 2-8 greys). Tiles 0x05BDD5 are shared by four raw 32x32
+# tilemaps at 0x30002 + k*0x800 (2-byte header before each; table B ids 30-33 via $81:9168, maps at $81:940C):
+# 0 名人戦 (tournament, $81:D148), 1 二手勝ち, 2 四追い, 3 追い詰め (puzzle category -> id table $81:CE5F).
+# The JP text is vertical; the translation is horizontal, one character per 8x16 cell (tiles depend on the
+# letters used, not the text length).
+CERT_MAPS = 0x30002
+CERT_SEAL = [[0x02, 0x03, 0x04], [0x12, 0x13, 0x14], [0x05, 0x06, 0x07], [0x15, 0x16, 0x17]]
+CERT_TEXT = {
+    "en": {"lines": ["This award is", "presented to you", "in honor of your"],
+           "tournament": ["victory in every", "round of the", "Master Cup."],
+           "puzzle": ["solving the hard", "{cat}", "problems."],
+           "cats": ["Chase-Down", "Win in Two", "Four-Chase"]},
+}
+
+
+def cert_texts(lang):
+    t = CERT_TEXT[lang]
+    out = []
+    for k, cat in ((0, None), (1, t["cats"][1]), (2, t["cats"][2]), (3, t["cats"][0])):
+        tail = t["tournament"] if cat is None else [s.replace("{cat}", cat) for s in t["puzzle"]]
+        out.append(t["lines"] + tail)
+    return out
+
+
+def edit_certs(raw, rom, lang):
+    import vwffont
+    font_bytes, _, codes = vwffont.build(lang)
+    raw = bytearray(raw)
+    keep = {0} | {t for row in CERT_SEAL for t in row}
+    free = [t for t in range(len(raw) // 32) if t not in keep]
+    tiles = {}  # (top/bottom, char) -> tile
+
+    def cell_tiles(ch):
+        if ch == " ":
+            return 0, 0
+        if ch not in tiles:
+            n = codes[ch] - 0x200
+            g = font_bytes[n * 32:n * 32 + 32]
+            w = max((x for y in range(16) for x in range(8)
+                     if (g[2 * y] | g[2 * y + 1]) & (0x80 >> x)), default=0) + 1
+            dx = (8 - w) // 2
+            pair = []
+            for half in (0, 8):
+                px = []
+                for y in range(half, half + 8):
+                    p0, p1 = g[2 * y], g[2 * y + 1]
+                    row = [((p0 >> (7 - x)) & 1) | ((p1 >> (7 - x)) & 1) << 1 for x in range(8)]
+                    row = [0] * dx + row[:8 - dx]
+                    px.append([{0: 0, 1: 6, 2: 4, 3: 1}[v] for v in row])  # ink black, shadow light grey
+                t = free.pop(0)
+                gfx4.put_tile(raw, t, px)
+                pair.append(t)
+            tiles[ch] = tuple(pair)
+        return tiles[ch]
+
+    for k, lines in enumerate(cert_texts(lang)):
+        base = CERT_MAPS + k * 0x800
+        ent = lambda t: (t | 0x1400).to_bytes(2, "little")
+        for row in range(8, 22):
+            for col in range(4, 28):
+                rom[base + (row * 32 + col) * 2:base + (row * 32 + col) * 2 + 2] = ent(0)
+        for r, line in enumerate(lines):
+            assert len(line) <= 22, line
+            c0 = 16 - (len(line) + 1) // 2
+            for i, ch in enumerate(line):
+                top, bot = cell_tiles(ch)
+                for dr, t in ((0, top), (1, bot)):
+                    o = base + ((8 + 2 * r + dr) * 32 + c0 + i) * 2
+                    rom[o:o + 2] = ent(t)
+        for dr, trow in enumerate(CERT_SEAL):
+            for dc, t in enumerate(trow):
+                o = base + ((18 + dr) * 32 + 23 + dc) * 2
+                rom[o:o + 2] = ent(t)
+    return bytes(raw)
+
+
 ASSETS = [
     {"name": "panel_icons", "off": 0x04F52A, "len": 0x926, "edit": edit_panel,
      "refs": [("addr16", 0x1CE1), ("bank16", 0x1CE6), ("len16", 0x1CEB), ("ptr24", 0x89CC), ("len16", 0x8A35)]},
     {"name": "mode_cards", "off": 0x05615A, "len": 0x14E3, "edit": edit_card,
      "refs": [("ptr24", 0x89E1), ("len16", 0x8A43), ("addr16", 0x922A), ("bank16", 0x9270), ("len16", 0x92B6)]},
+    {"name": "certificates", "off": 0x05BDD5, "len": 0x1264, "edit": edit_certs, "raw": [(CERT_MAPS, 0x2000)],
+     "refs": [("addr16", 0x925E + 2 * i) for i in range(4)] + [("bank16", 0x92A4 + 2 * i) for i in range(4)] +
+             [("len16", 0x92EA + 2 * i) for i in range(4)]},
 ]
 
 
 def ref_sites():
     """[(file offset, size)] of every byte apply() may change in the original banks."""
     size = {"addr16": 2, "bank16": 2, "bank8": 1, "ptr24": 3, "len16": 2}
-    return [(o, size[k]) for a in ASSETS for k, o in a["refs"]]
+    return [(o, size[k]) for a in ASSETS for k, o in a["refs"]] + [r for a in ASSETS for r in a.get("raw", [])]
 
 
-def apply(rom):
+def apply(rom, lang):
     """Edit, recompress and repoint every asset in rom (bytearray, already 1 MB)."""
+    import inspect
     pos = GFX_OFF
     for a in ASSETS:
         raw = lzss.decompress(rom, a["off"], a["len"])
-        new = lzss.compress(a["edit"](raw))
-        assert lzss.decompress(new, 0, len(new)) == a["edit"](raw)
+        edit = a["edit"]
+        edited = edit(raw, rom, lang) if len(inspect.signature(edit).parameters) == 3 else edit(raw)
+        new = lzss.compress(edited)
+        assert lzss.decompress(new, 0, len(new)) == edited
         if (pos & 0x7FFF) + len(new) > 0x8000:  # never cross a bank
             pos = (pos | 0x7FFF) + 1
         rom[pos:pos + len(new)] = new
