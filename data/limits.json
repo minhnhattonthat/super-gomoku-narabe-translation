@@ -100,5 +100,969 @@
   "px": 176,
   "lines": 3,
   "note": "dictionary page box (11 cells, line clear A7FD)"
+ },
+ "g00_05": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g00_06": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g00_07": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g04_27": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g04_28": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g04_29": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g04_30": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g04_31": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g05_00": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g05_01": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g05_02": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g05_03": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g05_04": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g05_05": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g05_15": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g05_16": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g05_22": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g04_26": {
+  "px": 64,
+  "note": "P side panel, 4 cells (screens.md)"
+ },
+ "g00_02": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_03": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g01_23": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g01_24": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g03_12": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g03_19": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g03_20": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g03_21": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g03_22": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g03_23": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g05_23": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g05_17": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g04_10": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g07_02": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g07_03": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g07_04": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g07_05": {
+  "px": 192,
+  "note": "H header, JP field 12 cells"
+ },
+ "g07_06": {
+  "px": 192,
+  "note": "H header, JP field 12 cells"
+ },
+ "g00_08": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_09": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_10": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_11": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_12": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_13": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_14": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g00_15": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_16": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_17": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_18": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_19": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g00_20": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g01_28": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g01_29": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g01_30": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g01_31": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_00": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_01": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_02": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_03": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_04": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_05": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_06": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_07": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_08": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_09": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_10": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_11": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_12": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_13": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_14": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_15": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_16": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_17": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_18": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_19": {
+  "px": 176,
+  "note": "H header / B box line, 11 cells"
+ },
+ "g02_20": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_21": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_22": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_23": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_24": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_25": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_26": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_27": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_28": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_29": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_30": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g02_31": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_00": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_01": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_02": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_03": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_04": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_05": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_06": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_07": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_08": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_09": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_10": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g03_11": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g01_25": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g01_26": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g01_27": {
+  "px": 64,
+  "note": "B box list item from cell 5, padded to 4 cells"
+ },
+ "g01_13": {
+  "px": 112,
+  "note": "centred card label, field cells 5-11"
+ },
+ "g01_14": {
+  "px": 112,
+  "note": "centred card label, field cells 5-11"
+ },
+ "g01_15": {
+  "px": 112,
+  "note": "centred card label, field cells 5-11"
+ },
+ "g01_16": {
+  "px": 112,
+  "note": "centred card label, field cells 5-11"
+ },
+ "g01_17": {
+  "px": 112,
+  "note": "centred card label, field cells 5-11"
+ },
+ "g01_18": {
+  "px": 112,
+  "note": "centred card label, field cells 5-11"
+ },
+ "g01_00": {
+  "px": 96,
+  "note": "bracket 1P field, 6 cells"
+ },
+ "g01_01": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g01_02": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g01_03": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g01_04": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g01_05": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g01_06": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g01_07": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g01_08": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g01_09": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g01_10": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g01_11": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g00_30": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g00_31": {
+  "px": 64,
+  "note": "bracket name column, 4 cells"
+ },
+ "g06_08": {
+  "px": 96,
+  "note": "settings label column, 6 cells"
+ },
+ "g06_09": {
+  "px": 96,
+  "note": "settings label column, 6 cells"
+ },
+ "g06_10": {
+  "px": 96,
+  "note": "settings label column, 6 cells"
+ },
+ "g06_11": {
+  "px": 96,
+  "note": "settings label column, 6 cells"
+ },
+ "g06_12": {
+  "px": 96,
+  "note": "settings label column, 6 cells"
+ },
+ "g00_25": {
+  "px": 96,
+  "note": "settings label column, 6 cells"
+ },
+ "g00_26": {
+  "px": 96,
+  "note": "settings label column, 6 cells"
+ },
+ "g06_14": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_15": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_16": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_17": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_18": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_19": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_20": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_21": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_22": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_23": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_24": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_25": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_27": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_28": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_29": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_30": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_31": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g07_00": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g07_01": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g03_13": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g03_14": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g06_13": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g00_27": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g00_28": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g00_29": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g03_15": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g03_16": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g03_17": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g03_18": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g07_25": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g07_26": {
+  "px": 80,
+  "note": "settings value column, 5 cells"
+ },
+ "g01_12": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g06_07": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_06": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_12": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_13": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_14": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g01_22": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g03_26": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g03_31": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g06_06": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g05_30": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g05_31": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g06_04": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g06_05": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g06_00": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_07": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_08": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g03_27": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g03_30": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_05": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_01": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_00": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g04_04": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g01_20": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g01_21": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g03_25": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g03_28": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g03_29": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g11_09": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g00_21": {
+  "px": 208,
+  "note": "F full screen, 13 cells"
+ },
+ "g07_08": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_09": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_10": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_11": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_12": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_13": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_14": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_15": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_16": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_17": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g07_18": {
+  "px": 208,
+  "note": "title staff roll, ~13 cells"
+ },
+ "g00_00": {
+  "px": 240,
+  "note": "never shown (screens.md)"
+ },
+ "g00_01": {
+  "px": 240,
+  "note": "never shown (screens.md)"
+ },
+ "g00_04": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g00_22": {
+  "px": 240,
+  "note": "never shown (screens.md)"
+ },
+ "g00_23": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g00_24": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g01_19": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g07_07": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_01": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g03_24": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g04_02": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g04_03": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_03": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_04": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_05": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_06": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_07": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_08": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_10": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_11": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g12_13": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g05_06": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g05_07": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g05_08": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g05_09": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g05_10": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g05_14": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g06_01": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g06_02": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g06_03": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g07_19": {
+  "px": 240,
+  "note": "never shown (screens.md)"
+ },
+ "g07_20": {
+  "px": 240,
+  "note": "never shown (screens.md)"
+ },
+ "g07_21": {
+  "px": 240,
+  "note": "never shown (screens.md)"
+ },
+ "g07_22": {
+  "px": 240,
+  "note": "never shown (screens.md)"
+ },
+ "g07_23": {
+  "px": 240,
+  "note": "never shown (screens.md)"
+ },
+ "g07_24": {
+  "px": 240,
+  "note": "never shown (screens.md)"
+ },
+ "g05_18": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g05_19": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g05_20": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g05_21": {
+  "px": 176,
+  "note": "never shown (screens.md): kept to the header width"
+ },
+ "g13_00": {
+  "px": 48,
+  "note": "{var} in g03_12"
+ },
+ "g13_01": {
+  "px": 48,
+  "note": "{var} in g03_12"
  }
 }

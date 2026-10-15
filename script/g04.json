@@ -247,7 +247,7 @@
   "off": "189C3",
   "jp": "黒から",
   "full": "黒から",
-  "en": "Black to play",
+  "en": "Black",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "189CB",
   "jp": "白から",
   "full": "白から",
-  "en": "White to play",
+  "en": "White",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "189D3",
   "jp": "打出し",
   "full": "打出し",
-  "en": "Opening",
+  "en": "plays first",
   "vi": "",
   "kind": "text"
  },
@@ -274,7 +274,7 @@
   "off": "189DB",
   "jp": "二手で",
   "full": "二手で",
-  "en": "In two moves",
+  "en": "in 2 moves",
   "vi": "",
   "kind": "text"
  },
@@ -283,7 +283,7 @@
   "off": "189E3",
   "jp": "四の",
   "full": "四の",
-  "en": "By fours",
+  "en": "Fours",
   "vi": "",
   "kind": "text"
  }

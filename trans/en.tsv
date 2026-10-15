@@ -156,15 +156,15 @@ g04_23	=DATA
 g04_24	=DATA
 g04_25	=DATA
 g04_26	No.{sp:02}
-g04_27	Black to play
-g04_28	White to play
-g04_29	Opening
-g04_30	In two moves
-g04_31	By fours
-g05_00	Four-three win
-g05_01	Chase-down win
-g05_02	White to win
-g05_03	Black to win
+g04_27	Black
+g04_28	White
+g04_29	plays first
+g04_30	in 2 moves
+g04_31	Fours
+g05_00	4-3 win
+g05_01	Chase-down
+g05_02	White wins
+g05_03	Black wins
 g05_04	in a row
 g05_05	=DATA
 g05_06	Chase-Down

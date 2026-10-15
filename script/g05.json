@@ -4,7 +4,7 @@
   "off": "189E9",
   "jp": "四三勝",
   "full": "四三勝",
-  "en": "Four-three win",
+  "en": "4-3 win",
   "vi": "",
   "kind": "text"
  },
@@ -13,7 +13,7 @@
   "off": "189F1",
   "jp": "追詰勝",
   "full": "追詰勝",
-  "en": "Chase-down win",
+  "en": "Chase-down",
   "vi": "",
   "kind": "text"
  },
@@ -22,7 +22,7 @@
   "off": "189F9",
   "jp": "白勝ち",
   "full": "白勝ち",
-  "en": "White to win",
+  "en": "White wins",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "18A01",
   "jp": "黒勝ち",
   "full": "黒勝ち",
-  "en": "Black to win",
+  "en": "Black wins",
   "vi": "",
   "kind": "text"
  },
