@@ -176,11 +176,64 @@ def edit_certs(raw, rom, lang):
     return bytes(raw)
 
 
+# ---- title logo (OBJ, palette 0: F dark outline, 3/4/5 pink shades). The brush-written 連珠 ("Renju") stays as
+# the logo; the pink vertical スーパー五目ならべ (two 64 px columns of 16x16 sprites at x 168) becomes SUPER / GOMOKU,
+# upright letters stacked like the Japanese. The metasprite at 0x101D5 used tile $28 twice (ー): its 4th record
+# gets the free tile $0A.
+TITLE_COLS = [[0x08, 0x28, 0x48, 0x0A], [0x0C, 0x2C, 0x0E, 0x2E]]
+TITLE_META_TILE = 0x101E1
+LETTERS = {
+    "S": [".######.", "########", "##......", "##......", ".######.", "......##", "......##", "########",
+          ".######."],
+    "U": ["##....##"] * 7 + ["########", ".######."],
+    "P": ["#######.", "########", "##....##", "##....##", "########", "#######.", "##......", "##......",
+          "##......"],
+    "E": ["########", "########", "##......", "##......", "######..", "##......", "##......", "########",
+          "########"],
+    "R": ["#######.", "########", "##....##", "##....##", "########", "#######.", "##..##..", "##...##.",
+          "##....##"],
+    "G": [".######.", "########", "##......", "##......", "##..####", "##..####", "##....##", "########",
+          ".######."],
+    "O": [".######.", "########"] + ["##....##"] * 5 + ["########", ".######."],
+    "M": ["##....##", "###..###", "########", "##.##.##", "##.##.##"] + ["##....##"] * 4,
+    "K": ["##....##", "##...##.", "##..##..", "##.##...", "####....", "##.##...", "##..##..", "##...##.",
+          "##....##"],
+}
+TITLE_WORDS = {"en": ["SUPER", "GOMOKU"]}
+
+
+def edit_title(raw, rom, lang):
+    raw = bytearray(raw)
+    words = TITLE_WORDS.get(lang, TITLE_WORDS["en"])
+    for tiles, word in zip(TITLE_COLS, words):
+        img = [[0] * 16 for _ in range(64)]
+        step = 64 / len(word)
+        for i, ch in enumerate(word):
+            top = int(i * step + (step - 11) / 2) + 1
+            for y, row in enumerate(LETTERS[ch]):
+                for x, c in enumerate(row):
+                    if c == "#":
+                        img[top + y][4 + x] = 3 if y < 4 else 4
+        out = [row[:] for row in img]
+        for y in range(64):
+            for x in range(16):
+                if img[y][x] == 0 and any(0 <= y + dy < 64 and 0 <= x + dx < 16 and img[y + dy][x + dx]
+                                          for dy in (-1, 0, 1) for dx in (-1, 0, 1)):
+                    out[y][x] = 0xF
+        for k, t in enumerate(tiles):
+            gfx4.put_icon(raw, t, [row for row in out[k * 16:k * 16 + 16]])
+    rom[TITLE_META_TILE] = 0x0A
+    return bytes(raw)
+
+
 ASSETS = [
     {"name": "panel_icons", "off": 0x04F52A, "len": 0x926, "edit": edit_panel,
      "refs": [("addr16", 0x1CE1), ("bank16", 0x1CE6), ("len16", 0x1CEB), ("ptr24", 0x89CC), ("len16", 0x8A35)]},
     {"name": "mode_cards", "off": 0x05615A, "len": 0x14E3, "edit": edit_card,
      "refs": [("ptr24", 0x89E1), ("len16", 0x8A43), ("addr16", 0x922A), ("bank16", 0x9270), ("len16", 0x92B6)]},
+    {"name": "title_logo", "off": 0x05ABAC, "len": 0xBDE, "edit": edit_title, "raw": [(TITLE_META_TILE, 1)],
+     "refs": [("ptr24", 0x89C6), ("len16", 0x8A31), ("ptr24", 0x8E74), ("len16", 0x8E81), ("addr16", 0xAB6E),
+              ("bank16", 0xAB73), ("len16", 0xAB78)]},
     {"name": "certificates", "off": 0x05BDD5, "len": 0x1264, "edit": edit_certs, "raw": [(CERT_MAPS, 0x2000)],
      "refs": [("addr16", 0x925E + 2 * i) for i in range(4)] + [("bank16", 0x92A4 + 2 * i) for i in range(4)] +
              [("len16", 0x92EA + 2 * i) for i in range(4)]},
