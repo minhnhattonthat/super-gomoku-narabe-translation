@@ -73,13 +73,14 @@ org $81A5D9                          ; {num}: a blank tens digit takes no space 
 ; The translation uses {move} ($89xx) and {turn} ($8Axx) inside the string instead; the glyph draws are skipped.
 org $81A55F                          ; control code dispatch: STA $0A / LDA $0B / AND #$000F ...
     jml ctrl_hook
-org $80943D                          ; per-move caption digits + colour -> redraw the caption string (g00_02)
-    rep #$30
-    lda.w #$0000
+org $80943D                          ; per-move caption digits + colour -> redraw the caption string (g00_02),
+    rep #$30                         ; then wait for vblank again: the caller ($80:9400) ran this right after a
+    lda.w #$0000                     ; vblank wait, and the code after it (new game setup) must start in vblank
     sta $12
     lda.w #$0002
     sta $14
     jsl $818032
+    jsr $8954
     jmp $9490
 org $809FA5                          ; first caption of a game: colour + "1" -> JSR $A371
     jmp $9FC1
