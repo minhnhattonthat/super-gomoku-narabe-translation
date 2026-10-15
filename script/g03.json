@@ -184,7 +184,7 @@
   "off": "18789",
   "jp": "四々禁",
   "full": "四々禁",
-  "en": "Double-four",
+  "en": "Double-Four Foul",
   "vi": "",
   "kind": "text"
  },
@@ -193,7 +193,7 @@
   "off": "18791",
   "jp": "三々禁",
   "full": "三々禁",
-  "en": "Double-three",
+  "en": "Double-Three Foul",
   "vi": "",
   "kind": "text"
  },
@@ -202,7 +202,7 @@
   "off": "18799",
   "jp": "長連禁",
   "full": "長連禁",
-  "en": "Overline",
+  "en": "Overline Foul",
   "vi": "",
   "kind": "text"
  },
@@ -238,7 +238,7 @@
   "off": "187B5",
   "jp": "音を{ph:07}",
   "full": "音をどうしますか?",
-  "en": "How should the sound be?",
+  "en": "Sound settings?",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "187D7",
   "jp": "効果音",
   "full": "効果音",
-  "en": "Effects",
+  "en": "Sound Effects",
   "vi": "",
   "kind": "text"
  },
@@ -283,7 +283,7 @@
   "off": "187EF",
   "jp": "表示を{ph:07}",
   "full": "表示をどうしますか?",
-  "en": "How should the display be?",
+  "en": "Display settings?",
   "vi": "",
   "kind": "text"
  }

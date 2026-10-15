@@ -31,7 +31,7 @@
   "off": "19569",
   "jp": "四三の三がかわりに{nl}四になったものです。{wait:00}一手で{nl}四が二つできます。{wait:00}{se:1E}白は四々をうっても{nl}かまいませんが{wait:00}黒は禁手で{nl}負けとなります。{wait:00}四連でも四でも、{nl}四々ができれば{nl}黒は負けです。{wait:00}",
   "full": "四三の三がかわりに{nl}四になったものです。{wait:00}一手で{nl}四が二つできます。{wait:00}{se:1E}白は四々をうっても{nl}かまいませんが{wait:00}黒は禁手で{nl}負けとなります。{wait:00}四連でも四でも、{nl}四々ができれば{nl}黒は負けです。{wait:00}",
-  "en": "A four-three in which the three became a four.{wait:00}One move makes two fours.{wait:00}{se:1E}White may play a double-four,{wait:00}but for Black it is a forbidden move and Black loses.{wait:00}With straight fours or plain fours, if Black makes a double-four, Black loses.{wait:00}",
+  "en": "A four-three in which the three became a four.{wait:00}One move makes two fours.{wait:00}{se:1E}White may play a double-four,{wait:00}but for Black it is a forbidden move and Black loses.{wait:00}Straight fours or plain fours, if Black makes two fours at once, Black loses.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -49,7 +49,7 @@
   "off": "196AB",
   "jp": "次の手で四連に{nl}ならない三のことを{nl}いいます。{wait:00}{se:20}石をおいても{nl}片方がとじていて{wait:00}{se:21}四連とならないものや{nl}長連スジのため{nl}禁手負けとなる{wait:00}{se:22}三は本当の三とは{nl}いいません。{wait:00}",
   "full": "次の手で四連に{nl}ならない三のことを{nl}いいます。{wait:00}{se:20}石をおいても{nl}片方がとじていて{wait:00}{se:21}四連とならないものや{nl}長連スジのため{nl}禁手負けとなる{wait:00}{se:22}三は本当の三とは{nl}いいません。{wait:00}",
-  "en": "A three that cannot become a straight four on the next move.{wait:00}{se:20}Even with a stone added, one end is closed,{wait:00}{se:21}so it cannot become a straight four, or it would make an overline and lose by a foul.{wait:00}{se:22}Such a three is not a real three.{wait:00}",
+  "en": "A three that cannot become a straight four on the next move.{wait:00}{se:20}Threes where, even with a stone added, one end is closed{wait:00}{se:21}so no straight four forms, or where the four would be an overline and lose by a foul,{wait:00}{se:22}are not real threes.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -58,7 +58,7 @@
   "off": "19759",
   "jp": "ウソの三がまざった{nl}四三や、三々のことを{nl}いいます。{wait:00}この三々は禁手となり{nl}ません。{wait:00}{se:23}このように石をおいた{nl}ときがそうです。{wait:00}一見、四三々や三々に{nl}見えますが{wait:00}防がれていたり、{nl}長連筋となっているの{nl}です。{wait:00}",
   "full": "ウソの三がまざった{nl}四三や、三々のことを{nl}いいます。{wait:00}この三々は禁手となり{nl}ません。{wait:00}{se:23}このように石をおいた{nl}ときがそうです。{wait:00}一見、四三々や三々に{nl}見えますが{wait:00}防がれていたり、{nl}長連筋となっているの{nl}です。{wait:00}",
-  "en": "A four-three or double-three that includes a false three.{wait:00}This double-three is not a forbidden move.{wait:00}{se:23}It happens when stones are placed like this.{wait:00}At a glance it looks like a four-three-three or a double-three,{wait:00}but it is blocked, or it lies on an overline.{wait:00}",
+  "en": "A four-three or double-three that includes a false three.{wait:00}Such a double-three is not a forbidden move.{wait:00}{se:23}It happens when stones are placed like this.{wait:00}At a glance it looks like a four-three-three or a double-three,{wait:00}but one of the threes is blocked, or lies on an overline.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -76,7 +76,7 @@
   "off": "19919",
   "jp": "攻め手をいいます。{wait:00}{se:25}三を打つことを{nl}「ヒク」といいます。{wait:00}{se:26}四を打つことを{wait:00}{se:30}「ノビル」といいます。{wait:00}{se:35}トビ三やトビ四を{nl}うつことを{wait:00}{se:36}「トブ」といいます。{wait:00}{se:27}次に四三勝ちとなる手{nl}を打つことを、{wait:00}{se:28}「ミセル」と{nl}いいます。{wait:00}{se:29}次に四追勝ちとなる{nl}手を打つことを{wait:00}{se:2A}「フクム」といいます。{nl}四追い勝ちとは{wait:00}{se:2B}このように{wait:00}{se:31}四、{wait:00}{se:32}四、四と{wait:00}{se:2C}うっていき{wait:00}{se:2D}四の連続で四三勝ちに{nl}なることをいいます。{wait:00}{se:2E}白が{nl}黒を禁手にする手を{nl}「ハメル」といい、{wait:00}{se:2F}白が黒を{nl}三々禁に{nl}ハメました。{wait:00}{se:34}このように黒が白の{nl}五連を防ごうとして{nl}ハメられるのです。{wait:00}",
   "full": "攻め手をいいます。{wait:00}{se:25}三を打つことを{nl}「ヒク」といいます。{wait:00}{se:26}四を打つことを{wait:00}{se:30}「ノビル」といいます。{wait:00}{se:35}トビ三やトビ四を{nl}うつことを{wait:00}{se:36}「トブ」といいます。{wait:00}{se:27}次に四三勝ちとなる手{nl}を打つことを、{wait:00}{se:28}「ミセル」と{nl}いいます。{wait:00}{se:29}次に四追勝ちとなる{nl}手を打つことを{wait:00}{se:2A}「フクム」といいます。{nl}四追い勝ちとは{wait:00}{se:2B}このように{wait:00}{se:31}四、{wait:00}{se:32}四、四と{wait:00}{se:2C}うっていき{wait:00}{se:2D}四の連続で四三勝ちに{nl}なることをいいます。{wait:00}{se:2E}白が{nl}黒を禁手にする手を{nl}「ハメル」といい、{wait:00}{se:2F}白が黒を{nl}三々禁に{nl}ハメました。{wait:00}{se:34}このように黒が白の{nl}五連を防ごうとして{nl}ハメられるのです。{wait:00}",
-  "en": "Attacking moves.{wait:00}{se:25}Playing a three is called \"hiku\" (drawing).{wait:00}{se:26}Playing a four is called{wait:00}{se:30}\"nobiru\" (extending).{wait:00}{se:35}Playing a split three or a split four is called{wait:00}{se:36}\"tobu\" (jumping).{wait:00}{se:27}A move that sets up a four-three win next is called{wait:00}{se:28}\"miseru\" (showing).{wait:00}{se:29}A move that sets up a four-chase win next is called{wait:00}{se:2A}\"fukumu\" (hiding). A four-chase win goes{wait:00}{se:2B}like this:{wait:00}{se:31}four,{wait:00}{se:32}four, four,{wait:00}{se:2C}and so on,{wait:00}{se:2D}until fours in a row end in a four-three win.{wait:00}{se:2E}White's move that forces Black into a foul is called \"hameru\" (trapping).{wait:00}{se:2F}White has trapped Black into a double-three foul.{wait:00}{se:34}This is how Black gets trapped while trying to stop White's five.{wait:00}",
+  "en": "Attacking moves.{wait:00}{se:25}Playing a three is called \"hiku\" (drawing).{wait:00}{se:26}Playing a four is called{wait:00}{se:30}\"nobiru\" (extending).{wait:00}{se:35}Playing a split three or a split four is called{wait:00}{se:36}\"tobu\" (jumping).{wait:00}{se:27}A move that sets up a four-three win next is called{wait:00}{se:28}\"miseru\" (showing).{wait:00}{se:29}A move that sets up a four-chase win next is called{wait:00}{se:2A}\"fukumu\" (containing). A four-chase win goes{wait:00}{se:2B}like this:{wait:00}{se:31}four,{wait:00}{se:32}four, four,{wait:00}{se:2C}and so on,{wait:00}{se:2D}until fours in a row end in a four-three win.{wait:00}{se:2E}White's move that forces Black into a foul is called \"hameru\" (trapping).{wait:00}{se:2F}White has trapped Black into a double-three foul.{wait:00}{se:34}This is how Black gets trapped while trying to stop White's five.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -193,7 +193,7 @@
   "off": "19BE5",
   "jp": "ウソの四三・三々",
   "full": "ウソの四三・三々",
-  "en": "False 4-3 and 3-3",
+  "en": "False 4-3/Double-Three",
   "vi": "",
   "kind": "text"
  },

@@ -247,7 +247,7 @@
   "off": "189C3",
   "jp": "黒から",
   "full": "黒から",
-  "en": "Black starts",
+  "en": "Black to play",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "189CB",
   "jp": "白から",
   "full": "白から",
-  "en": "White starts",
+  "en": "White to play",
   "vi": "",
   "kind": "text"
  },

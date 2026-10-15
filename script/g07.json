@@ -103,7 +103,7 @@
   "off": "18E15",
   "jp": "き{sp:01}画{nl}{sp:05}ふじさく中の",
   "full": "き{sp:01}画{nl}{sp:05}ふじさく中の",
-  "en": "Planning{nl}{sp:05}Fujisaku Nakano",
+  "en": "Planning{nl}{sp:05}Nakano (Fujisaku)",
   "vi": "",
   "kind": "text"
  },
@@ -112,7 +112,7 @@
   "off": "18E2D",
   "jp": "グラフィック{nl}{sp:05}ふじさく中の",
   "full": "グラフィック{nl}{sp:05}ふじさく中の",
-  "en": "Graphics{nl}{sp:05}Fujisaku Nakano",
+  "en": "Graphics{nl}{sp:05}Nakano (Fujisaku)",
   "vi": "",
   "kind": "text"
  },
@@ -121,7 +121,7 @@
   "off": "18E4B",
   "jp": "グラフィック{nl}{sp:05}いちかわ中の",
   "full": "グラフィック{nl}{sp:05}いちかわ中の",
-  "en": "Graphics{nl}{sp:05}Ichikawa Nakano",
+  "en": "Graphics{nl}{sp:05}Nakano (Ichikawa)",
   "vi": "",
   "kind": "text"
  },
@@ -148,7 +148,7 @@
   "off": "18EA3",
   "jp": "せい作きょう力{nl}{sp:05}G・BABA",
   "full": "せい作きょう力{nl}{sp:05}G・BABA",
-  "en": "Production Help{nl}{sp:05}G. BABA",
+  "en": "Production Support{nl}{sp:05}G. BABA",
   "vi": "",
   "kind": "text"
  },
@@ -157,7 +157,7 @@
   "off": "18EC3",
   "jp": "せい作きょう力{nl}{sp:05}G・BABA",
   "full": "せい作きょう力{nl}{sp:05}G・BABA",
-  "en": "Production Help{nl}{sp:05}G. BABA",
+  "en": "Production Support{nl}{sp:05}G. BABA",
   "vi": "",
   "kind": "text"
  },
@@ -175,7 +175,7 @@
   "off": "18EE7",
   "jp": "トブに妙あり",
   "full": "トブに妙あり",
-  "en": "Magic lies in jumping.",
+  "en": "There is finesse in jumping.",
   "vi": "",
   "kind": "text"
  },
@@ -184,7 +184,7 @@
   "off": "18EF5",
   "jp": "ヒイたほうへ止めよ",
   "full": "ヒイたほうへ止めよ",
-  "en": "Block on the side it was drawn toward.",
+  "en": "Block on the side the three was drawn toward.",
   "vi": "",
   "kind": "text"
  },
@@ -193,7 +193,7 @@
   "off": "18F09",
   "jp": "ヒクに妙なく{nl}ヤスムに妙あり",
   "full": "ヒクに妙なく{nl}ヤスムに妙あり",
-  "en": "No magic in drawing,{nl}but magic in resting.",
+  "en": "No finesse in drawing,{nl}but finesse in resting.",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "18FD1",
   "jp": "同じいろの石が{nl}五つ連続でならぶ{nl}ことをいいます。{wait:00}{se:01}先に五連のできた方が{nl}勝ちとなります。{wait:00}白は五連以上並ぶと{nl}勝ちで、{wait:00}黒は五連のみで{nl}勝ちです。{wait:00}",
   "full": "同じいろの石が{nl}五つ連続でならぶ{nl}ことをいいます。{wait:00}{se:01}先に五連のできた方が{nl}勝ちとなります。{wait:00}白は五連以上並ぶと{nl}勝ちで、{wait:00}黒は五連のみで{nl}勝ちです。{wait:00}",
-  "en": "Five stones of the same color in an unbroken row.{wait:00}{se:01}Whoever makes a five first wins the game.{wait:00}White also wins with five or more in a row,{wait:00}but Black wins only with exactly five.{wait:00}",
+  "en": "Five stones of the same color in an unbroken row.{wait:00}{se:01}Whoever makes a five first wins the game.{wait:00}White wins with five or more in a row,{wait:00}but Black wins only with exactly five.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -274,7 +274,7 @@
   "off": "19101",
   "jp": "石が三つ並ぶことを{nl}いいます。{wait:00}次の手で四連に{nl}することができます。{wait:00}{se:10}つまり四連から一つ{nl}石をとったものを{nl}三というのです。{wait:00}{se:11}三には、次の防ぎ手が{nl}あります。{wait:00}{se:12}黒石、白石ともに{nl}片方を防がれると{wait:00}{se:13}次の手で四を{nl}つくっても{wait:00}{se:14}このように{nl}防がれてしまいます。{wait:00}三は四連から、{nl}一つ石をとったもの{nl}ですが、{wait:00}三を連続して打っても{nl}防がれてしまえば{wait:00}勝ちになることは{nl}ないのです。{wait:00}三は弱い追い手に{nl}あたります。{wait:00}",
   "full": "石が三つ並ぶことを{nl}いいます。{wait:00}次の手で四連に{nl}することができます。{wait:00}{se:10}つまり四連から一つ{nl}石をとったものを{nl}三というのです。{wait:00}{se:11}三には、次の防ぎ手が{nl}あります。{wait:00}{se:12}黒石、白石ともに{nl}片方を防がれると{wait:00}{se:13}次の手で四を{nl}つくっても{wait:00}{se:14}このように{nl}防がれてしまいます。{wait:00}三は四連から、{nl}一つ石をとったもの{nl}ですが、{wait:00}三を連続して打っても{nl}防がれてしまえば{wait:00}勝ちになることは{nl}ないのです。{wait:00}三は弱い追い手に{nl}あたります。{wait:00}",
-  "en": "Three stones in a row.{wait:00}With the next move it can become a straight four.{wait:00}{se:10}In other words, a three is a straight four with one stone taken away.{wait:00}{se:11}A three can be defended like this.{wait:00}{se:12}For Black and White alike, once one end is blocked,{wait:00}{se:13}even making a four with the next move{wait:00}{se:14}gets blocked like this.{wait:00}A three is a straight four minus one stone,{wait:00}but playing threes one after another{wait:00}never wins the game if they get blocked.{wait:00}A three is a weak attack.{wait:00}",
+  "en": "Three stones in a row.{wait:00}With the next move it can become a straight four.{wait:00}{se:10}In other words, a three is a straight four with one stone taken away.{wait:00}{se:11}A three can be defended like this.{wait:00}{se:12}For Black and White alike, once one end is blocked,{wait:00}{se:13}even if a four is made with the next move,{wait:00}{se:14}it gets blocked like this.{wait:00}A three is a straight four minus one stone,{wait:00}but playing threes one after another{wait:00}never wins the game if they get blocked.{wait:00}A three is a weak attack.{wait:00}",
   "vi": "",
   "kind": "text"
  },

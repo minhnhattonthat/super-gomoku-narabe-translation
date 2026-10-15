@@ -22,7 +22,7 @@
   "off": "189F9",
   "jp": "白勝ち",
   "full": "白勝ち",
-  "en": "White wins",
+  "en": "White to win",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "18A01",
   "jp": "黒勝ち",
   "full": "黒勝ち",
-  "en": "Black wins",
+  "en": "Black to win",
   "vi": "",
   "kind": "text"
  },
@@ -94,7 +94,7 @@
   "off": "18A3D",
   "jp": "問題クリア",
   "full": "問題クリア",
-  "en": "Problem Clear!",
+  "en": "Solved!",
   "vi": "",
   "kind": "text"
  },
@@ -220,7 +220,7 @@
   "off": "18AD5",
   "jp": "ふつう{sp:01}四{sp:01}と{nl}いっています{nl}これは四連ですが{se:04}{wait:00}これはただの四です{se:05}{wait:00}間があいたり{nl}片端に他の石が{nl}あったり{wait:00}盤の端についていたり{nl}するものは{nl}四連ではありません{wait:00}",
   "full": "ふつう{sp:01}四{sp:01}と{nl}いっています{nl}これは四連ですが{se:04}{wait:00}これはただの四です{se:05}{wait:00}間があいたり{nl}片端に他の石が{nl}あったり{wait:00}盤の端についていたり{nl}するものは{nl}四連ではありません{wait:00}",
-  "en": "People usually just call it a \"four.\" This one is a straight four,{se:04}{wait:00}but this one is just a four.{se:05}{wait:00}One with a gap in it, or with another stone at one end,{wait:00}or touching the edge of the board is not a straight four.{wait:00}",
+  "en": "People often just say \"four.\" This one is a straight four,{se:04}{wait:00}but this one is just a four.{se:05}{wait:00}One with a gap in it, or with another stone at one end,{wait:00}or touching the edge of the board is not a straight four.{wait:00}",
   "vi": "",
   "kind": "text"
  },

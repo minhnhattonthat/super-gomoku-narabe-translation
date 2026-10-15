@@ -67,7 +67,7 @@
   "off": "182E3",
   "jp": "{sp:01}勝",
   "full": "{sp:01}勝",
-  "en": "{sp:01}won",
+  "en": "{sp:01}wins",
   "vi": "",
   "kind": "text"
  },
@@ -139,7 +139,7 @@
   "off": "18347",
   "jp": "碁石をどう{ph:02}か",
   "full": "碁石をどうしますか",
-  "en": "What about the stones?",
+  "en": "What to do with the stones?",
   "vi": "",
   "kind": "text"
  },

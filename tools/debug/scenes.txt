@@ -40,6 +40,30 @@ base: tournament_bracket
 8 a
 600 -
 
+[puzzle_menu]
+desc: 詰め連珠 problem select: 問題を選んでください。 追い詰め / 二手勝ち / 四追勝ち / 実力認定, 問題01番, 決定
+base: mode_menu
+8 right
+60 -
+8 a
+600 -
+
+[puzzle_solving]
+desc: puzzle 追い詰め 問題01: 勝つまで打って下さい。 side panel 黒から / 打出し / 四三勝 / 問題01番
+base: puzzle_menu
+8 a
+60 -
+8 down
+60 -
+8 down
+60 -
+8 a
+60 -
+8 down
+60 -
+8 a
+700 -
+
 [free_settings]
 desc: free-match settings: 対戦者 VS COM, レベル, 1Pの先後手, 勝利数, 満了, 連珠盤, 決定 (g06_07..)
 base: match_menu

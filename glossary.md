@@ -43,7 +43,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 連珠辞典 | Renju Dictionary | | |
 | オプション | Options | | |
 | フリー対局 | Free Match | | |
-| 名人戦 | Master Tournament | | Meijin-sen |
+| 名人戦 | Master Cup | short enough for the bracket header | Master Tournament, Meijin-sen |
 | 一回戦 / 二回戦 / 決勝戦 | Round 1 / Round 2 / Final | | |
 | 珠型 | opening | the 26 renju openings | |
 | 直接型 / 間接型 | Direct / Indirect | opening families | |

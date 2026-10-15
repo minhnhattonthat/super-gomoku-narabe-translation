@@ -8,7 +8,7 @@ g00_03	{sp:01}Move {num:00}: {var:00} to play{to:9}
 g00_04	Hint:{nl}Watch the screen closely{nl}and mash the A Button!!{wait:00}
 g00_05	First
 g00_06	Second
-g00_07	{sp:01}won
+g00_07	{sp:01}wins
 g00_08	Turn the music off.
 g00_09	Turn the music on.
 g00_10	Turn sound effects off.
@@ -16,7 +16,7 @@ g00_11	Turn sound effects on.
 g00_12	Change the music?
 g00_13	Resign?
 g00_14	Go back.
-g00_15	What about the stones?
+g00_15	What to do with the stones?
 g00_16	Open the menu.
 g00_17	Take back one move.
 g00_18	Replay move by move.
@@ -117,18 +117,18 @@ g03_16	{sp:01}Cherry 2
 g03_17	{sp:01}Wood 4
 g03_18	{sp:01}Wood 5
 g03_19	Five
-g03_20	Double-four
-g03_21	Double-three
-g03_22	Overline
+g03_20	Double-Four Foul
+g03_21	Double-Three Foul
+g03_22	Overline Foul
 g03_23	Draw
 g03_24	Resign
 g03_25	Back
-g03_26	How should the sound be?
+g03_26	Sound settings?
 g03_27	Stereo{to:7}Mono
 g03_28	Music
-g03_29	Effects
+g03_29	Sound Effects
 g03_30	Start{to:5}A Button
-g03_31	How should the display be?
+g03_31	Display settings?
 g04_00	Text Speed
 g04_01	Fast{to:3}Normal{to:7}Slow
 g04_02	Normal
@@ -156,22 +156,22 @@ g04_23	=DATA
 g04_24	=DATA
 g04_25	=DATA
 g04_26	No.{sp:02}
-g04_27	Black starts
-g04_28	White starts
+g04_27	Black to play
+g04_28	White to play
 g04_29	Opening
 g04_30	In two moves
 g04_31	By fours
 g05_00	Four-three win
 g05_01	Chase-down win
-g05_02	White wins
-g05_03	Black wins
+g05_02	White to win
+g05_03	Black to win
 g05_04	in a row
 g05_05	=DATA
 g05_06	Chase-Down
 g05_07	Win in Two
 g05_08	Four-Chase
 g05_09	Rank Test
-g05_10	Problem Clear!
+g05_10	Solved!
 g05_11	Song: Sakura
 g05_12	Song: Life
 g05_13	Song: Journey
@@ -185,7 +185,7 @@ g05_20	Straight Four
 g05_21	Split Four
 g05_22	Problem
 g05_23	Keep playing until you win.
-g05_24	People usually just call it a "four." This one is a straight four,{se:04}{wait:00}but this one is just a four.{se:05}{wait:00}One with a gap in it, or with another stone at one end,{wait:00}or touching the edge of the board is not a straight four.{wait:00}
+g05_24	People often just say "four." This one is a straight four,{se:04}{wait:00}but this one is just a four.{se:05}{wait:00}One with a gap in it, or with another stone at one end,{wait:00}or touching the edge of the board is not a straight four.{wait:00}
 g05_25	A four with a gap inside it is called a split four.{wait:00}
 g05_26	VS
 g05_27	Round 1
@@ -236,36 +236,36 @@ g07_07	Hints are not available{nl}in the Master Cup.{nl}Good luck!{wait:00}
 g07_08	{sp:05}Renju{nl}{sp:05}Staff
 g07_09	Supervisor{nl}{sp:05}Goro Sakata
 g07_10	Production Support{nl}{sp:05}Hiroshi Matsuura
-g07_11	Planning{nl}{sp:05}Fujisaku Nakano
-g07_12	Graphics{nl}{sp:05}Fujisaku Nakano
-g07_13	Graphics{nl}{sp:05}Ichikawa Nakano
+g07_11	Planning{nl}{sp:05}Nakano (Fujisaku)
+g07_12	Graphics{nl}{sp:05}Nakano (Fujisaku)
+g07_13	Graphics{nl}{sp:05}Nakano (Ichikawa)
 g07_14	Test Play{nl}{sp:05}What an ordeal!
 g07_15	Sound{nl}{sp:05}Togo ????
-g07_16	Production Help{nl}{sp:05}G. BABA
-g07_17	Production Help{nl}{sp:05}G. BABA
+g07_16	Production Support{nl}{sp:05}G. BABA
+g07_17	Production Support{nl}{sp:05}G. BABA
 g07_18	=DATA
-g07_19	Magic lies in jumping.
-g07_20	Block on the side it was drawn toward.
-g07_21	No magic in drawing,{nl}but magic in resting.
+g07_19	There is finesse in jumping.
+g07_20	Block on the side the three was drawn toward.
+g07_21	No finesse in drawing,{nl}but finesse in resting.
 g07_22	Defend with a knight's move.
 g07_23	Your enemy's key point{nl}is your key point.
 g07_24	Don't block the stone,{nl}block the line.
 g07_25	{sp:01}Fuji 1
 g07_26	{sp:01}Fuji 2
 g07_27	The board has 15 lines running across and 15 running down.{wait:00}The black dot in the center is called "tengen."{wait:00}
-g07_28	Five stones of the same color in an unbroken row.{wait:00}{se:01}Whoever makes a five first wins the game.{wait:00}White also wins with five or more in a row,{wait:00}but Black wins only with exactly five.{wait:00}
+g07_28	Five stones of the same color in an unbroken row.{wait:00}{se:01}Whoever makes a five first wins the game.{wait:00}White wins with five or more in a row,{wait:00}but Black wins only with exactly five.{wait:00}
 g07_29	Sometimes six stones end up in a row at once.{wait:00}{se:0F}This is called an "overline."{wait:00}An overline still wins for White,{wait:00}but for Black it is a forbidden move, so Black loses.{wait:00}
-g07_30	Three stones in a row.{wait:00}With the next move it can become a straight four.{wait:00}{se:10}In other words, a three is a straight four with one stone taken away.{wait:00}{se:11}A three can be defended like this.{wait:00}{se:12}For Black and White alike, once one end is blocked,{wait:00}{se:13}even making a four with the next move{wait:00}{se:14}gets blocked like this.{wait:00}A three is a straight four minus one stone,{wait:00}but playing threes one after another{wait:00}never wins the game if they get blocked.{wait:00}A three is a weak attack.{wait:00}
+g07_30	Three stones in a row.{wait:00}With the next move it can become a straight four.{wait:00}{se:10}In other words, a three is a straight four with one stone taken away.{wait:00}{se:11}A three can be defended like this.{wait:00}{se:12}For Black and White alike, once one end is blocked,{wait:00}{se:13}even if a four is made with the next move,{wait:00}{se:14}it gets blocked like this.{wait:00}A three is a straight four minus one stone,{wait:00}but playing threes one after another{wait:00}never wins the game if they get blocked.{wait:00}A three is a weak attack.{wait:00}
 g07_31	A three with a gap in it.{wait:00}If you put a stone in the gap,{wait:00}{se:16}it becomes a straight four.{wait:00}{se:17}But if it is blocked like this, it cannot become a straight four.{wait:00}
 g08_00	Four stones in a row.{wait:00}{se:18}When one end is blocked, as with Black, and it cannot win,{wait:00}it is called a "four."{wait:00}When both ends are open, as with White,{wait:00}so that even with one end blocked the next move is as good as a win,{wait:00}{se:19}it is called a "straight four." A four is a strong attack.{wait:00}
 g08_01	A four with a gap in it.{wait:00}{se:1A}Put a stone in the gap and it becomes a five.{wait:00}
 g08_02	Making a four and a three with a single move.{wait:00}{se:1B}Placing a stone like this makes a four and a three at once, which leads to a win.{wait:00}{se:1C}Even if the four of the four-three is blocked,{wait:00}{se:1D}the next move makes a straight four.{wait:00}The four-three is one way to win at renju.{wait:00}
-g08_03	A four-three in which the three became a four.{wait:00}One move makes two fours.{wait:00}{se:1E}White may play a double-four,{wait:00}but for Black it is a forbidden move and Black loses.{wait:00}With straight fours or plain fours, if Black makes a double-four, Black loses.{wait:00}
+g08_03	A four-three in which the three became a four.{wait:00}One move makes two fours.{wait:00}{se:1E}White may play a double-four,{wait:00}but for Black it is a forbidden move and Black loses.{wait:00}Straight fours or plain fours, if Black makes two fours at once, Black loses.{wait:00}
 g08_04	Making two or more threes at once with a single move.{wait:00}{se:1F}White may make a double-three,{wait:00}but for Black it is a forbidden move and Black loses.{wait:00}
-g08_05	A three that cannot become a straight four on the next move.{wait:00}{se:20}Even with a stone added, one end is closed,{wait:00}{se:21}so it cannot become a straight four, or it would make an overline and lose by a foul.{wait:00}{se:22}Such a three is not a real three.{wait:00}
-g08_06	A four-three or double-three that includes a false three.{wait:00}This double-three is not a forbidden move.{wait:00}{se:23}It happens when stones are placed like this.{wait:00}At a glance it looks like a four-three-three or a double-three,{wait:00}but it is blocked, or it lies on an overline.{wait:00}
+g08_05	A three that cannot become a straight four on the next move.{wait:00}{se:20}Threes where, even with a stone added, one end is closed{wait:00}{se:21}so no straight four forms, or where the four would be an overline and lose by a foul,{wait:00}{se:22}are not real threes.{wait:00}
+g08_06	A four-three or double-three that includes a false three.{wait:00}Such a double-three is not a forbidden move.{wait:00}{se:23}It happens when stones are placed like this.{wait:00}At a glance it looks like a four-three-three or a double-three,{wait:00}but one of the threes is blocked, or lies on an overline.{wait:00}
 g08_07	The moves Black must not play.{wait:00}Double-threes, double-fours and overlines made with one move.{wait:00}{se:24}Black loses whether Black plays one or is forced into one.{wait:00}The rule was added to balance Black's first-move advantage.{wait:00}White can also win by trapping Black into a forbidden move.{wait:00}
-g08_08	Attacking moves.{wait:00}{se:25}Playing a three is called "hiku" (drawing).{wait:00}{se:26}Playing a four is called{wait:00}{se:30}"nobiru" (extending).{wait:00}{se:35}Playing a split three or a split four is called{wait:00}{se:36}"tobu" (jumping).{wait:00}{se:27}A move that sets up a four-three win next is called{wait:00}{se:28}"miseru" (showing).{wait:00}{se:29}A move that sets up a four-chase win next is called{wait:00}{se:2A}"fukumu" (hiding). A four-chase win goes{wait:00}{se:2B}like this:{wait:00}{se:31}four,{wait:00}{se:32}four, four,{wait:00}{se:2C}and so on,{wait:00}{se:2D}until fours in a row end in a four-three win.{wait:00}{se:2E}White's move that forces Black into a foul is called "hameru" (trapping).{wait:00}{se:2F}White has trapped Black into a double-three foul.{wait:00}{se:34}This is how Black gets trapped while trying to stop White's five.{wait:00}
+g08_08	Attacking moves.{wait:00}{se:25}Playing a three is called "hiku" (drawing).{wait:00}{se:26}Playing a four is called{wait:00}{se:30}"nobiru" (extending).{wait:00}{se:35}Playing a split three or a split four is called{wait:00}{se:36}"tobu" (jumping).{wait:00}{se:27}A move that sets up a four-three win next is called{wait:00}{se:28}"miseru" (showing).{wait:00}{se:29}A move that sets up a four-chase win next is called{wait:00}{se:2A}"fukumu" (containing). A four-chase win goes{wait:00}{se:2B}like this:{wait:00}{se:31}four,{wait:00}{se:32}four, four,{wait:00}{se:2C}and so on,{wait:00}{se:2D}until fours in a row end in a four-three win.{wait:00}{se:2E}White's move that forces Black into a foul is called "hameru" (trapping).{wait:00}{se:2F}White has trapped Black into a double-three foul.{wait:00}{se:34}This is how Black gets trapped while trying to stop White's five.{wait:00}
 g08_09	Blocking both ends of a three,{wait:00}{se:33}each from one space away.{wait:00}
 g08_10	Board
 g08_11	Five
@@ -278,7 +278,7 @@ g08_17	Four-Three
 g08_18	Double-Four
 g08_19	Double-Three
 g08_20	False Three
-g08_21	False 4-3 and 3-3
+g08_21	False 4-3/Double-Three
 g08_22	Forbidden Moves
 g08_23	Attacks
 g08_24	Natsudome
@@ -370,7 +370,7 @@ g12_03	Go back.
 g12_04	Player
 g12_05	Direct
 g12_06	Indirect
-g12_07	What will you do?
+g12_07	What would you like to do?
 g12_08	Speed
 g12_09	=JP
 g12_10	Button
