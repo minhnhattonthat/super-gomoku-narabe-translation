@@ -5,7 +5,10 @@ CRC32 5621000D, MD5 e4fbac9e377b5b08e7b88084766b1c03, SHA-1 8d8387305b6d65d4e1fa
 No earlier fan translation found (web search 2026-10-15).
 
 - [text.md](text.md) - both text systems, control codes, pointer/bank sites
-- [graphics.md](graphics.md) - graphics-text survey (to do)
+- [hooks.md](hooks.md) - engine patch hook list and gotchas
+- [screens.md](screens.md) - debug-tool scenes, text ids per screen, text areas, RAM map
+- [graphics.md](graphics.md) - graphics-text survey; done in tools/gfxpatch.py: panel icons (step / rewind / flag),
+  options card (gear), both certificates (English text, maps at 0x30002 + k*0x800), title (SUPER / GOMOKU)
 
 ## Free space
 ROM is nearly full (largest 0x00 run: 0x26802, 0x584 bytes). Plan: expand to 1 MB (banks $90-$9F = file 0x80000+).
