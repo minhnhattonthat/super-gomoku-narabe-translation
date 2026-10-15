@@ -4,7 +4,7 @@
   "off": "186EB",
   "jp": "長星",
   "full": "長星",
-  "en": "Chosei",
+  "en": "Chosei{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -13,7 +13,7 @@
   "off": "186F1",
   "jp": "峡月",
   "full": "峡月",
-  "en": "Kyogetsu",
+  "en": "Kyogetsu{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -22,7 +22,7 @@
   "off": "186F7",
   "jp": "恒星",
   "full": "恒星",
-  "en": "Kosei",
+  "en": "Kosei{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "186FD",
   "jp": "水月",
   "full": "水月",
-  "en": "Suigetsu",
+  "en": "Suigetsu{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -40,7 +40,7 @@
   "off": "18703",
   "jp": "流星",
   "full": "流星",
-  "en": "Ryusei",
+  "en": "Ryusei{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -49,7 +49,7 @@
   "off": "18709",
   "jp": "雲月",
   "full": "雲月",
-  "en": "Ungetsu",
+  "en": "Ungetsu{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -58,7 +58,7 @@
   "off": "1870F",
   "jp": "浦月",
   "full": "浦月",
-  "en": "Hogetsu",
+  "en": "Hogetsu{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -67,7 +67,7 @@
   "off": "18715",
   "jp": "嵐月",
   "full": "嵐月",
-  "en": "Rangetsu",
+  "en": "Rangetsu{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -76,7 +76,7 @@
   "off": "1871B",
   "jp": "銀月",
   "full": "銀月",
-  "en": "Gingetsu",
+  "en": "Gingetsu{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -85,7 +85,7 @@
   "off": "18721",
   "jp": "明星",
   "full": "明星",
-  "en": "Myojo",
+  "en": "Myojo{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -94,7 +94,7 @@
   "off": "18727",
   "jp": "斜月",
   "full": "斜月",
-  "en": "Shagetsu",
+  "en": "Shagetsu{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -103,7 +103,7 @@
   "off": "1872D",
   "jp": "名月",
   "full": "名月",
-  "en": "Meigetsu",
+  "en": "Meigetsu{to:4}",
   "vi": "",
   "kind": "text"
  },

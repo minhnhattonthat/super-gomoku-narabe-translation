@@ -11,7 +11,8 @@ Anything else decodes as [XXXX] and encodes back unchanged, so decode -> encode 
 import re
 from pathlib import Path
 
-CTRL = {0x80: "end", 0x81: "ph", 0x82: "nl", 0x84: "var", 0x85: "num", 0x86: "wait", 0x87: "sp", 0x88: "se"}
+CTRL = {0x80: "end", 0x81: "ph", 0x82: "nl", 0x84: "var", 0x85: "num", 0x86: "wait", 0x87: "sp", 0x88: "se",
+        0x89: "move", 0x8A: "turn"}  # 89/8A: added by asm/main.asm (move number, Black/White to play)
 CTRL_ENC = {v: k for k, v in CTRL.items()}
 TOKEN = re.compile(r"\{(\w+)(?::([0-9A-Fa-f]{2}))?\}|\[([0-9A-Fa-f]{4})\]")
 

@@ -166,7 +166,7 @@
   "off": "184E1",
   "jp": "名{sp:01}人{sp:01}戦",
   "full": "名{sp:01}人{sp:01}戦",
-  "en": "{center:48}Master Tournament{to:7}",
+  "en": "{center:48}Master Cup{to:7}",
   "vi": "",
   "kind": "text"
  },
@@ -229,7 +229,7 @@
   "off": "1852D",
   "jp": "{ph:05}型",
   "full": "直接型",
-  "en": "Direct",
+  "en": "Direct{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -238,7 +238,7 @@
   "off": "18533",
   "jp": "{ph:06}型",
   "full": "間接型",
-  "en": "Indirect",
+  "en": "Indirect{to:4}",
   "vi": "",
   "kind": "text"
  },
@@ -247,7 +247,7 @@
   "off": "18539",
   "jp": "COMまかせ",
   "full": "COMまかせ",
-  "en": "Let COM pick",
+  "en": "Let COM pick{to:4}",
   "vi": "",
   "kind": "text"
  },

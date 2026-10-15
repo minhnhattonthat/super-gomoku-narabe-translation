@@ -64,8 +64,10 @@ def lines(text, lang, var_w=0, ph=None):
                     vx = int(arg) * CELL
             elif name == "num":
                 vx += 2 * char_w("0", lang)
-            elif name == "var":
+            elif name in ("var", "turn"):
                 vx += var_w
+            elif name == "move":
+                vx += 3 * char_w("0", lang)
             elif name == "ph" and ph:
                 vx += sum(char_w(c, lang) for c in ph.get(int(arg, 16), ""))
             continue

@@ -22,6 +22,24 @@ base: mode_menu
 8 a
 300 -
 
+[tournament_bracket]
+desc: 名人戦 bracket, round 1 (一回戦): 1P vs opponent, names のりひさ.. めいじん (g05_27, g01_xx)
+base: match_menu
+8 up
+60 -
+8 a
+500 -
+
+[tournament_game]
+desc: 名人戦 round-1 game in play (opening 直接1号 寒星), 5手目 黒番, 1P's turn
+base: tournament_bracket
+8 a
+450 -
+8 a
+200 -
+8 a
+600 -
+
 [free_settings]
 desc: free-match settings: 対戦者 VS COM, レベル, 1Pの先後手, 勝利数, 満了, 連珠盤, 決定 (g06_07..)
 base: match_menu

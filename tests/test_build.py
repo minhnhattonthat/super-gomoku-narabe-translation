@@ -25,10 +25,10 @@ def test_en_build(tmp, marker):
     rom = open(out, "rb").read()
     orig = open(ORIG, "rb").read()
     assert len(rom) == build.SIZE
-    # nothing changed outside the header size byte and 8 bytes after each hook `org` in the original banks
+    # nothing changed outside the header size byte and 24 bytes after each hook `org` in the original banks
     import re
     orgs = [int(m, 16) for m in re.findall(r"^org \$([0-9A-F]{6})", open(os.path.join(ROOT, "asm", "main.asm")).read(), re.M)]
-    allowed = [(0x7FD7, 0x7FD8)] + [(build.textblock.lorom(a), build.textblock.lorom(a) + 8) for a in orgs if a < 0x900000]
+    allowed = [(0x7FD7, 0x7FD8)] + [(build.textblock.lorom(a), build.textblock.lorom(a) + 24) for a in orgs if a < 0x900000]
     for i in range(len(orig)):
         if rom[i] != orig[i]:
             assert any(a <= i < b for a, b in allowed), "unexpected change at %05X" % i

@@ -22,7 +22,7 @@
   "off": "1828B",
   "jp": "{sp:04}手目{sp:02}番",
   "full": "{sp:04}手目{sp:02}番",
-  "en": "{sp:04}moves,{sp:02}to play",
+  "en": "{sp:01}Move {move}: {turn} to play{to:9}",
   "vi": "",
   "kind": "text"
  },

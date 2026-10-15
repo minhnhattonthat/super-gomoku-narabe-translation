@@ -16,6 +16,12 @@ in $1532-$19FF on title, menus, match, dictionary, puzzle routes: tools/lua/wram
 | $81:A3B5 | STZ $91 / STZ $94 | instant draw end: cache valid |
 | $80:A0BA | LDX #0 / LDA #0 | text buffer clear: cache invalid |
 
+| $81:A55F | control dispatch | `JML ctrl_hook`: new codes $89 {move} (move no. = $0110+1) and $8A {turn} (group 13 string by $010F bit 0); {var}/{num}/{move}/{turn} draws are never cached |
+| $80:943D | per-move caption: digits + 黒/白 single glyphs | redraw g00_02 at pos 0 instead |
+| $80:9FA5, $80:9637 | first caption / caption after opening: colour + digit glyphs | skipped |
+| $81:B1E6, $80:A242 | single glyph 手 (move limit), 番 (puzzle no.) | code $27F, width 0 |
+| draw_fresh | single-glyph draws ($81:A83D) | digits drawn in adjacent cells are joined (no 16 px gaps) |
+
 Gotchas found:
 - Never change DB in code that can run while the game's IRQ is armed: its handler writes PPU registers with
   absolute addressing, so DB=$7E sent them to WRAM (lower half of the game screen went green).

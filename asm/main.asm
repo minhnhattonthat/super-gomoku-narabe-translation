@@ -30,7 +30,10 @@ lorom
 !SB = $7E191C             ; SHTAB offset for the current shift
 !P = $7E191E               ; source row word
 !GBUF = $7E1940            ; the glyph being drawn, 16 rows x 2 bytes
-!CW = $7E1928              ; clear_partial: pixels left to blank
+!CW = $7E1928              ; scratch (clear_partial: pixels left to blank)
+!DIGF = $7E192A            ; draw_fresh: drawing a digit
+!DIGNEXT = $7E192C         ; draw_fresh: $7C at which the next digit joins this one
+!NOCACHE = $7E192E         ; the running instant draw has dynamic content
 
 ; ---------------------------------------------------------------- text bank
 org $81A756 : lda.l !TEXT+$1A,x      ; {var}: group 13
@@ -58,6 +61,25 @@ org $81A86D                          ; single glyph at $12 (A83D): JSR A4E2 / JS
     nop
 org $81A5D9                          ; {num}: a blank tens digit takes no space (BEQ $A5EA)
     db $F0,$0F
+
+; Move caption: the game drew "{sp}手目{sp}番" and then the move number and 黒/白 as single glyphs at fixed cells.
+; The translation uses {move} ($89xx) and {turn} ($8Axx) inside the string instead; the glyph draws are skipped.
+org $81A55F                          ; control code dispatch: STA $0A / LDA $0B / AND #$000F ...
+    jml ctrl_hook
+org $80943D                          ; per-move caption digits + colour -> redraw the caption string (g00_02)
+    rep #$30
+    lda.w #$0000
+    sta $12
+    lda.w #$0002
+    sta $14
+    jsl $818032
+    jmp $9490
+org $809FA5                          ; first caption of a game: colour + "1" -> JSR $A371
+    jmp $9FC1
+org $809637                          ; caption after the opening (白 + "4") -> JSR $8954
+    jmp $964F
+org $80A242                          ; puzzle number: single glyph 番 after the digits -> $27F (width 0)
+    dw $027F
 
 org $81B1E6                          ; settings: single glyph 手 after the move limit -> $27F (width 0);
     dw $027F                         ; the translated value strings carry the unit
@@ -96,6 +118,7 @@ inst_hook:                           ; entered by JML from $81:A35A (caller did 
     sta.l !CID
     lda #$0000
     sta.l !CVALID
+    sta.l !NOCACHE
     inc
     sta.l !INST
     sep #$30                         ; = JSR $A3BE: clear the 9 line-dirty flags
@@ -114,10 +137,112 @@ inst_end:
     rep #$20
     lda #$0000
     sta.l !INST
-    inc
+    lda.l !NOCACHE
+    eor #$0001
     sta.l !CVALID
+    lda #$0000
+    sta.l !NOCACHE
     plp
     rtl
+
+; ---- extra control codes (entered by JML from $81:A55F with A = control word, REP #$30)
+ctrl_hook:
+    sta $0A
+    xba
+    and #$00FF
+    cmp #$0084                       ; {var} {num} {move} {turn}: the text changes, never cache this draw
+    beq +
+    cmp #$0085
+    beq +
+    cmp #$0089
+    beq +
+    cmp #$008A
+    bne ++
++   pha
+    lda #$0001
+    sta.l !NOCACHE
+    pla
+++  cmp #$0089
+    beq .move
+    cmp #$008A
+    beq .turn
+    lda $0B
+    jml $81A563
+.move:                               ; {move}: move number = $0110 + 1, no leading zeros
+    lda.l $7E0110
+    and #$00FF
+    inc
+    jsr put_number
+    bra .done
+.turn:                               ; {turn}: group 13 string 0 (Black) or 1 (White) by $010F bit 0
+    lda.l $7E010F
+    and #$0001
+    jsr put_g13
+.done:
+    inc $78
+    inc $78
+    jml $81A56B                      ; PLP / RTS of the string reader
+
+put_char:
+    sta $16
+    jsl vwf_draw
+    jsl vwf_adv
+    rts
+
+put_number:                          ; A = 0-999
+    ldy #$0000
+-   cmp #$0064
+    bcc +
+    sbc #$0064
+    iny
+    bra -
++   pha
+    tya
+    beq +
+    jsr put_char
+    lda #$0001
+    sta.l !CW                        ; printed a digit
+    bra ++
++   sta.l !CW
+++  pla
+    ldy #$0000
+-   cmp #$000A
+    bcc +
+    sbc #$000A
+    iny
+    bra -
++   pha
+    tya
+    bne +
+    lda.l !CW
+    beq ++
+    lda #$0000
++   jsr put_char
+++  pla
+    jmp put_char
+
+put_g13:
+    sta.l !CW
+    lda.l !TEXT+$1A
+    tax
+    lda.l !CW
+    beq +
+-   lda.l !TEXT&$FF0000,x
+    inx
+    inx
+    cmp #$8000
+    bne -
++
+-   lda.l !TEXT&$FF0000,x
+    cmp #$8000
+    beq +
+    phx
+    jsr put_char
+    plx
+    inx
+    inx
+    bra -
++   rts
 
 clr_hook:
     lda.w #$0000
@@ -135,16 +260,71 @@ invalidate:
 sel_hook:
     lda #$FFFF
     sta.l !V7C
+    sta.l !DIGNEXT
     lda $14
     and #$001F
     rtl
 
 draw_fresh:                          ; = JSR A4E2 ; JSR A3CD with a forced resync
-    php
+    php                              ; digits drawn one per cell (tens at cell n, ones at n+1) are joined
     rep #$30
+    lda #$0000
+    sta.l !DIGF
+    lda $16
+    cmp #$000A
+    bcs .fresh
+    inc
+    sta.l !DIGF
+    lda $7C
+    cmp.l !DIGNEXT
+    bne .fresh
+    sta.l !V7C                       ; continue right after the previous digit
+    bra .draw
+.fresh:
     lda #$FFFF
     sta.l !V7C
+.draw:
     jsl vwf_draw
+    lda #$FFFF
+    sta.l !DIGNEXT
+    lda.l !DIGF
+    beq .nodig
+    lda.l !VW
+    clc
+    adc.l !VX
+    sta.l !VX
+    lda $7C                          ; DIGNEXT = $7C of the next cell
+    and #$03FF
+    pha
+    and #$0200
+    lsr
+    lsr
+    lsr
+    lsr
+    lsr
+    lsr
+    sta.l !CW
+    pla
+    and #$00E0
+    lsr
+    lsr
+    lsr
+    lsr
+    lsr
+    clc
+    adc.l !CW
+    inc
+    jsr celloff
+    pha
+    lda $7C
+    and #$FC00
+    sta.l !CW
+    pla
+    ora.l !CW
+    sta.l !DIGNEXT
+.nodig:
+    lda #$0000
+    sta.l !VW
     sep #$30
     ldx #$00
 -   lda $0159,x

@@ -3,7 +3,7 @@
 # =DATA keeps the Japanese in every language (passwords compared with input).
 g00_00	You shouldn't fight a battle you can't win.
 g00_01	You shouldn't fight a battle you can't win.
-g00_02	{sp:04}moves,{sp:02}to play
+g00_02	{sp:01}Move {move}: {turn} to play{to:9}
 g00_03	{sp:01}Move {num:00}: {var:00} to play{to:9}
 g00_04	Hint:{nl}Watch the screen closely{nl}and mash the A Button!!{wait:00}
 g00_05	First
@@ -51,16 +51,16 @@ g01_14	{center:48}Renju Puzzles{to:7}
 g01_15	{center:48}Renju Dictionary{to:7}
 g01_16	{center:48}Options{to:7}
 g01_17	{center:48}Free Match{to:7}
-g01_18	{center:48}Master Tournament{to:7}
+g01_18	{center:48}Master Cup{to:7}
 g01_19	What would you like to set?
 g01_20	Sound
 g01_21	Display
 g01_22	What would you like to do?
 g01_23	Please choose an opening.
 g01_24	Which opening?
-g01_25	Direct
-g01_26	Indirect
-g01_27	Let COM pick
+g01_25	Direct{to:4}
+g01_26	Indirect{to:4}
+g01_27	Let COM pick{to:4}
 g01_28	Direct 1: Kansei
 g01_29	Direct 2: Keigetsu
 g01_30	Direct 3: Sosei
@@ -85,30 +85,30 @@ g02_16	Indirect 9: Gingetsu
 g02_17	Indirect 10: Myojo
 g02_18	Indirect 11: Shagetsu
 g02_19	Indirect 12: Meigetsu
-g02_20	Kansei
-g02_21	Keigetsu
-g02_22	Sosei
-g02_23	Kagetsu
-g02_24	Zangetsu
-g02_25	Ugetsu
-g02_26	Kinsei
-g02_27	Shogetsu
-g02_28	Kyugetsu
-g02_29	Shingetsu
-g02_30	Zuisei
-g02_31	Sangetsu
-g03_00	Chosei
-g03_01	Kyogetsu
-g03_02	Kosei
-g03_03	Suigetsu
-g03_04	Ryusei
-g03_05	Ungetsu
-g03_06	Hogetsu
-g03_07	Rangetsu
-g03_08	Gingetsu
-g03_09	Myojo
-g03_10	Shagetsu
-g03_11	Meigetsu
+g02_20	Kansei{to:4}
+g02_21	Keigetsu{to:4}
+g02_22	Sosei{to:4}
+g02_23	Kagetsu{to:4}
+g02_24	Zangetsu{to:4}
+g02_25	Ugetsu{to:4}
+g02_26	Kinsei{to:4}
+g02_27	Shogetsu{to:4}
+g02_28	Kyugetsu{to:4}
+g02_29	Shingetsu{to:4}
+g02_30	Zuisei{to:4}
+g02_31	Sangetsu{to:4}
+g03_00	Chosei{to:4}
+g03_01	Kyogetsu{to:4}
+g03_02	Kosei{to:4}
+g03_03	Suigetsu{to:4}
+g03_04	Ryusei{to:4}
+g03_05	Ungetsu{to:4}
+g03_06	Hogetsu{to:4}
+g03_07	Rangetsu{to:4}
+g03_08	Gingetsu{to:4}
+g03_09	Myojo{to:4}
+g03_10	Shagetsu{to:4}
+g03_11	Meigetsu{to:4}
 g03_12	{var:00} wins!
 g03_13	2P/COM
 g03_14	COM
@@ -196,7 +196,7 @@ g05_31	{sp:01}1P loses.
 g06_00	Game Over
 g06_01	Champion!
 g06_02	You have won the
-g06_03	Master Tournament!
+g06_03	Master Cup!
 g06_04	{sp:01}2P wins!
 g06_05	COM wins!
 g06_06	Continue?{nl}{to:4}Yes{to:8}No
@@ -232,7 +232,7 @@ g07_03	Is this your answer?
 g07_04	Correct!
 g07_05	Wrong.
 g07_06	Continue?
-g07_07	Hints are not available{nl}in the Master Tournament.{nl}Good luck!{wait:00}
+g07_07	Hints are not available{nl}in the Master Cup.{nl}Good luck!{wait:00}
 g07_08	{sp:05}Renju{nl}{sp:05}Staff
 g07_09	Supervisor{nl}{sp:05}Goro Sakata
 g07_10	Production Support{nl}{sp:05}Hiroshi Matsuura
