@@ -212,7 +212,7 @@
   "jp": "敵の急所は{nl}わが急所",
   "full": "敵の急所は{nl}わが急所",
   "en": "Your enemy's key point{nl}is your key point.",
-  "vi": "Điểm yếu của địch{nl}là điểm yếu của ta.",
+  "vi": "Điểm then chốt của địch{nl}là điểm then chốt của ta.",
   "kind": "text"
  },
  {
@@ -275,7 +275,7 @@
   "jp": "石が三つ並ぶことを{nl}いいます。{wait:00}次の手で四連に{nl}することができます。{wait:00}{se:10}つまり四連から一つ{nl}石をとったものを{nl}三というのです。{wait:00}{se:11}三には、次の防ぎ手が{nl}あります。{wait:00}{se:12}黒石、白石ともに{nl}片方を防がれると{wait:00}{se:13}次の手で四を{nl}つくっても{wait:00}{se:14}このように{nl}防がれてしまいます。{wait:00}三は四連から、{nl}一つ石をとったもの{nl}ですが、{wait:00}三を連続して打っても{nl}防がれてしまえば{wait:00}勝ちになることは{nl}ないのです。{wait:00}三は弱い追い手に{nl}あたります。{wait:00}",
   "full": "石が三つ並ぶことを{nl}いいます。{wait:00}次の手で四連に{nl}することができます。{wait:00}{se:10}つまり四連から一つ{nl}石をとったものを{nl}三というのです。{wait:00}{se:11}三には、次の防ぎ手が{nl}あります。{wait:00}{se:12}黒石、白石ともに{nl}片方を防がれると{wait:00}{se:13}次の手で四を{nl}つくっても{wait:00}{se:14}このように{nl}防がれてしまいます。{wait:00}三は四連から、{nl}一つ石をとったもの{nl}ですが、{wait:00}三を連続して打っても{nl}防がれてしまえば{wait:00}勝ちになることは{nl}ないのです。{wait:00}三は弱い追い手に{nl}あたります。{wait:00}",
   "en": "Three stones in a row.{wait:00}With the next move it can become a straight four.{wait:00}{se:10}In other words, a three is a straight four with one stone taken away.{wait:00}{se:11}A three can be defended like this.{wait:00}{se:12}For Black and White alike, once one end is blocked,{wait:00}{se:13}even if a four is made with the next move,{wait:00}{se:14}it gets blocked like this.{wait:00}A three is a straight four minus one stone,{wait:00}but playing threes one after another{wait:00}never wins the game if they get blocked.{wait:00}A three is a weak attack.{wait:00}",
-  "vi": "Ba quân nằm liền một hàng.{wait:00}Với nước tiếp theo có thể thành bốn mở.{wait:00}{se:10}Nói cách khác, ba là bốn mở bớt đi một quân.{wait:00}{se:11}Có thể chặn ba như thế này.{wait:00}{se:12}Cả Đen lẫn Trắng, khi một đầu đã bị chặn,{wait:00}{se:13}thì dù nước sau có tạo thành bốn,{wait:00}{se:14}cũng sẽ bị chặn như thế này.{wait:00}Ba là bốn mở bớt đi một quân,{wait:00}nhưng dù đánh ba liên tục,{wait:00}nếu bị chặn thì vẫn không bao giờ thắng.{wait:00}Ba là một nước tấn công yếu.{wait:00}",
+  "vi": "Ba quân nằm liền một hàng.{wait:00}Chỉ cần thêm một nước là thành bốn mở.{wait:00}{se:10}Nói cách khác, ba là bốn mở bớt đi một quân.{wait:00}{se:11}Có thể chặn ba như thế này.{wait:00}{se:12}Cả Đen lẫn Trắng, khi một đầu đã bị chặn,{wait:00}{se:13}thì dù nước sau có tạo thành bốn,{wait:00}{se:14}cũng sẽ bị chặn như thế này.{wait:00}Ba là bốn mở bớt đi một quân,{wait:00}nhưng dù đánh ba liên tục,{wait:00}nếu bị chặn thì vẫn không bao giờ thắng.{wait:00}Ba là một nước tấn công yếu.{wait:00}",
   "kind": "text"
  },
  {

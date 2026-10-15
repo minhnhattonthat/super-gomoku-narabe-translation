@@ -22,7 +22,7 @@ g00_18	Xem lại từng nước.
 g00_19	Khôi phục thế cờ.
 g00_20	Về nước đầu tiên.
 g00_21	Có{to:4}Không
-g00_22	Đây định là màn hình cài đặt.
+g00_22	Đây coi như là màn hình cài đặt.
 g00_23	Mặt 1P
 g00_24	Mặt 2P
 g00_25	Bàn cờ
@@ -115,7 +115,7 @@ g03_15	{sp:01}Gỗ 3{to:5}
 g03_16	{sp:01}Anh đào 2{to:5}
 g03_17	{sp:01}Gỗ 4{to:5}
 g03_18	{sp:01}Gỗ 5{to:5}
-g03_19	Năm
+g03_19	Hàng năm
 g03_20	Phạm luật bốn-bốn
 g03_21	Phạm luật ba-ba
 g03_22	Phạm luật quá năm
@@ -159,7 +159,7 @@ g04_27	Đen
 g04_28	Trắng
 g04_29	đi trước
 g04_30	2 nước
-g04_31	Bốn
+g04_31	bốn
 g05_00	bốn-ba
 g05_01	dồn đuổi
 g05_02	để thắng
@@ -178,7 +178,7 @@ g05_14	nhé.
 g05_15	Renju
 g05_16	Từ
 g05_17	Hãy chọn mục.
-g05_18	Năm
+g05_18	Hàng năm
 g05_19	Quá năm
 g05_20	Bốn mở
 g05_21	Bốn gãy
@@ -247,27 +247,27 @@ g07_19	Nước nhảy có cái hay.
 g07_20	Chặn về phía ba đã kéo tới.
 g07_21	Kéo không có cái hay,{nl}nghỉ mới có cái hay.
 g07_22	Phòng thủ bằng nước mã.
-g07_23	Điểm yếu của địch{nl}là điểm yếu của ta.
+g07_23	Điểm then chốt của địch{nl}là điểm then chốt của ta.
 g07_24	Đừng chặn quân,{nl}hãy chặn đường.
 g07_25	{sp:01}Phú Sĩ 1{to:5}
 g07_26	{sp:01}Phú Sĩ 2{to:5}
 g07_27	Bàn cờ có 15 đường ngang và 15 đường dọc.{wait:00}Điểm đen ở chính giữa gọi là "thiên nguyên".{wait:00}
 g07_28	Năm quân cùng màu nằm liền một hàng.{wait:00}{se:01}Ai tạo được hàng năm trước thì thắng.{wait:00}Trắng thắng khi có từ năm quân liền trở lên,{wait:00}còn Đen chỉ thắng khi có đúng năm quân.{wait:00}
 g07_29	Đôi khi sáu quân bỗng nằm liền một hàng.{wait:00}{se:0F}Đó gọi là "quá năm".{wait:00}Với Trắng, quá năm vẫn là thắng,{wait:00}nhưng với Đen đó là nước cấm, nên Đen thua.{wait:00}
-g07_30	Ba quân nằm liền một hàng.{wait:00}Với nước tiếp theo có thể thành bốn mở.{wait:00}{se:10}Nói cách khác, ba là bốn mở bớt đi một quân.{wait:00}{se:11}Có thể chặn ba như thế này.{wait:00}{se:12}Cả Đen lẫn Trắng, khi một đầu đã bị chặn,{wait:00}{se:13}thì dù nước sau có tạo thành bốn,{wait:00}{se:14}cũng sẽ bị chặn như thế này.{wait:00}Ba là bốn mở bớt đi một quân,{wait:00}nhưng dù đánh ba liên tục,{wait:00}nếu bị chặn thì vẫn không bao giờ thắng.{wait:00}Ba là một nước tấn công yếu.{wait:00}
+g07_30	Ba quân nằm liền một hàng.{wait:00}Chỉ cần thêm một nước là thành bốn mở.{wait:00}{se:10}Nói cách khác, ba là bốn mở bớt đi một quân.{wait:00}{se:11}Có thể chặn ba như thế này.{wait:00}{se:12}Cả Đen lẫn Trắng, khi một đầu đã bị chặn,{wait:00}{se:13}thì dù nước sau có tạo thành bốn,{wait:00}{se:14}cũng sẽ bị chặn như thế này.{wait:00}Ba là bốn mở bớt đi một quân,{wait:00}nhưng dù đánh ba liên tục,{wait:00}nếu bị chặn thì vẫn không bao giờ thắng.{wait:00}Ba là một nước tấn công yếu.{wait:00}
 g07_31	Ba có một khoảng trống.{wait:00}Nếu đặt quân vào khoảng trống,{wait:00}{se:16}nó sẽ thành bốn mở.{wait:00}{se:17}Nhưng nếu bị chặn như thế này thì không thành bốn mở được.{wait:00}
-g08_00	Bốn quân nằm liền một hàng.{wait:00}{se:18}Khi một đầu bị chặn như của Đen và không thể thắng,{wait:00}thì gọi là "bốn".{wait:00}Khi hai đầu đều trống như của Trắng,{wait:00}dù bị chặn một đầu thì nước sau vẫn coi như thắng,{wait:00}{se:19}thì gọi là "bốn mở". Bốn là một nước tấn công mạnh.{wait:00}
+g08_00	Bốn quân nằm liền một hàng.{wait:00}{se:18}Khi một đầu bị chặn như bên Đen và không thể thắng,{wait:00}thì gọi là "bốn".{wait:00}Khi hai đầu đều trống như bên Trắng,{wait:00}dù bị chặn một đầu thì nước sau vẫn coi như thắng,{wait:00}{se:19}thì gọi là "bốn mở". Bốn là một nước tấn công mạnh.{wait:00}
 g08_01	Bốn có một khoảng trống.{wait:00}{se:1A}Đặt quân vào khoảng trống sẽ thành hàng năm.{wait:00}
 g08_02	Tạo ra bốn và ba chỉ với một nước.{wait:00}{se:1B}Đặt quân như thế này sẽ có bốn và ba cùng lúc, dẫn tới chiến thắng.{wait:00}{se:1C}Dù chặn được bốn của bốn-ba,{wait:00}{se:1D}nước sau vẫn tạo được bốn mở.{wait:00}Bốn-ba là một cách để thắng trong renju.{wait:00}
 g08_03	Bốn-ba mà ba lại thành bốn.{wait:00}Một nước tạo ra hai bốn.{wait:00}{se:1E}Trắng được phép đánh bốn-bốn,{wait:00}nhưng với Đen đó là nước cấm và Đen thua.{wait:00}Dù là bốn mở hay bốn thường, hễ Đen tạo hai bốn cùng lúc là Đen thua.{wait:00}
 g08_04	Tạo ra hai ba trở lên cùng lúc chỉ với một nước.{wait:00}{se:1F}Trắng được phép tạo ba-ba,{wait:00}nhưng với Đen đó là nước cấm và Đen thua.{wait:00}
 g08_05	Ba không thể thành bốn mở ở nước tiếp theo.{wait:00}{se:20}Những ba mà dù thêm quân thì một đầu vẫn bị bít{wait:00}{se:21}nên không thành bốn mở, hoặc bốn sẽ thành quá năm và thua vì phạm luật,{wait:00}{se:22}thì không phải ba thật.{wait:00}
 g08_06	Bốn-ba hay ba-ba có chứa ba giả.{wait:00}Ba-ba như vậy không phải nước cấm.{wait:00}{se:23}Đó là khi đặt quân như thế này.{wait:00}Thoạt nhìn thì giống bốn-ba-ba hay ba-ba,{wait:00}nhưng một trong các ba đã bị chặn, hoặc nằm trên đường quá năm.{wait:00}
-g08_07	Những nước Đen không được đánh.{wait:00}Đó là ba-ba, bốn-bốn và quá năm tạo ra bởi một nước.{wait:00}{se:24}Đen thua dù tự đánh hay bị ép phải đánh.{wait:00}Luật này được thêm vào để cân bằng lợi thế đi trước của Đen.{wait:00}Trắng cũng có thể thắng bằng cách gài Đen vào nước cấm.{wait:00}
-g08_08	Các nước tấn công.{wait:00}{se:25}Đánh ba gọi là "hiku" (kéo).{wait:00}{se:26}Đánh bốn gọi là{wait:00}{se:30}"nobiru" (vươn).{wait:00}{se:35}Đánh ba gãy hay bốn gãy gọi là{wait:00}{se:36}"tobu" (nhảy).{wait:00}{se:27}Nước chuẩn bị thắng bằng bốn-ba ở nước sau gọi là{wait:00}{se:28}"miseru" (phô ra).{wait:00}{se:29}Nước chuẩn bị thắng bằng đuổi bốn ở nước sau gọi là{wait:00}{se:2A}"fukumu" (ngậm). Thắng bằng đuổi bốn là{wait:00}{se:2B}như thế này:{wait:00}{se:31}bốn,{wait:00}{se:32}bốn, bốn,{wait:00}{se:2C}cứ thế đánh tiếp,{wait:00}{se:2D}cho đến khi chuỗi bốn kết thúc bằng thắng bốn-ba.{wait:00}{se:2E}Nước của Trắng ép Đen phạm luật gọi là "hameru" (gài bẫy).{wait:00}{se:2F}Trắng đã gài Đen vào ba-ba phạm luật.{wait:00}{se:34}Đen bị gài như vậy khi đang cố chặn hàng năm của Trắng.{wait:00}
+g08_07	Những nước Đen không được đánh.{wait:00}Đó là ba-ba, bốn-bốn và quá năm tạo ra chỉ bằng một nước.{wait:00}{se:24}Đen thua dù tự đánh hay bị ép phải đánh.{wait:00}Luật này được thêm vào để cân bằng lợi thế đi trước của Đen.{wait:00}Trắng cũng có thể thắng bằng cách gài Đen vào nước cấm.{wait:00}
+g08_08	Các nước tấn công.{wait:00}{se:25}Đánh ba gọi là "hiku" (kéo).{wait:00}{se:26}Đánh bốn gọi là{wait:00}{se:30}"nobiru" (vươn).{wait:00}{se:35}Đánh ba gãy hay bốn gãy gọi là{wait:00}{se:36}"tobu" (nhảy).{wait:00}{se:27}Nước chuẩn bị thắng bằng bốn-ba ở nước sau gọi là{wait:00}{se:28}"miseru" (nhử).{wait:00}{se:29}Nước chuẩn bị thắng bằng đuổi bốn ở nước sau gọi là{wait:00}{se:2A}"fukumu" (ẩn chứa). Thắng bằng đuổi bốn là{wait:00}{se:2B}như thế này:{wait:00}{se:31}bốn,{wait:00}{se:32}bốn, bốn,{wait:00}{se:2C}cứ thế đánh tiếp,{wait:00}{se:2D}cho đến khi chuỗi bốn kết thúc bằng thắng bốn-ba.{wait:00}{se:2E}Nước của Trắng ép Đen phạm luật gọi là "hameru" (gài bẫy).{wait:00}{se:2F}Trắng đã gài Đen vào thế phạm luật ba-ba.{wait:00}{se:34}Đen bị gài như vậy khi đang cố chặn hàng năm của Trắng.{wait:00}
 g08_09	Chặn cả hai đầu của ba,{wait:00}{se:33}mỗi bên cách ra một ô.{wait:00}
 g08_10	Bàn cờ
-g08_11	Năm
+g08_11	Hàng năm
 g08_12	Quá năm
 g08_13	Ba
 g08_14	Ba gãy
