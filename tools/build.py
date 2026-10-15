@@ -10,7 +10,7 @@ import argparse, glob, json, os, re, shutil, subprocess, sys, tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from codec import Codec  # noqa: E402
-import textblock, textfit, vwffont  # noqa: E402
+import gfxpatch, textblock, textfit, vwffont  # noqa: E402
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 ASAR = os.path.join(ROOT, "tools", "asar", "asar.exe")
@@ -80,6 +80,7 @@ def build(lang, out, mark=False, rom_path=None, overrides=None):
     assert len(font) <= 0x4000 and len(widths) <= 0x1000
     rom[FONT_OFF:FONT_OFF + len(font)] = font
     rom[FONTW_OFF:FONTW_OFF + len(widths)] = widths
+    gfxpatch.apply(rom)
     for s in range(1, 9):  # SHTAB ($92:D000) for draw8
         for p in range(256):
             o = SHTAB_OFF + (s - 1) * 512 + p * 2
