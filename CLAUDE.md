@@ -27,4 +27,5 @@ SK = .claude/skills/translate-retro-game/scripts
 - Fixed-width fields: values/captions are padded ({to:N}, limits "pad") so a shorter text erases a longer one.
 
 ## Status
-- Done: engine (VWF, caption, cache), EN + VI scripts reviewed, graphics (icons, card, certificates, title). Next: final QA tour, release.
+- Done (2026-10-15): engine, EN + VI scripts reviewed, graphics, 78-scene tours clean on both, release/en + release/vi v1.0 zips built (local, not published).
+- Open: user playtest; credits reading of ふじさく中の / いちかわ中の unverified; debug menu (8-bit text, unreachable) left Japanese.
