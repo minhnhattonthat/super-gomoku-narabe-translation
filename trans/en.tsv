@@ -365,14 +365,14 @@ g11_08	=DATA
 g11_09	Please send this password{nl}{sp:02}to NAXAT{nl}{sp:02}by mail.
 g12_00	=DATA
 g12_01	A battle you can't win
-g12_02	=JP
+g12_02	=DATA
 g12_03	Go back.
 g12_04	Player
 g12_05	Direct
 g12_06	Indirect
 g12_07	What would you like to do?
 g12_08	Speed
-g12_09	=JP
+g12_09	=DATA
 g12_10	Button
 g12_11	Please choose.
 g12_12	=DATA

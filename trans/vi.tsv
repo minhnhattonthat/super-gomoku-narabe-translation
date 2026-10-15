@@ -364,14 +364,14 @@ g11_08	=DATA
 g11_09	Hãy gửi mật khẩu này{nl}{sp:02}qua đường bưu điện{nl}{sp:02}tới NAXAT.
 g12_00	=DATA
 g12_01	Trận không thể thắng
-g12_02	=JP
+g12_02	=DATA
 g12_03	Quay lại.
 g12_04	Người chơi
 g12_05	Trực tiếp
 g12_06	Gián tiếp
 g12_07	Bạn muốn làm gì?
 g12_08	Tốc độ
-g12_09	=JP
+g12_09	=DATA
 g12_10	Nút
 g12_11	Hãy chọn.
 g12_12	=DATA
