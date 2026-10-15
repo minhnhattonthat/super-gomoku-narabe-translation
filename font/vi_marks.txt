@@ -1,0 +1,24 @@
+# Vietnamese marks for tools/vwffont.py (composed onto the font/en.txt base letters at build time).
+# "=name" then the rows ('#' ink). Marks are centred on the base letter's ink; see vwffont.compose_vi for placement:
+# lowercase: base mark (breve, circumflex) on cell rows 2-3, tone on rows 2-3 alone or rows 0-1 above a base mark;
+# capitals: marks on rows 0-1, a tone after a base mark goes to its right.
+=breve
+#..#
+.##.
+=circumflex
+.#.
+#.#
+=acute
+..#
+.#.
+=grave
+#..
+.#.
+=hook
+##.
+.#.
+=tilde
+.#.#
+#.#.
+=dot
+#
