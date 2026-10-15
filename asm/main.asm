@@ -30,6 +30,7 @@ lorom
 !SB = $7E191C             ; SHTAB offset for the current shift
 !P = $7E191E               ; source row word
 !GBUF = $7E1940            ; the glyph being drawn, 16 rows x 2 bytes
+!CW = $7E1928              ; clear_partial: pixels left to blank
 
 ; ---------------------------------------------------------------- text bank
 org $81A756 : lda.l !TEXT+$1A,x      ; {var}: group 13
@@ -57,6 +58,9 @@ org $81A86D                          ; single glyph at $12 (A83D): JSR A4E2 / JS
     nop
 org $81A5D9                          ; {num}: a blank tens digit takes no space (BEQ $A5EA)
     db $F0,$0F
+
+org $81B1E6                          ; settings: single glyph 手 after the move limit -> $27F (width 0);
+    dw $027F                         ; the translated value strings carry the unit
 
 ; Redraw cache. Menus redraw their labels every frame through the instant draw ($81:A35A); VWF is too slow to
 ; redo a long label each frame (the menu stops taking input), so an identical redraw (same $12 position and $14
@@ -224,7 +228,18 @@ vwf_adv:
     rtl
 .cell:                               ; original $81:A4CC (also the cell clears of {sp} and line clears)
     jsr invalidate
-    lda $7C
+    lda $7C                          ; right after VWF text: blank the rest of its last, partial cell first
+    cmp.l !V7C
+    bne +
+    lda.l !VX
+    and #$000F
+    beq +
+    phx
+    phy
+    jsr clear_partial
+    ply
+    plx
++   lda $7C
     clc
     adc #$0020
     sta $7C
@@ -236,6 +251,42 @@ vwf_adv:
     sta $7C
 +   plp
     rtl
+
+; blank pixels VX .. next cell boundary (draws the empty space glyph, <= 8 px at a time); VX unchanged
+clear_partial:
+    lda.l !VX
+    pha
+    and #$000F
+    eor #$FFFF
+    sec
+    adc #$0010
+    sta.l !CW
+-   lda.l !CW
+    cmp #$0009
+    bcc +
+    lda #$0008
++   sta.l !WD
+    lda.w #!FONT+($20*32)
+    sta $22
+    clc
+    adc #$0010
+    sta $26
+    lda.w #!FONT>>16
+    sta $24
+    sta $28
+    jsr draw8
+    lda.l !VX
+    clc
+    adc.l !WD
+    sta.l !VX
+    lda.l !CW
+    sec
+    sbc.l !WD
+    sta.l !CW
+    bne -
+    pla
+    sta.l !VX
+    rts
 
 ; A = cell 0-15 -> buffer offset within a line
 celloff:

@@ -4,7 +4,7 @@
   "off": "1841F",
   "jp": "{sp:01}1{sp:01}P{sp:02}",
   "full": "{sp:01}1{sp:01}P{sp:02}",
-  "en": "",
+  "en": "{sp:01}1P",
   "vi": "",
   "kind": "text"
  },
@@ -13,7 +13,7 @@
   "off": "1842B",
   "jp": "2{sp:01}P",
   "full": "2{sp:01}P",
-  "en": "",
+  "en": "2P",
   "vi": "",
   "kind": "text"
  },
@@ -22,7 +22,7 @@
   "off": "18433",
   "jp": "のりひさ",
   "full": "のりひさ",
-  "en": "",
+  "en": "Norihisa",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "1843D",
   "jp": "なおこ{sp:01}",
   "full": "なおこ{sp:01}",
-  "en": "",
+  "en": "Naoko",
   "vi": "",
   "kind": "text"
  },
@@ -40,7 +40,7 @@
   "off": "18447",
   "jp": "じゅんじ",
   "full": "じゅんじ",
-  "en": "",
+  "en": "Junji",
   "vi": "",
   "kind": "text"
  },
@@ -49,7 +49,7 @@
   "off": "18451",
   "jp": "ともゆき",
   "full": "ともゆき",
-  "en": "",
+  "en": "Tomoyuki",
   "vi": "",
   "kind": "text"
  },
@@ -58,7 +58,7 @@
   "off": "1845B",
   "jp": "えいこ{sp:01}",
   "full": "えいこ{sp:01}",
-  "en": "",
+  "en": "Eiko",
   "vi": "",
   "kind": "text"
  },
@@ -67,7 +67,7 @@
   "off": "18465",
   "jp": "ごろう{sp:01}",
   "full": "ごろう{sp:01}",
-  "en": "",
+  "en": "Goro",
   "vi": "",
   "kind": "text"
  },
@@ -76,7 +76,7 @@
   "off": "1846F",
   "jp": "じゅりあ",
   "full": "じゅりあ",
-  "en": "",
+  "en": "Julia",
   "vi": "",
   "kind": "text"
  },
@@ -85,7 +85,7 @@
   "off": "18479",
   "jp": "げんしち",
   "full": "げんしち",
-  "en": "",
+  "en": "Genshichi",
   "vi": "",
   "kind": "text"
  },
@@ -94,7 +94,7 @@
   "off": "18483",
   "jp": "み{sp:01}み{sp:01}",
   "full": "み{sp:01}み{sp:01}",
-  "en": "",
+  "en": "Mimi",
   "vi": "",
   "kind": "text"
  },
@@ -103,7 +103,7 @@
   "off": "1848D",
   "jp": "めいじん",
   "full": "めいじん",
-  "en": "",
+  "en": "Master",
   "vi": "",
   "kind": "text"
  },
@@ -112,7 +112,7 @@
   "off": "18497",
   "jp": "モードを{ph:0B}",
   "full": "モードを選んでください。",
-  "en": "",
+  "en": "Please choose a mode.",
   "vi": "",
   "kind": "text"
  },
@@ -121,7 +121,7 @@
   "off": "184A3",
   "jp": "{sp:01}対{sp:01}局{sp:01}",
   "full": "{sp:01}対{sp:01}局{sp:01}",
-  "en": "",
+  "en": "{center:48}Match{to:7}",
   "vi": "",
   "kind": "text"
  },
@@ -130,7 +130,7 @@
   "off": "184AF",
   "jp": "{sp:01}詰め連珠",
   "full": "{sp:01}詰め連珠",
-  "en": "",
+  "en": "{center:48}Renju Puzzles{to:7}",
   "vi": "",
   "kind": "text"
  },
@@ -139,7 +139,7 @@
   "off": "184BB",
   "jp": "{sp:01}連珠辞典",
   "full": "{sp:01}連珠辞典",
-  "en": "",
+  "en": "{center:48}Renju Dictionary{to:7}",
   "vi": "",
   "kind": "text"
  },
@@ -148,7 +148,7 @@
   "off": "184C7",
   "jp": "オプション",
   "full": "オプション",
-  "en": "",
+  "en": "{center:48}Options{to:7}",
   "vi": "",
   "kind": "text"
  },
@@ -157,7 +157,7 @@
   "off": "184D3",
   "jp": "フリー対局{sp:01}",
   "full": "フリー対局{sp:01}",
-  "en": "",
+  "en": "{center:48}Free Match{to:7}",
   "vi": "",
   "kind": "text"
  },
@@ -166,7 +166,7 @@
   "off": "184E1",
   "jp": "名{sp:01}人{sp:01}戦",
   "full": "名{sp:01}人{sp:01}戦",
-  "en": "",
+  "en": "{center:48}Master Tournament{to:7}",
   "vi": "",
   "kind": "text"
  },
@@ -175,7 +175,7 @@
   "off": "184ED",
   "jp": "何を設定{ph:02}か?",
   "full": "何を設定しますか?",
-  "en": "",
+  "en": "What would you like to set?",
   "vi": "",
   "kind": "text"
  },
@@ -184,7 +184,7 @@
   "off": "184FD",
   "jp": "音{ph:09}",
   "full": "音をいじる",
-  "en": "",
+  "en": "Sound",
   "vi": "",
   "kind": "text"
  },
@@ -193,7 +193,7 @@
   "off": "18503",
   "jp": "表示{ph:09}",
   "full": "表示をいじる",
-  "en": "",
+  "en": "Display",
   "vi": "",
   "kind": "text"
  },
@@ -202,7 +202,7 @@
   "off": "1850B",
   "jp": "何を{ph:02}か?",
   "full": "何をしますか?",
-  "en": "",
+  "en": "What would you like to do?",
   "vi": "",
   "kind": "text"
  },
@@ -211,7 +211,7 @@
   "off": "18517",
   "jp": "珠型を{ph:0B}",
   "full": "珠型を選んでください。",
-  "en": "",
+  "en": "Please choose an opening.",
   "vi": "",
   "kind": "text"
  },
@@ -220,7 +220,7 @@
   "off": "18521",
   "jp": "珠型は{ph:07}{sp:01}",
   "full": "珠型はどうしますか?{sp:01}",
-  "en": "",
+  "en": "Which opening?",
   "vi": "",
   "kind": "text"
  },
@@ -229,7 +229,7 @@
   "off": "1852D",
   "jp": "{ph:05}型",
   "full": "直接型",
-  "en": "",
+  "en": "Direct",
   "vi": "",
   "kind": "text"
  },
@@ -238,7 +238,7 @@
   "off": "18533",
   "jp": "{ph:06}型",
   "full": "間接型",
-  "en": "",
+  "en": "Indirect",
   "vi": "",
   "kind": "text"
  },
@@ -247,7 +247,7 @@
   "off": "18539",
   "jp": "COMまかせ",
   "full": "COMまかせ",
-  "en": "",
+  "en": "Let COM pick",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "18547",
   "jp": "{ph:05}1号{sp:01}寒星",
   "full": "直接1号{sp:01}寒星",
-  "en": "",
+  "en": "Direct 1: Kansei",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "18555",
   "jp": "{ph:05}2号{sp:01}渓月",
   "full": "直接2号{sp:01}渓月",
-  "en": "",
+  "en": "Direct 2: Keigetsu",
   "vi": "",
   "kind": "text"
  },
@@ -274,7 +274,7 @@
   "off": "18563",
   "jp": "{ph:05}3号{sp:01}疎星",
   "full": "直接3号{sp:01}疎星",
-  "en": "",
+  "en": "Direct 3: Sosei",
   "vi": "",
   "kind": "text"
  },
@@ -283,7 +283,7 @@
   "off": "18571",
   "jp": "{ph:05}4号{sp:01}花月",
   "full": "直接4号{sp:01}花月",
-  "en": "",
+  "en": "Direct 4: Kagetsu",
   "vi": "",
   "kind": "text"
  }

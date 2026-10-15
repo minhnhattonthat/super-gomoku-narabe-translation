@@ -4,7 +4,7 @@
   "off": "18D33",
   "jp": "200",
   "full": "200",
-  "en": "",
+  "en": "200 moves{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -13,7 +13,7 @@
   "off": "18D3B",
   "jp": "225",
   "full": "225",
-  "en": "",
+  "en": "225 moves{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -22,7 +22,7 @@
   "off": "18D43",
   "jp": "中止{ph:02}か?{sp:04}",
   "full": "中止しますか?{sp:04}",
-  "en": "",
+  "en": "Quit this game?",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "18D51",
   "jp": "解答決定ですか?{sp:03}",
   "full": "解答決定ですか?{sp:03}",
-  "en": "",
+  "en": "Is this your answer?",
   "vi": "",
   "kind": "text"
  },
@@ -40,7 +40,7 @@
   "off": "18D65",
   "jp": "正解です。{sp:06}",
   "full": "正解です。{sp:06}",
-  "en": "",
+  "en": "Correct!",
   "vi": "",
   "kind": "text"
  },
@@ -49,7 +49,7 @@
   "off": "18D73",
   "jp": "まちがいです。{sp:05}",
   "full": "まちがいです。{sp:05}",
-  "en": "",
+  "en": "Wrong.",
   "vi": "",
   "kind": "text"
  },
@@ -58,7 +58,7 @@
   "off": "18D85",
   "jp": "続けますか?{sp:06}",
   "full": "続けますか?{sp:06}",
-  "en": "",
+  "en": "Continue?",
   "vi": "",
   "kind": "text"
  },
@@ -67,7 +67,7 @@
   "off": "18D95",
   "jp": "名人戦では、ヒントは{nl}出せません。{nl}がんばってください。{wait:00}",
   "full": "名人戦では、ヒントは{nl}出せません。{nl}がんばってください。{wait:00}",
-  "en": "",
+  "en": "Hints are not available{nl}in the Master Tournament.{nl}Good luck!{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -76,7 +76,7 @@
   "off": "18DD1",
   "jp": "{sp:05}連{sp:01}珠{nl}{sp:05}スタッフ",
   "full": "{sp:05}連{sp:01}珠{nl}{sp:05}スタッフ",
-  "en": "",
+  "en": "{sp:05}Renju{nl}{sp:05}Staff",
   "vi": "",
   "kind": "text"
  },
@@ -85,7 +85,7 @@
   "off": "18DE7",
   "jp": "{sp:01}監{sp:01}修{nl}{sp:05}坂田{sp:01}吾朗",
   "full": "{sp:01}監{sp:01}修{nl}{sp:05}坂田{sp:01}吾朗",
-  "en": "",
+  "en": "Supervisor{nl}{sp:05}Goro Sakata",
   "vi": "",
   "kind": "text"
  },
@@ -94,7 +94,7 @@
   "off": "18DFF",
   "jp": "制作協力{nl}{sp:05}松浦{sp:01}浩",
   "full": "制作協力{nl}{sp:05}松浦{sp:01}浩",
-  "en": "",
+  "en": "Production Support{nl}{sp:05}Hiroshi Matsuura",
   "vi": "",
   "kind": "text"
  },
@@ -103,7 +103,7 @@
   "off": "18E15",
   "jp": "き{sp:01}画{nl}{sp:05}ふじさく中の",
   "full": "き{sp:01}画{nl}{sp:05}ふじさく中の",
-  "en": "",
+  "en": "Planning{nl}{sp:05}Fujisaku Nakano",
   "vi": "",
   "kind": "text"
  },
@@ -112,7 +112,7 @@
   "off": "18E2D",
   "jp": "グラフィック{nl}{sp:05}ふじさく中の",
   "full": "グラフィック{nl}{sp:05}ふじさく中の",
-  "en": "",
+  "en": "Graphics{nl}{sp:05}Fujisaku Nakano",
   "vi": "",
   "kind": "text"
  },
@@ -121,7 +121,7 @@
   "off": "18E4B",
   "jp": "グラフィック{nl}{sp:05}いちかわ中の",
   "full": "グラフィック{nl}{sp:05}いちかわ中の",
-  "en": "",
+  "en": "Graphics{nl}{sp:05}Ichikawa Nakano",
   "vi": "",
   "kind": "text"
  },
@@ -130,7 +130,7 @@
   "off": "18E69",
   "jp": "テスト・プレイ{nl}{sp:05}たいへん",
   "full": "テスト・プレイ{nl}{sp:05}たいへん",
-  "en": "",
+  "en": "Test Play{nl}{sp:05}What an ordeal!",
   "vi": "",
   "kind": "text"
  },
@@ -139,7 +139,7 @@
   "off": "18E85",
   "jp": "サウンド{nl}{sp:05}とうご{sp:01}????",
   "full": "サウンド{nl}{sp:05}とうご{sp:01}????",
-  "en": "",
+  "en": "Sound{nl}{sp:05}Togo ????",
   "vi": "",
   "kind": "text"
  },
@@ -148,7 +148,7 @@
   "off": "18EA3",
   "jp": "せい作きょう力{nl}{sp:05}G・BABA",
   "full": "せい作きょう力{nl}{sp:05}G・BABA",
-  "en": "",
+  "en": "Production Help{nl}{sp:05}G. BABA",
   "vi": "",
   "kind": "text"
  },
@@ -157,7 +157,7 @@
   "off": "18EC3",
   "jp": "せい作きょう力{nl}{sp:05}G・BABA",
   "full": "せい作きょう力{nl}{sp:05}G・BABA",
-  "en": "",
+  "en": "Production Help{nl}{sp:05}G. BABA",
   "vi": "",
   "kind": "text"
  },
@@ -168,14 +168,14 @@
   "full": "{sp:0F}",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g07_19",
   "off": "18EE7",
   "jp": "トブに妙あり",
   "full": "トブに妙あり",
-  "en": "",
+  "en": "Magic lies in jumping.",
   "vi": "",
   "kind": "text"
  },
@@ -184,7 +184,7 @@
   "off": "18EF5",
   "jp": "ヒイたほうへ止めよ",
   "full": "ヒイたほうへ止めよ",
-  "en": "",
+  "en": "Block on the side it was drawn toward.",
   "vi": "",
   "kind": "text"
  },
@@ -193,7 +193,7 @@
   "off": "18F09",
   "jp": "ヒクに妙なく{nl}ヤスムに妙あり",
   "full": "ヒクに妙なく{nl}ヤスムに妙あり",
-  "en": "",
+  "en": "No magic in drawing,{nl}but magic in resting.",
   "vi": "",
   "kind": "text"
  },
@@ -202,7 +202,7 @@
   "off": "18F27",
   "jp": "防ぎはケイて",
   "full": "防ぎはケイて",
-  "en": "",
+  "en": "Defend with a knight's move.",
   "vi": "",
   "kind": "text"
  },
@@ -211,7 +211,7 @@
   "off": "18F35",
   "jp": "敵の急所は{nl}わが急所",
   "full": "敵の急所は{nl}わが急所",
-  "en": "",
+  "en": "Your enemy's key point{nl}is your key point.",
   "vi": "",
   "kind": "text"
  },
@@ -220,7 +220,7 @@
   "off": "18F4B",
   "jp": "石を止めずに{nl}筋を止めよ",
   "full": "石を止めずに{nl}筋を止めよ",
-  "en": "",
+  "en": "Don't block the stone,{nl}block the line.",
   "vi": "",
   "kind": "text"
  },
@@ -229,7 +229,7 @@
   "off": "18F65",
   "jp": "{sp:01}富士一",
   "full": "{sp:01}富士一",
-  "en": "",
+  "en": "{sp:01}Fuji 1",
   "vi": "",
   "kind": "text"
  },
@@ -238,7 +238,7 @@
   "off": "18F6F",
   "jp": "{sp:01}富士二",
   "full": "{sp:01}富士二",
-  "en": "",
+  "en": "{sp:01}Fuji 2",
   "vi": "",
   "kind": "text"
  },
@@ -247,7 +247,7 @@
   "off": "18F79",
   "jp": "タテ・ヨコ{nl}各15本ずつの線で{nl}できています。{wait:00}中央の黒い点を{nl}「天元」といいます。{wait:00}",
   "full": "タテ・ヨコ{nl}各15本ずつの線で{nl}できています。{wait:00}中央の黒い点を{nl}「天元」といいます。{wait:00}",
-  "en": "",
+  "en": "The board has 15 lines running across and 15 running down.{wait:00}The black dot in the center is called \"tengen.\"{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "18FD1",
   "jp": "同じいろの石が{nl}五つ連続でならぶ{nl}ことをいいます。{wait:00}{se:01}先に五連のできた方が{nl}勝ちとなります。{wait:00}白は五連以上並ぶと{nl}勝ちで、{wait:00}黒は五連のみで{nl}勝ちです。{wait:00}",
   "full": "同じいろの石が{nl}五つ連続でならぶ{nl}ことをいいます。{wait:00}{se:01}先に五連のできた方が{nl}勝ちとなります。{wait:00}白は五連以上並ぶと{nl}勝ちで、{wait:00}黒は五連のみで{nl}勝ちです。{wait:00}",
-  "en": "",
+  "en": "Five stones of the same color in an unbroken row.{wait:00}{se:01}Whoever makes a five first wins the game.{wait:00}White also wins with five or more in a row,{wait:00}but Black wins only with exactly five.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "1906B",
   "jp": "いきなり石が六つ{nl}並んでしまうことが{nl}あります。{wait:00}{se:0F}これを「長連」と{nl}いいます。{wait:00}白は「長連」でも勝ち{nl}ですが、{wait:00}黒は禁手なので{nl}負けとなります。{wait:00}",
   "full": "いきなり石が六つ{nl}並んでしまうことが{nl}あります。{wait:00}{se:0F}これを「長連」と{nl}いいます。{wait:00}白は「長連」でも勝ち{nl}ですが、{wait:00}黒は禁手なので{nl}負けとなります。{wait:00}",
-  "en": "",
+  "en": "Sometimes six stones end up in a row at once.{wait:00}{se:0F}This is called an \"overline.\"{wait:00}An overline still wins for White,{wait:00}but for Black it is a forbidden move, so Black loses.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -274,7 +274,7 @@
   "off": "19101",
   "jp": "石が三つ並ぶことを{nl}いいます。{wait:00}次の手で四連に{nl}することができます。{wait:00}{se:10}つまり四連から一つ{nl}石をとったものを{nl}三というのです。{wait:00}{se:11}三には、次の防ぎ手が{nl}あります。{wait:00}{se:12}黒石、白石ともに{nl}片方を防がれると{wait:00}{se:13}次の手で四を{nl}つくっても{wait:00}{se:14}このように{nl}防がれてしまいます。{wait:00}三は四連から、{nl}一つ石をとったもの{nl}ですが、{wait:00}三を連続して打っても{nl}防がれてしまえば{wait:00}勝ちになることは{nl}ないのです。{wait:00}三は弱い追い手に{nl}あたります。{wait:00}",
   "full": "石が三つ並ぶことを{nl}いいます。{wait:00}次の手で四連に{nl}することができます。{wait:00}{se:10}つまり四連から一つ{nl}石をとったものを{nl}三というのです。{wait:00}{se:11}三には、次の防ぎ手が{nl}あります。{wait:00}{se:12}黒石、白石ともに{nl}片方を防がれると{wait:00}{se:13}次の手で四を{nl}つくっても{wait:00}{se:14}このように{nl}防がれてしまいます。{wait:00}三は四連から、{nl}一つ石をとったもの{nl}ですが、{wait:00}三を連続して打っても{nl}防がれてしまえば{wait:00}勝ちになることは{nl}ないのです。{wait:00}三は弱い追い手に{nl}あたります。{wait:00}",
-  "en": "",
+  "en": "Three stones in a row.{wait:00}With the next move it can become a straight four.{wait:00}{se:10}In other words, a three is a straight four with one stone taken away.{wait:00}{se:11}A three can be defended like this.{wait:00}{se:12}For Black and White alike, once one end is blocked,{wait:00}{se:13}even making a four with the next move{wait:00}{se:14}gets blocked like this.{wait:00}A three is a straight four minus one stone,{wait:00}but playing threes one after another{wait:00}never wins the game if they get blocked.{wait:00}A three is a weak attack.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -283,7 +283,7 @@
   "off": "192A3",
   "jp": "三で、すき間のある{nl}ものをいいます。{wait:00}あいているところに{nl}石をおけば、{wait:00}{se:16}四連になります。{wait:00}{se:17}ただし、このように{nl}止められると、{nl}四連になりません。{wait:00}",
   "full": "三で、すき間のある{nl}ものをいいます。{wait:00}あいているところに{nl}石をおけば、{wait:00}{se:16}四連になります。{wait:00}{se:17}ただし、このように{nl}止められると、{nl}四連になりません。{wait:00}",
-  "en": "",
+  "en": "A three with a gap in it.{wait:00}If you put a stone in the gap,{wait:00}{se:16}it becomes a straight four.{wait:00}{se:17}But if it is blocked like this, it cannot become a straight four.{wait:00}",
   "vi": "",
   "kind": "text"
  }

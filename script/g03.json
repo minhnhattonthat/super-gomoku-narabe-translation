@@ -4,7 +4,7 @@
   "off": "186EB",
   "jp": "長星",
   "full": "長星",
-  "en": "",
+  "en": "Chosei",
   "vi": "",
   "kind": "text"
  },
@@ -13,7 +13,7 @@
   "off": "186F1",
   "jp": "峡月",
   "full": "峡月",
-  "en": "",
+  "en": "Kyogetsu",
   "vi": "",
   "kind": "text"
  },
@@ -22,7 +22,7 @@
   "off": "186F7",
   "jp": "恒星",
   "full": "恒星",
-  "en": "",
+  "en": "Kosei",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "186FD",
   "jp": "水月",
   "full": "水月",
-  "en": "",
+  "en": "Suigetsu",
   "vi": "",
   "kind": "text"
  },
@@ -40,7 +40,7 @@
   "off": "18703",
   "jp": "流星",
   "full": "流星",
-  "en": "",
+  "en": "Ryusei",
   "vi": "",
   "kind": "text"
  },
@@ -49,7 +49,7 @@
   "off": "18709",
   "jp": "雲月",
   "full": "雲月",
-  "en": "",
+  "en": "Ungetsu",
   "vi": "",
   "kind": "text"
  },
@@ -58,7 +58,7 @@
   "off": "1870F",
   "jp": "浦月",
   "full": "浦月",
-  "en": "",
+  "en": "Hogetsu",
   "vi": "",
   "kind": "text"
  },
@@ -67,7 +67,7 @@
   "off": "18715",
   "jp": "嵐月",
   "full": "嵐月",
-  "en": "",
+  "en": "Rangetsu",
   "vi": "",
   "kind": "text"
  },
@@ -76,7 +76,7 @@
   "off": "1871B",
   "jp": "銀月",
   "full": "銀月",
-  "en": "",
+  "en": "Gingetsu",
   "vi": "",
   "kind": "text"
  },
@@ -85,7 +85,7 @@
   "off": "18721",
   "jp": "明星",
   "full": "明星",
-  "en": "",
+  "en": "Myojo",
   "vi": "",
   "kind": "text"
  },
@@ -94,7 +94,7 @@
   "off": "18727",
   "jp": "斜月",
   "full": "斜月",
-  "en": "",
+  "en": "Shagetsu",
   "vi": "",
   "kind": "text"
  },
@@ -103,7 +103,7 @@
   "off": "1872D",
   "jp": "名月",
   "full": "名月",
-  "en": "",
+  "en": "Meigetsu",
   "vi": "",
   "kind": "text"
  },
@@ -112,7 +112,7 @@
   "off": "18733",
   "jp": "{var:00}の勝ちです{sp:04}",
   "full": "{var:00}の勝ちです{sp:04}",
-  "en": "",
+  "en": "{var:00} wins!",
   "vi": "",
   "kind": "text"
  },
@@ -121,7 +121,7 @@
   "off": "18743",
   "jp": "2P/COM",
   "full": "2P/COM",
-  "en": "",
+  "en": "2P/COM",
   "vi": "",
   "kind": "text"
  },
@@ -130,7 +130,7 @@
   "off": "18751",
   "jp": "COM",
   "full": "COM",
-  "en": "",
+  "en": "COM",
   "vi": "",
   "kind": "text"
  },
@@ -139,7 +139,7 @@
   "off": "18759",
   "jp": "{sp:01}木目三",
   "full": "{sp:01}木目三",
-  "en": "",
+  "en": "{sp:01}Wood 3",
   "vi": "",
   "kind": "text"
  },
@@ -148,7 +148,7 @@
   "off": "18763",
   "jp": "{sp:01}桜{sp:01}二",
   "full": "{sp:01}桜{sp:01}二",
-  "en": "",
+  "en": "{sp:01}Cherry 2",
   "vi": "",
   "kind": "text"
  },
@@ -157,7 +157,7 @@
   "off": "1876D",
   "jp": "{sp:01}木目四",
   "full": "{sp:01}木目四",
-  "en": "",
+  "en": "{sp:01}Wood 4",
   "vi": "",
   "kind": "text"
  },
@@ -166,7 +166,7 @@
   "off": "18777",
   "jp": "{sp:01}木目五",
   "full": "{sp:01}木目五",
-  "en": "",
+  "en": "{sp:01}Wood 5",
   "vi": "",
   "kind": "text"
  },
@@ -175,7 +175,7 @@
   "off": "18781",
   "jp": "五{sp:01}連",
   "full": "五{sp:01}連",
-  "en": "",
+  "en": "Five",
   "vi": "",
   "kind": "text"
  },
@@ -184,7 +184,7 @@
   "off": "18789",
   "jp": "四々禁",
   "full": "四々禁",
-  "en": "",
+  "en": "Double-four",
   "vi": "",
   "kind": "text"
  },
@@ -193,7 +193,7 @@
   "off": "18791",
   "jp": "三々禁",
   "full": "三々禁",
-  "en": "",
+  "en": "Double-three",
   "vi": "",
   "kind": "text"
  },
@@ -202,7 +202,7 @@
   "off": "18799",
   "jp": "長連禁",
   "full": "長連禁",
-  "en": "",
+  "en": "Overline",
   "vi": "",
   "kind": "text"
  },
@@ -211,7 +211,7 @@
   "off": "187A1",
   "jp": "満局",
   "full": "満局",
-  "en": "",
+  "en": "Draw",
   "vi": "",
   "kind": "text"
  },
@@ -220,7 +220,7 @@
   "off": "187A7",
   "jp": "投{sp:01}了",
   "full": "投{sp:01}了",
-  "en": "",
+  "en": "Resign",
   "vi": "",
   "kind": "text"
  },
@@ -229,7 +229,7 @@
   "off": "187AF",
   "jp": "戻る",
   "full": "戻る",
-  "en": "",
+  "en": "Back",
   "vi": "",
   "kind": "text"
  },
@@ -238,7 +238,7 @@
   "off": "187B5",
   "jp": "音を{ph:07}",
   "full": "音をどうしますか?",
-  "en": "",
+  "en": "How should the sound be?",
   "vi": "",
   "kind": "text"
  },
@@ -247,7 +247,7 @@
   "off": "187BD",
   "jp": "ステレオ{sp:03}モノラル",
   "full": "ステレオ{sp:03}モノラル",
-  "en": "",
+  "en": "Stereo{to:7}Mono",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "187D1",
   "jp": "{sp:01}曲",
   "full": "{sp:01}曲",
-  "en": "",
+  "en": "Music",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "187D7",
   "jp": "効果音",
   "full": "効果音",
-  "en": "",
+  "en": "Effects",
   "vi": "",
   "kind": "text"
  },
@@ -274,7 +274,7 @@
   "off": "187DF",
   "jp": "スタート{sp:01}A{ph:0A}",
   "full": "スタート{sp:01}Aボタン",
-  "en": "",
+  "en": "Start{to:5}A Button",
   "vi": "",
   "kind": "text"
  },
@@ -283,7 +283,7 @@
   "off": "187EF",
   "jp": "表示を{ph:07}",
   "full": "表示をどうしますか?",
-  "en": "",
+  "en": "How should the display be?",
   "vi": "",
   "kind": "text"
  }

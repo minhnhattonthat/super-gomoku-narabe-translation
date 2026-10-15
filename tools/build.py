@@ -10,7 +10,7 @@ import argparse, glob, json, os, re, shutil, subprocess, sys, tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from codec import Codec  # noqa: E402
-import textblock, vwffont  # noqa: E402
+import textblock, textfit, vwffont  # noqa: E402
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 ASAR = os.path.join(ROOT, "tools", "asar", "asar.exe")
@@ -63,6 +63,8 @@ def build(lang, out, mark=False, rom_path=None, overrides=None):
         if t is None:
             groups[g].append(jp.encode(e["jp"]))
         else:
+            if not mark:
+                t = textfit.expand(e, t, lang)
             groups[g].append(LANG_CODEC(lang).encode(t))
     if lang == "jp":  # identity
         blob = textblock.pack(groups, 0x838237)
@@ -98,9 +100,15 @@ _codecs = {}
 
 
 def LANG_CODEC(lang):
+    """The language's VWF table, falling back to JP glyphs for characters it lacks (kana on password screens)."""
     if lang not in _codecs:
         vwffont.write_tbl(lang)
-        _codecs[lang] = Codec(os.path.join(ROOT, "tbl", lang + ".tbl"))
+        c = Codec(os.path.join(ROOT, "tbl", lang + ".tbl"))
+        jp = Codec(os.path.join(ROOT, "tbl", "jp.tbl"))
+        for ch, code in jp.enc.items():
+            c.enc.setdefault(ch, code)
+        c.maxlen = max(map(len, c.enc))
+        _codecs[lang] = c
     return _codecs[lang]
 
 

@@ -4,7 +4,7 @@
   "off": "189E9",
   "jp": "四三勝",
   "full": "四三勝",
-  "en": "",
+  "en": "Four-three win",
   "vi": "",
   "kind": "text"
  },
@@ -13,7 +13,7 @@
   "off": "189F1",
   "jp": "追詰勝",
   "full": "追詰勝",
-  "en": "",
+  "en": "Chase-down win",
   "vi": "",
   "kind": "text"
  },
@@ -22,7 +22,7 @@
   "off": "189F9",
   "jp": "白勝ち",
   "full": "白勝ち",
-  "en": "",
+  "en": "White wins",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "18A01",
   "jp": "黒勝ち",
   "full": "黒勝ち",
-  "en": "",
+  "en": "Black wins",
   "vi": "",
   "kind": "text"
  },
@@ -40,7 +40,7 @@
   "off": "18A09",
   "jp": "連続で",
   "full": "連続で",
-  "en": "",
+  "en": "in a row",
   "vi": "",
   "kind": "text"
  },
@@ -51,14 +51,14 @@
   "full": "{sp:03}",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g05_06",
   "off": "18A15",
   "jp": "追い詰め",
   "full": "追い詰め",
-  "en": "",
+  "en": "Chase-Down",
   "vi": "",
   "kind": "text"
  },
@@ -67,7 +67,7 @@
   "off": "18A1F",
   "jp": "二手勝ち",
   "full": "二手勝ち",
-  "en": "",
+  "en": "Win in Two",
   "vi": "",
   "kind": "text"
  },
@@ -76,7 +76,7 @@
   "off": "18A29",
   "jp": "四追勝ち",
   "full": "四追勝ち",
-  "en": "",
+  "en": "Four-Chase",
   "vi": "",
   "kind": "text"
  },
@@ -85,7 +85,7 @@
   "off": "18A33",
   "jp": "実力認定",
   "full": "実力認定",
-  "en": "",
+  "en": "Rank Test",
   "vi": "",
   "kind": "text"
  },
@@ -94,7 +94,7 @@
   "off": "18A3D",
   "jp": "問題クリア",
   "full": "問題クリア",
-  "en": "",
+  "en": "Problem Clear!",
   "vi": "",
   "kind": "text"
  },
@@ -103,7 +103,7 @@
   "off": "18A49",
   "jp": "楽曲{sp:01}さくら",
   "full": "楽曲{sp:01}さくら",
-  "en": "",
+  "en": "Song: Sakura",
   "vi": "",
   "kind": "text"
  },
@@ -112,7 +112,7 @@
   "off": "18A57",
   "jp": "楽曲{sp:01}じんせい",
   "full": "楽曲{sp:01}じんせい",
-  "en": "",
+  "en": "Song: Life",
   "vi": "",
   "kind": "text"
  },
@@ -121,7 +121,7 @@
   "off": "18A67",
   "jp": "楽曲{sp:01}たび",
   "full": "楽曲{sp:01}たび",
-  "en": "",
+  "en": "Song: Journey",
   "vi": "",
   "kind": "text"
  },
@@ -130,7 +130,7 @@
   "off": "18A73",
   "jp": "ください。",
   "full": "ください。",
-  "en": "",
+  "en": "please.",
   "vi": "",
   "kind": "text"
  },
@@ -139,7 +139,7 @@
   "off": "18A7F",
   "jp": "連珠",
   "full": "連珠",
-  "en": "",
+  "en": "Renju",
   "vi": "",
   "kind": "text"
  },
@@ -148,7 +148,7 @@
   "off": "18A85",
   "jp": "辞典",
   "full": "辞典",
-  "en": "",
+  "en": "Dictionary",
   "vi": "",
   "kind": "text"
  },
@@ -157,7 +157,7 @@
   "off": "18A8B",
   "jp": "項目を{ph:0B}",
   "full": "項目を選んでください。",
-  "en": "",
+  "en": "Please choose an entry.",
   "vi": "",
   "kind": "text"
  },
@@ -166,7 +166,7 @@
   "off": "18A95",
   "jp": "五連{sp:01}",
   "full": "五連{sp:01}",
-  "en": "",
+  "en": "Five",
   "vi": "",
   "kind": "text"
  },
@@ -175,7 +175,7 @@
   "off": "18A9D",
   "jp": "長連{sp:01}",
   "full": "長連{sp:01}",
-  "en": "",
+  "en": "Overline",
   "vi": "",
   "kind": "text"
  },
@@ -184,7 +184,7 @@
   "off": "18AA5",
   "jp": "四連{sp:01}",
   "full": "四連{sp:01}",
-  "en": "",
+  "en": "Straight Four",
   "vi": "",
   "kind": "text"
  },
@@ -193,7 +193,7 @@
   "off": "18AAD",
   "jp": "トビ四",
   "full": "トビ四",
-  "en": "",
+  "en": "Split Four",
   "vi": "",
   "kind": "text"
  },
@@ -202,7 +202,7 @@
   "off": "18AB5",
   "jp": "問{sp:01}題",
   "full": "問{sp:01}題",
-  "en": "",
+  "en": "Problem",
   "vi": "",
   "kind": "text"
  },
@@ -211,7 +211,7 @@
   "off": "18ABD",
   "jp": "勝つまで打って下さい。",
   "full": "勝つまで打って下さい。",
-  "en": "",
+  "en": "Keep playing until you win.",
   "vi": "",
   "kind": "text"
  },
@@ -220,7 +220,7 @@
   "off": "18AD5",
   "jp": "ふつう{sp:01}四{sp:01}と{nl}いっています{nl}これは四連ですが{se:04}{wait:00}これはただの四です{se:05}{wait:00}間があいたり{nl}片端に他の石が{nl}あったり{wait:00}盤の端についていたり{nl}するものは{nl}四連ではありません{wait:00}",
   "full": "ふつう{sp:01}四{sp:01}と{nl}いっています{nl}これは四連ですが{se:04}{wait:00}これはただの四です{se:05}{wait:00}間があいたり{nl}片端に他の石が{nl}あったり{wait:00}盤の端についていたり{nl}するものは{nl}四連ではありません{wait:00}",
-  "en": "",
+  "en": "People usually just call it a \"four.\" This one is a straight four,{se:04}{wait:00}but this one is just a four.{se:05}{wait:00}One with a gap in it, or with another stone at one end,{wait:00}or touching the edge of the board is not a straight four.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -229,7 +229,7 @@
   "off": "18B7D",
   "jp": "四の中であき間の{nl}あるものを{nl}トビ四といいます。{wait:00}",
   "full": "四の中であき間の{nl}あるものを{nl}トビ四といいます。{wait:00}",
-  "en": "",
+  "en": "A four with a gap inside it is called a split four.{wait:00}",
   "vi": "",
   "kind": "text"
  },
@@ -238,7 +238,7 @@
   "off": "18BB1",
   "jp": "VS",
   "full": "VS",
-  "en": "",
+  "en": "VS",
   "vi": "",
   "kind": "text"
  },
@@ -247,7 +247,7 @@
   "off": "18BB7",
   "jp": "一回戦",
   "full": "一回戦",
-  "en": "",
+  "en": "Round 1",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "18BBF",
   "jp": "二回戦",
   "full": "二回戦",
-  "en": "",
+  "en": "Round 2",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "18BC7",
   "jp": "決勝戦",
   "full": "決勝戦",
-  "en": "",
+  "en": "Final",
   "vi": "",
   "kind": "text"
  },
@@ -274,7 +274,7 @@
   "off": "18BCF",
   "jp": "{sp:01}1Pの勝ちです。",
   "full": "{sp:01}1Pの勝ちです。",
-  "en": "",
+  "en": "{sp:01}1P wins!",
   "vi": "",
   "kind": "text"
  },
@@ -283,7 +283,7 @@
   "off": "18BE3",
   "jp": "{sp:01}1Pの負けです。",
   "full": "{sp:01}1Pの負けです。",
-  "en": "",
+  "en": "{sp:01}1P loses.",
   "vi": "",
   "kind": "text"
  }

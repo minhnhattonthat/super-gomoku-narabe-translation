@@ -72,8 +72,8 @@ def build(lang):
         else:
             codes[ch] = nxt
             nxt += 1
-    n = max(codes.values()) + 1
-    font, widths = bytearray(32 * n), bytearray(n)
+    n = max(max(codes.values()) + 1, 0x80)
+    font, widths = bytearray(32 * n), bytearray(n)  # unused codes (e.g. $27F) draw nothing: width 0
     for ch, rows in glyphs:
         px, w = render(rows)
         i = codes[ch]

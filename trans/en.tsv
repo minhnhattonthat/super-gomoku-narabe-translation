@@ -1,0 +1,381 @@
+# English script. id<TAB>text. Merge: python -X utf8 tools/merge.py trans/en.tsv --lang en
+# Tokens: {to:N} pad to cell N (16 px cells) to line up with the JP layout; dictionary entries wrap automatically.
+# =DATA keeps the Japanese in every language (passwords compared with input).
+g00_00	You shouldn't fight a battle you can't win.
+g00_01	You shouldn't fight a battle you can't win.
+g00_02	{sp:04}moves,{sp:02}to play
+g00_03	{sp:01}Move {num:00}: {var:00} to play{to:9}
+g00_04	Hint:{nl}Watch the screen closely{nl}and mash the A Button!!{wait:00}
+g00_05	First
+g00_06	Second
+g00_07	{sp:01}won
+g00_08	Turn the music off.
+g00_09	Turn the music on.
+g00_10	Turn sound effects off.
+g00_11	Turn sound effects on.
+g00_12	Change the music?
+g00_13	Resign?
+g00_14	Go back.
+g00_15	What about the stones?
+g00_16	Open the menu.
+g00_17	Take back one move.
+g00_18	Replay move by move.
+g00_19	Restore the position.
+g00_20	Back to the start.
+g00_21	Yes{to:4}No
+g00_22	This is meant to be the settings screen.
+g00_23	1P Face
+g00_24	2P Face
+g00_25	Board
+g00_26	Confirm
+g00_27	{sp:01}Wood 1
+g00_28	{sp:01}Wood 2
+g00_29	{sp:01}Cherry 1
+g00_30	Pesu
+g00_31	Masao
+g01_00	{sp:01}1P
+g01_01	2P
+g01_02	Norihisa
+g01_03	Naoko
+g01_04	Junji
+g01_05	Tomoyuki
+g01_06	Eiko
+g01_07	Goro
+g01_08	Julia
+g01_09	Genshichi
+g01_10	Mimi
+g01_11	Master
+g01_12	Please choose a mode.
+g01_13	{center:48}Match{to:7}
+g01_14	{center:48}Renju Puzzles{to:7}
+g01_15	{center:48}Renju Dictionary{to:7}
+g01_16	{center:48}Options{to:7}
+g01_17	{center:48}Free Match{to:7}
+g01_18	{center:48}Master Tournament{to:7}
+g01_19	What would you like to set?
+g01_20	Sound
+g01_21	Display
+g01_22	What would you like to do?
+g01_23	Please choose an opening.
+g01_24	Which opening?
+g01_25	Direct
+g01_26	Indirect
+g01_27	Let COM pick
+g01_28	Direct 1: Kansei
+g01_29	Direct 2: Keigetsu
+g01_30	Direct 3: Sosei
+g01_31	Direct 4: Kagetsu
+g02_00	Direct 5: Zangetsu
+g02_01	Direct 6: Ugetsu
+g02_02	Direct 7: Kinsei
+g02_03	Direct 8: Shogetsu
+g02_04	Direct 9: Kyugetsu
+g02_05	Direct 10: Shingetsu
+g02_06	Direct 11: Zuisei
+g02_07	Direct 12: Sangetsu
+g02_08	Indirect 1: Chosei
+g02_09	Indirect 2: Kyogetsu
+g02_10	Indirect 3: Kosei
+g02_11	Indirect 4: Suigetsu
+g02_12	Indirect 5: Ryusei
+g02_13	Indirect 6: Ungetsu
+g02_14	Indirect 7: Hogetsu
+g02_15	Indirect 8: Rangetsu
+g02_16	Indirect 9: Gingetsu
+g02_17	Indirect 10: Myojo
+g02_18	Indirect 11: Shagetsu
+g02_19	Indirect 12: Meigetsu
+g02_20	Kansei
+g02_21	Keigetsu
+g02_22	Sosei
+g02_23	Kagetsu
+g02_24	Zangetsu
+g02_25	Ugetsu
+g02_26	Kinsei
+g02_27	Shogetsu
+g02_28	Kyugetsu
+g02_29	Shingetsu
+g02_30	Zuisei
+g02_31	Sangetsu
+g03_00	Chosei
+g03_01	Kyogetsu
+g03_02	Kosei
+g03_03	Suigetsu
+g03_04	Ryusei
+g03_05	Ungetsu
+g03_06	Hogetsu
+g03_07	Rangetsu
+g03_08	Gingetsu
+g03_09	Myojo
+g03_10	Shagetsu
+g03_11	Meigetsu
+g03_12	{var:00} wins!
+g03_13	2P/COM
+g03_14	COM
+g03_15	{sp:01}Wood 3
+g03_16	{sp:01}Cherry 2
+g03_17	{sp:01}Wood 4
+g03_18	{sp:01}Wood 5
+g03_19	Five
+g03_20	Double-four
+g03_21	Double-three
+g03_22	Overline
+g03_23	Draw
+g03_24	Resign
+g03_25	Back
+g03_26	How should the sound be?
+g03_27	Stereo{to:7}Mono
+g03_28	Music
+g03_29	Effects
+g03_30	Start{to:5}A Button
+g03_31	How should the display be?
+g04_00	Text Speed
+g04_01	Fast{to:3}Normal{to:7}Slow
+g04_02	Normal
+g04_03	Slow
+g04_04	Cursor Speed
+g04_05	Stop{to:5}B Button
+g04_06	Please choose a problem.
+g04_07	Chase-Down{to:7}Win in Two
+g04_08	Four-Chase{to:7}Rank Test
+g04_09	No.{sp:02}
+g04_10	What would you like to do?
+g04_11	=DATA
+g04_12	Please enter the password.
+g04_13	This is your password.
+g04_14	Wrong password.
+g04_15	=DATA
+g04_16	=DATA
+g04_17	=DATA
+g04_18	=DATA
+g04_19	なにぬねの{to:9}Done
+g04_20	はひふへほ{to:9}Reset
+g04_21	=DATA
+g04_22	=DATA
+g04_23	=DATA
+g04_24	=DATA
+g04_25	=DATA
+g04_26	No.{sp:02}
+g04_27	Black starts
+g04_28	White starts
+g04_29	Opening
+g04_30	In two moves
+g04_31	By fours
+g05_00	Four-three win
+g05_01	Chase-down win
+g05_02	White wins
+g05_03	Black wins
+g05_04	in a row
+g05_05	=DATA
+g05_06	Chase-Down
+g05_07	Win in Two
+g05_08	Four-Chase
+g05_09	Rank Test
+g05_10	Problem Clear!
+g05_11	Song: Sakura
+g05_12	Song: Life
+g05_13	Song: Journey
+g05_14	please.
+g05_15	Renju
+g05_16	Dictionary
+g05_17	Please choose an entry.
+g05_18	Five
+g05_19	Overline
+g05_20	Straight Four
+g05_21	Split Four
+g05_22	Problem
+g05_23	Keep playing until you win.
+g05_24	People usually just call it a "four." This one is a straight four,{se:04}{wait:00}but this one is just a four.{se:05}{wait:00}One with a gap in it, or with another stone at one end,{wait:00}or touching the edge of the board is not a straight four.{wait:00}
+g05_25	A four with a gap inside it is called a split four.{wait:00}
+g05_26	VS
+g05_27	Round 1
+g05_28	Round 2
+g05_29	Final
+g05_30	{sp:01}1P wins!
+g05_31	{sp:01}1P loses.
+g06_00	Game Over
+g06_01	Champion!
+g06_02	You have won the
+g06_03	Master Tournament!
+g06_04	{sp:01}2P wins!
+g06_05	COM wins!
+g06_06	Continue?{nl}{to:4}Yes{to:8}No
+g06_07	Please choose your settings.
+g06_08	Opponent
+g06_09	Level
+g06_10	1P Order
+g06_11	Wins Needed
+g06_12	Move Limit
+g06_13	wins
+g06_14	Unranked
+g06_15	10 Kyu
+g06_16	9 Kyu
+g06_17	8 Kyu
+g06_18	7 Kyu
+g06_19	6 Kyu
+g06_20	5 Kyu
+g06_21	4 Kyu
+g06_22	3 Kyu
+g06_23	2 Kyu
+g06_24	1 Kyu
+g06_25	Master
+g06_26	=DATA
+g06_27	{sp:01}75 moves{to:5}
+g06_28	100 moves{to:5}
+g06_29	125 moves{to:5}
+g06_30	150 moves{to:5}
+g06_31	175 moves{to:5}
+g07_00	200 moves{to:5}
+g07_01	225 moves{to:5}
+g07_02	Quit this game?
+g07_03	Is this your answer?
+g07_04	Correct!
+g07_05	Wrong.
+g07_06	Continue?
+g07_07	Hints are not available{nl}in the Master Tournament.{nl}Good luck!{wait:00}
+g07_08	{sp:05}Renju{nl}{sp:05}Staff
+g07_09	Supervisor{nl}{sp:05}Goro Sakata
+g07_10	Production Support{nl}{sp:05}Hiroshi Matsuura
+g07_11	Planning{nl}{sp:05}Fujisaku Nakano
+g07_12	Graphics{nl}{sp:05}Fujisaku Nakano
+g07_13	Graphics{nl}{sp:05}Ichikawa Nakano
+g07_14	Test Play{nl}{sp:05}What an ordeal!
+g07_15	Sound{nl}{sp:05}Togo ????
+g07_16	Production Help{nl}{sp:05}G. BABA
+g07_17	Production Help{nl}{sp:05}G. BABA
+g07_18	=DATA
+g07_19	Magic lies in jumping.
+g07_20	Block on the side it was drawn toward.
+g07_21	No magic in drawing,{nl}but magic in resting.
+g07_22	Defend with a knight's move.
+g07_23	Your enemy's key point{nl}is your key point.
+g07_24	Don't block the stone,{nl}block the line.
+g07_25	{sp:01}Fuji 1
+g07_26	{sp:01}Fuji 2
+g07_27	The board has 15 lines running across and 15 running down.{wait:00}The black dot in the center is called "tengen."{wait:00}
+g07_28	Five stones of the same color in an unbroken row.{wait:00}{se:01}Whoever makes a five first wins the game.{wait:00}White also wins with five or more in a row,{wait:00}but Black wins only with exactly five.{wait:00}
+g07_29	Sometimes six stones end up in a row at once.{wait:00}{se:0F}This is called an "overline."{wait:00}An overline still wins for White,{wait:00}but for Black it is a forbidden move, so Black loses.{wait:00}
+g07_30	Three stones in a row.{wait:00}With the next move it can become a straight four.{wait:00}{se:10}In other words, a three is a straight four with one stone taken away.{wait:00}{se:11}A three can be defended like this.{wait:00}{se:12}For Black and White alike, once one end is blocked,{wait:00}{se:13}even making a four with the next move{wait:00}{se:14}gets blocked like this.{wait:00}A three is a straight four minus one stone,{wait:00}but playing threes one after another{wait:00}never wins the game if they get blocked.{wait:00}A three is a weak attack.{wait:00}
+g07_31	A three with a gap in it.{wait:00}If you put a stone in the gap,{wait:00}{se:16}it becomes a straight four.{wait:00}{se:17}But if it is blocked like this, it cannot become a straight four.{wait:00}
+g08_00	Four stones in a row.{wait:00}{se:18}When one end is blocked, as with Black, and it cannot win,{wait:00}it is called a "four."{wait:00}When both ends are open, as with White,{wait:00}so that even with one end blocked the next move is as good as a win,{wait:00}{se:19}it is called a "straight four." A four is a strong attack.{wait:00}
+g08_01	A four with a gap in it.{wait:00}{se:1A}Put a stone in the gap and it becomes a five.{wait:00}
+g08_02	Making a four and a three with a single move.{wait:00}{se:1B}Placing a stone like this makes a four and a three at once, which leads to a win.{wait:00}{se:1C}Even if the four of the four-three is blocked,{wait:00}{se:1D}the next move makes a straight four.{wait:00}The four-three is one way to win at renju.{wait:00}
+g08_03	A four-three in which the three became a four.{wait:00}One move makes two fours.{wait:00}{se:1E}White may play a double-four,{wait:00}but for Black it is a forbidden move and Black loses.{wait:00}With straight fours or plain fours, if Black makes a double-four, Black loses.{wait:00}
+g08_04	Making two or more threes at once with a single move.{wait:00}{se:1F}White may make a double-three,{wait:00}but for Black it is a forbidden move and Black loses.{wait:00}
+g08_05	A three that cannot become a straight four on the next move.{wait:00}{se:20}Even with a stone added, one end is closed,{wait:00}{se:21}so it cannot become a straight four, or it would make an overline and lose by a foul.{wait:00}{se:22}Such a three is not a real three.{wait:00}
+g08_06	A four-three or double-three that includes a false three.{wait:00}This double-three is not a forbidden move.{wait:00}{se:23}It happens when stones are placed like this.{wait:00}At a glance it looks like a four-three-three or a double-three,{wait:00}but it is blocked, or it lies on an overline.{wait:00}
+g08_07	The moves Black must not play.{wait:00}Double-threes, double-fours and overlines made with one move.{wait:00}{se:24}Black loses whether Black plays one or is forced into one.{wait:00}The rule was added to balance Black's first-move advantage.{wait:00}White can also win by trapping Black into a forbidden move.{wait:00}
+g08_08	Attacking moves.{wait:00}{se:25}Playing a three is called "hiku" (drawing).{wait:00}{se:26}Playing a four is called{wait:00}{se:30}"nobiru" (extending).{wait:00}{se:35}Playing a split three or a split four is called{wait:00}{se:36}"tobu" (jumping).{wait:00}{se:27}A move that sets up a four-three win next is called{wait:00}{se:28}"miseru" (showing).{wait:00}{se:29}A move that sets up a four-chase win next is called{wait:00}{se:2A}"fukumu" (hiding). A four-chase win goes{wait:00}{se:2B}like this:{wait:00}{se:31}four,{wait:00}{se:32}four, four,{wait:00}{se:2C}and so on,{wait:00}{se:2D}until fours in a row end in a four-three win.{wait:00}{se:2E}White's move that forces Black into a foul is called "hameru" (trapping).{wait:00}{se:2F}White has trapped Black into a double-three foul.{wait:00}{se:34}This is how Black gets trapped while trying to stop White's five.{wait:00}
+g08_09	Blocking both ends of a three,{wait:00}{se:33}each from one space away.{wait:00}
+g08_10	Board
+g08_11	Five
+g08_12	Overline
+g08_13	Three
+g08_14	Split Three
+g08_15	Four
+g08_16	Split Four
+g08_17	Four-Three
+g08_18	Double-Four
+g08_19	Double-Three
+g08_20	False Three
+g08_21	False 4-3 and 3-3
+g08_22	Forbidden Moves
+g08_23	Attacks
+g08_24	Natsudome
+g08_25	=DATA
+g08_26	=DATA
+g08_27	=DATA
+g08_28	=DATA
+g08_29	=DATA
+g08_30	=DATA
+g08_31	=DATA
+g09_00	=DATA
+g09_01	=DATA
+g09_02	=DATA
+g09_03	=DATA
+g09_04	=DATA
+g09_05	=DATA
+g09_06	=DATA
+g09_07	=DATA
+g09_08	=DATA
+g09_09	=DATA
+g09_10	=DATA
+g09_11	=DATA
+g09_12	=DATA
+g09_13	=DATA
+g09_14	=DATA
+g09_15	=DATA
+g09_16	=DATA
+g09_17	=DATA
+g09_18	=DATA
+g09_19	=DATA
+g09_20	=DATA
+g09_21	=DATA
+g09_22	=DATA
+g09_23	=DATA
+g09_24	=DATA
+g09_25	=DATA
+g09_26	=DATA
+g09_27	=DATA
+g09_28	=DATA
+g09_29	=DATA
+g09_30	=DATA
+g09_31	=DATA
+g10_00	=DATA
+g10_01	=DATA
+g10_02	=DATA
+g10_03	=DATA
+g10_04	=DATA
+g10_05	=DATA
+g10_06	=DATA
+g10_07	=DATA
+g10_08	=DATA
+g10_09	=DATA
+g10_10	=DATA
+g10_11	=DATA
+g10_12	=DATA
+g10_13	=DATA
+g10_14	=DATA
+g10_15	=DATA
+g10_16	=DATA
+g10_17	=DATA
+g10_18	=DATA
+g10_19	=DATA
+g10_20	=DATA
+g10_21	=DATA
+g10_22	=DATA
+g10_23	=DATA
+g10_24	=DATA
+g10_25	=DATA
+g10_26	=DATA
+g10_27	=DATA
+g10_28	=DATA
+g10_29	=DATA
+g10_30	=DATA
+g10_31	=DATA
+g11_00	=DATA
+g11_01	=DATA
+g11_02	=DATA
+g11_03	=DATA
+g11_04	=DATA
+g11_05	=DATA
+g11_06	=DATA
+g11_07	=DATA
+g11_08	=DATA
+g11_09	Please send this password{nl}{sp:02}to NAXAT{nl}{sp:02}by mail.
+g12_00	=DATA
+g12_01	A battle you can't win
+g12_02	=JP
+g12_03	Go back.
+g12_04	Player
+g12_05	Direct
+g12_06	Indirect
+g12_07	What will you do?
+g12_08	Speed
+g12_09	=JP
+g12_10	Button
+g12_11	Please choose.
+g12_12	=DATA
+g12_13	Password
+g13_00	Black
+g13_01	White

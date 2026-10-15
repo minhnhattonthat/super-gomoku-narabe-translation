@@ -4,7 +4,7 @@
   "off": "187F9",
   "jp": "文字{ph:08}",
   "full": "文字スピード",
-  "en": "",
+  "en": "Text Speed",
   "vi": "",
   "kind": "text"
  },
@@ -13,7 +13,7 @@
   "off": "18801",
   "jp": "速い{sp:01}ふつう{sp:01}遅い",
   "full": "速い{sp:01}ふつう{sp:01}遅い",
-  "en": "",
+  "en": "Fast{to:3}Normal{to:7}Slow",
   "vi": "",
   "kind": "text"
  },
@@ -22,7 +22,7 @@
   "off": "18815",
   "jp": "ふつう",
   "full": "ふつう",
-  "en": "",
+  "en": "Normal",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "1881D",
   "jp": "遅い",
   "full": "遅い",
-  "en": "",
+  "en": "Slow",
   "vi": "",
   "kind": "text"
  },
@@ -40,7 +40,7 @@
   "off": "18823",
   "jp": "カーソル{ph:08}",
   "full": "カーソルスピード",
-  "en": "",
+  "en": "Cursor Speed",
   "vi": "",
   "kind": "text"
  },
@@ -49,7 +49,7 @@
   "off": "1882F",
   "jp": "ストップ{sp:01}B{ph:0A}",
   "full": "ストップ{sp:01}Bボタン",
-  "en": "",
+  "en": "Stop{to:5}B Button",
   "vi": "",
   "kind": "text"
  },
@@ -58,7 +58,7 @@
   "off": "1883F",
   "jp": "問題を{ph:0B}",
   "full": "問題を選んでください。",
-  "en": "",
+  "en": "Please choose a problem.",
   "vi": "",
   "kind": "text"
  },
@@ -67,7 +67,7 @@
   "off": "18849",
   "jp": "追い詰め{sp:03}二手勝ち",
   "full": "追い詰め{sp:03}二手勝ち",
-  "en": "",
+  "en": "Chase-Down{to:7}Win in Two",
   "vi": "",
   "kind": "text"
  },
@@ -76,7 +76,7 @@
   "off": "1885D",
   "jp": "四追勝ち{sp:03}実力認定",
   "full": "四追勝ち{sp:03}実力認定",
-  "en": "",
+  "en": "Four-Chase{to:7}Rank Test",
   "vi": "",
   "kind": "text"
  },
@@ -85,7 +85,7 @@
   "off": "18871",
   "jp": "問題{sp:02}番",
   "full": "問題{sp:02}番",
-  "en": "",
+  "en": "No.{sp:02}",
   "vi": "",
   "kind": "text"
  },
@@ -94,7 +94,7 @@
   "off": "1887B",
   "jp": "何を{ph:02}か?{sp:04}",
   "full": "何をしますか?{sp:04}",
-  "en": "",
+  "en": "What would you like to do?",
   "vi": "",
   "kind": "text"
  },
@@ -105,14 +105,14 @@
   "full": "とぶにみようあり",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_12",
   "off": "1889B",
   "jp": "{ph:0D}をいれて下さい。",
   "full": "パスワードをいれて下さい。",
-  "en": "",
+  "en": "Please enter the password.",
   "vi": "",
   "kind": "text"
  },
@@ -121,7 +121,7 @@
   "off": "188AF",
   "jp": "あなたの{ph:0D}です。",
   "full": "あなたのパスワードです。",
-  "en": "",
+  "en": "This is your password.",
   "vi": "",
   "kind": "text"
  },
@@ -130,7 +130,7 @@
   "off": "188C1",
   "jp": "{ph:0D}がちがいます。{sp:01}",
   "full": "パスワードがちがいます。{sp:01}",
-  "en": "",
+  "en": "Wrong password.",
   "vi": "",
   "kind": "text"
  },
@@ -141,7 +141,7 @@
   "full": "あいうえお{sp:02}まみむめも",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_16",
@@ -150,7 +150,7 @@
   "full": "かきくけこ{sp:02}やゆよ、。",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_17",
@@ -159,7 +159,7 @@
   "full": "さしすせそ{sp:02}らりるれろ",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_18",
@@ -168,14 +168,14 @@
   "full": "たちつてと{sp:02}わをん◀▶",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_19",
   "off": "18935",
   "jp": "なにぬねの{sp:04}決まり",
   "full": "なにぬねの{sp:04}決まり",
-  "en": "",
+  "en": "なにぬねの{to:9}Done",
   "vi": "",
   "kind": "text"
  },
@@ -184,7 +184,7 @@
   "off": "18949",
   "jp": "はひふへほ{sp:04}始めから",
   "full": "はひふへほ{sp:04}始めから",
-  "en": "",
+  "en": "はひふへほ{to:9}Reset",
   "vi": "",
   "kind": "text"
  },
@@ -195,7 +195,7 @@
   "full": "ふたりのたたかい",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_22",
@@ -204,7 +204,7 @@
   "full": "これはこまつた。",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_23",
@@ -213,7 +213,7 @@
   "full": "このてはきんて。",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_24",
@@ -222,7 +222,7 @@
   "full": "せんてひつしよう",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_25",
@@ -231,14 +231,14 @@
   "full": "・・・・・・・・",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g04_26",
   "off": "189B9",
   "jp": "問題{sp:02}番",
   "full": "問題{sp:02}番",
-  "en": "",
+  "en": "No.{sp:02}",
   "vi": "",
   "kind": "text"
  },
@@ -247,7 +247,7 @@
   "off": "189C3",
   "jp": "黒から",
   "full": "黒から",
-  "en": "",
+  "en": "Black starts",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "189CB",
   "jp": "白から",
   "full": "白から",
-  "en": "",
+  "en": "White starts",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "189D3",
   "jp": "打出し",
   "full": "打出し",
-  "en": "",
+  "en": "Opening",
   "vi": "",
   "kind": "text"
  },
@@ -274,7 +274,7 @@
   "off": "189DB",
   "jp": "二手で",
   "full": "二手で",
-  "en": "",
+  "en": "In two moves",
   "vi": "",
   "kind": "text"
  },
@@ -283,7 +283,7 @@
   "off": "189E3",
   "jp": "四の",
   "full": "四の",
-  "en": "",
+  "en": "By fours",
   "vi": "",
   "kind": "text"
  }

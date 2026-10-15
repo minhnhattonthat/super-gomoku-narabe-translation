@@ -1,0 +1,51 @@
+# Debug-tool scene list (tools/debug/warp.py). One [scene] per block:
+#   desc: one line          base: scene whose steps run first
+#   N BUTTONS               route step (emu.py format: hold BUTTONS for N frames; "-" = none)
+#   poke ADDR=VAL ..        write WRAM/bus byte(s) once at this point (hex, 24-bit CPU address)
+#   hold ADDR=VAL ..        write every frame from this point on
+#   lua CODE                run Lua once at this point (W.rd/W.wr/W.rd16/W.wr16 from warp.lua)
+# Presses are held 8 frames; waits are generous so routes also work on translated builds.
+
+[title]
+desc: title screen (連珠 logo, PUSH START), after the naxat logo and intro pan
+1000 -
+
+[mode_menu]
+desc: mode menu, 2x2 cards: 対局 / 詰め連珠 / 連珠辞典 / オプション (g01_12..16)
+base: title
+8 start
+300 -
+
+[match_menu]
+desc: match menu (対局): cards フリー対局 (default) / 名人戦 (up); g01_17, g01_18
+base: mode_menu
+8 a
+300 -
+
+[free_settings]
+desc: free-match settings: 対戦者 VS COM, レベル, 1Pの先後手, 勝利数, 満了, 連珠盤, 決定 (g06_07..)
+base: match_menu
+8 a
+400 -
+
+[game_opening_select]
+desc: free match started (1P black vs COM): 珠型を選んでください。 直接型 / 間接型 / COMまかせ
+base: free_settings
+8 up
+30 -
+8 a
+450 -
+
+[game_opening_list]
+desc: opening list after 直接型: 珠型はどうしますか? scrolling names (山月 / 寒星 / 渓月 ...)
+base: game_opening_select
+8 a
+200 -
+
+[game_board]
+desc: in play, 5手目 黒番, 1P's cursor on the board (opening 直接2号 渓月, COM has played move 4)
+base: game_opening_list
+8 down
+60 -
+8 a
+500 -

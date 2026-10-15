@@ -6,7 +6,7 @@
   "full": "せんてはくろいし",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g11_01",
@@ -15,7 +15,7 @@
   "full": "ひくにみようなく",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g11_02",
@@ -24,7 +24,7 @@
   "full": "ふせぎはけいま。",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g11_03",
@@ -33,7 +33,7 @@
   "full": "しろきんてねらい",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g11_04",
@@ -42,7 +42,7 @@
   "full": "ふくみてとみせて",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g11_05",
@@ -51,7 +51,7 @@
   "full": "ひくはめるねらう",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g11_06",
@@ -60,7 +60,7 @@
   "full": "とぶくさるのりて",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g11_07",
@@ -69,7 +69,7 @@
   "full": "じようせきをうつ",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g11_08",
@@ -78,14 +78,14 @@
   "full": "くろいししろいし",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g11_09",
   "off": "1A1B7",
   "jp": "このパスワードを{nl}{sp:02}NAXATまで{nl}{sp:02}おくってください。",
   "full": "このパスワードを{nl}{sp:02}NAXATまで{nl}{sp:02}おくってください。",
-  "en": "",
+  "en": "Please send this password{nl}{sp:02}to NAXAT{nl}{sp:02}by mail.",
   "vi": "",
   "kind": "text"
  }

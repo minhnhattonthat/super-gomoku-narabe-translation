@@ -4,7 +4,7 @@
   "off": "18BF7",
   "jp": "げーむ{sp:01}おーばー",
   "full": "げーむ{sp:01}おーばー",
-  "en": "",
+  "en": "Game Over",
   "vi": "",
   "kind": "text"
  },
@@ -13,7 +13,7 @@
   "off": "18C09",
   "jp": "ゆうしょう!",
   "full": "ゆうしょう!",
-  "en": "",
+  "en": "Champion!",
   "vi": "",
   "kind": "text"
  },
@@ -22,7 +22,7 @@
   "off": "18C17",
   "jp": "あなたは名人戦に",
   "full": "あなたは名人戦に",
-  "en": "",
+  "en": "You have won the",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "18C29",
   "jp": "勝利しました。",
   "full": "勝利しました。",
-  "en": "",
+  "en": "Master Tournament!",
   "vi": "",
   "kind": "text"
  },
@@ -40,7 +40,7 @@
   "off": "18C39",
   "jp": "{sp:01}2Pの勝ちです。",
   "full": "{sp:01}2Pの勝ちです。",
-  "en": "",
+  "en": "{sp:01}2P wins!",
   "vi": "",
   "kind": "text"
  },
@@ -49,7 +49,7 @@
   "off": "18C4D",
   "jp": "COMの勝ちです。",
   "full": "COMの勝ちです。",
-  "en": "",
+  "en": "COM wins!",
   "vi": "",
   "kind": "text"
  },
@@ -58,7 +58,7 @@
   "off": "18C61",
   "jp": "続けますか?{nl}{sp:04}はい{sp:02}いいえ",
   "full": "続けますか?{nl}{sp:04}はい{sp:02}いいえ",
-  "en": "",
+  "en": "Continue?{nl}{to:4}Yes{to:8}No",
   "vi": "",
   "kind": "text"
  },
@@ -67,7 +67,7 @@
   "off": "18C7F",
   "jp": "設定を{ph:0B}",
   "full": "設定を選んでください。",
-  "en": "",
+  "en": "Please choose your settings.",
   "vi": "",
   "kind": "text"
  },
@@ -76,7 +76,7 @@
   "off": "18C89",
   "jp": "対戦者",
   "full": "対戦者",
-  "en": "",
+  "en": "Opponent",
   "vi": "",
   "kind": "text"
  },
@@ -85,7 +85,7 @@
   "off": "18C91",
   "jp": "レベル",
   "full": "レベル",
-  "en": "",
+  "en": "Level",
   "vi": "",
   "kind": "text"
  },
@@ -94,7 +94,7 @@
   "off": "18C99",
   "jp": "1Pの先後手",
   "full": "1Pの先後手",
-  "en": "",
+  "en": "1P Order",
   "vi": "",
   "kind": "text"
  },
@@ -103,7 +103,7 @@
   "off": "18CA7",
   "jp": "勝利数",
   "full": "勝利数",
-  "en": "",
+  "en": "Wins Needed",
   "vi": "",
   "kind": "text"
  },
@@ -112,7 +112,7 @@
   "off": "18CAF",
   "jp": "満了",
   "full": "満了",
-  "en": "",
+  "en": "Move Limit",
   "vi": "",
   "kind": "text"
  },
@@ -121,7 +121,7 @@
   "off": "18CB5",
   "jp": "勝先勝",
   "full": "勝先勝",
-  "en": "",
+  "en": "wins",
   "vi": "",
   "kind": "text"
  },
@@ -130,7 +130,7 @@
   "off": "18CBD",
   "jp": "級外",
   "full": "級外",
-  "en": "",
+  "en": "Unranked",
   "vi": "",
   "kind": "text"
  },
@@ -139,7 +139,7 @@
   "off": "18CC3",
   "jp": "十級",
   "full": "十級",
-  "en": "",
+  "en": "10 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -148,7 +148,7 @@
   "off": "18CC9",
   "jp": "九級",
   "full": "九級",
-  "en": "",
+  "en": "9 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -157,7 +157,7 @@
   "off": "18CCF",
   "jp": "八級",
   "full": "八級",
-  "en": "",
+  "en": "8 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -166,7 +166,7 @@
   "off": "18CD5",
   "jp": "七級",
   "full": "七級",
-  "en": "",
+  "en": "7 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -175,7 +175,7 @@
   "off": "18CDB",
   "jp": "六級",
   "full": "六級",
-  "en": "",
+  "en": "6 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -184,7 +184,7 @@
   "off": "18CE1",
   "jp": "五級",
   "full": "五級",
-  "en": "",
+  "en": "5 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -193,7 +193,7 @@
   "off": "18CE7",
   "jp": "四級",
   "full": "四級",
-  "en": "",
+  "en": "4 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -202,7 +202,7 @@
   "off": "18CED",
   "jp": "三級",
   "full": "三級",
-  "en": "",
+  "en": "3 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -211,7 +211,7 @@
   "off": "18CF3",
   "jp": "二級",
   "full": "二級",
-  "en": "",
+  "en": "2 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -220,7 +220,7 @@
   "off": "18CF9",
   "jp": "一級",
   "full": "一級",
-  "en": "",
+  "en": "1 Kyu",
   "vi": "",
   "kind": "text"
  },
@@ -229,7 +229,7 @@
   "off": "18CFF",
   "jp": "名人",
   "full": "名人",
-  "en": "",
+  "en": "Master",
   "vi": "",
   "kind": "text"
  },
@@ -240,14 +240,14 @@
   "full": "▲▼",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g06_27",
   "off": "18D0B",
   "jp": "{sp:01}75",
   "full": "{sp:01}75",
-  "en": "",
+  "en": "{sp:01}75 moves{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -256,7 +256,7 @@
   "off": "18D13",
   "jp": "100",
   "full": "100",
-  "en": "",
+  "en": "100 moves{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -265,7 +265,7 @@
   "off": "18D1B",
   "jp": "125",
   "full": "125",
-  "en": "",
+  "en": "125 moves{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -274,7 +274,7 @@
   "off": "18D23",
   "jp": "150",
   "full": "150",
-  "en": "",
+  "en": "150 moves{to:5}",
   "vi": "",
   "kind": "text"
  },
@@ -283,7 +283,7 @@
   "off": "18D2B",
   "jp": "175",
   "full": "175",
-  "en": "",
+  "en": "175 moves{to:5}",
   "vi": "",
   "kind": "text"
  }

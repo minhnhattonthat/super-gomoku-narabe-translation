@@ -6,14 +6,14 @@
   "full": "WWWW",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g12_01",
   "off": "1A1FB",
   "jp": "無理な戦い",
   "full": "無理な戦い",
-  "en": "",
+  "en": "A battle you can't win",
   "vi": "",
   "kind": "text"
  },
@@ -31,7 +31,7 @@
   "off": "1A20F",
   "jp": "戻ります",
   "full": "戻ります",
-  "en": "",
+  "en": "Go back.",
   "vi": "",
   "kind": "text"
  },
@@ -40,7 +40,7 @@
   "off": "1A219",
   "jp": "ぷれーやー",
   "full": "ぷれーやー",
-  "en": "",
+  "en": "Player",
   "vi": "",
   "kind": "text"
  },
@@ -49,7 +49,7 @@
   "off": "1A225",
   "jp": "直接",
   "full": "直接",
-  "en": "",
+  "en": "Direct",
   "vi": "",
   "kind": "text"
  },
@@ -58,7 +58,7 @@
   "off": "1A22B",
   "jp": "間接",
   "full": "間接",
-  "en": "",
+  "en": "Indirect",
   "vi": "",
   "kind": "text"
  },
@@ -67,7 +67,7 @@
   "off": "1A231",
   "jp": "どうしますか?",
   "full": "どうしますか?",
-  "en": "",
+  "en": "What will you do?",
   "vi": "",
   "kind": "text"
  },
@@ -76,7 +76,7 @@
   "off": "1A241",
   "jp": "スピード",
   "full": "スピード",
-  "en": "",
+  "en": "Speed",
   "vi": "",
   "kind": "text"
  },
@@ -94,7 +94,7 @@
   "off": "1A255",
   "jp": "ボタン",
   "full": "ボタン",
-  "en": "",
+  "en": "Button",
   "vi": "",
   "kind": "text"
  },
@@ -103,7 +103,7 @@
   "off": "1A25D",
   "jp": "選んでください。",
   "full": "選んでください。",
-  "en": "",
+  "en": "Please choose.",
   "vi": "",
   "kind": "text"
  },
@@ -114,14 +114,14 @@
   "full": "0123456789",
   "en": "",
   "vi": "",
-  "kind": "text"
+  "kind": "data"
  },
  {
   "id": "g12_13",
   "off": "1A285",
   "jp": "パスワード",
   "full": "パスワード",
-  "en": "",
+  "en": "Password",
   "vi": "",
   "kind": "text"
  }
