@@ -23,9 +23,13 @@ EMU = os.path.join(ROOT, ".claude", "skills", "translate-retro-game", "scripts",
 def parse(path):
     """scenes.txt -> {name: {"desc", "base", "steps"}}; steps are ("route", n, buttons) or (kind, addr, val)."""
     scenes, cur = {}, None
+    lines = []
     for no, line in enumerate(open(path, encoding="utf8"), 1):
-        line = line.split("#", 1)[0].rstrip() if not line.lstrip().startswith("lua ") else line.rstrip()
-        s = line.strip()
+        if line.lstrip().startswith(("lua ", "desc:")):
+            lines.append((no, line.strip()))
+        else:  # "#" comments; ";" separates several steps on one line
+            lines += [(no, p.strip()) for p in line.split("#", 1)[0].split(";")]
+    for no, s in lines:
         if not s:
             continue
         m = re.fullmatch(r"\[(\w+)\]", s)
@@ -78,13 +82,14 @@ def run(scenes, name, rom, out, then=None, every=30, quiet=False):
             os.remove(os.path.join(out, f))
     route, acts, frame = [], [], 0
     for kind, a, b in steps:
+        at = max(frame, 1)  # the driver's frame counter starts at 1
         if kind == "route":
             route.append(f"{a} {b}")
             frame += a
         elif kind == "lua":
-            acts.append(f"{{{frame},'lua',{lua_str(a)}}}")
+            acts.append(f"{{{at},'lua',{lua_str(a)}}}")
         else:
-            acts.append(f"{{{frame},'{kind}',0x{a:06X},0x{b:02X}}}")
+            acts.append(f"{{{at},'{kind}',0x{a:06X},0x{b:02X}}}")
     total = frame
     rpath = os.path.join(out, "route.txt")
     with open(rpath, "w", encoding="utf8") as f:
@@ -127,8 +132,17 @@ def main():
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--jobs", type=int, default=3)
     ap.add_argument("--list", action="store_true")
+    ap.add_argument("--selftest", action="store_true", help="parse scenes.txt and check every scene flattens")
     a = ap.parse_args()
     scenes = parse(a.scenes)
+    if a.selftest:
+        for n in scenes:
+            steps, mark = flatten(scenes, n)
+            total = sum(s[1] for s in steps if s[0] == "route")
+            assert total > mark or not scenes[n]["base"], f"{n}: no steps of its own"
+            assert scenes[n]["desc"], f"{n}: no desc"
+        print(f"selftest ok: {len(scenes)} scenes")
+        return 0
     if a.list:
         for n, sc in scenes.items():
             print(f"{n:24} {sc['desc']}")

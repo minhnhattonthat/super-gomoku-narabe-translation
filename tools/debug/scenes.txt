@@ -1,93 +1,459 @@
 # Debug-tool scene list (tools/debug/warp.py). One [scene] per block:
-#   desc: one line          base: scene whose steps run first
+#   desc: one line          base: scene whose steps run first (its steps are not re-shot)
 #   N BUTTONS               route step (emu.py format: hold BUTTONS for N frames; "-" = none)
 #   poke ADDR=VAL ..        write WRAM/bus byte(s) once at this point (hex, 24-bit CPU address)
 #   hold ADDR=VAL ..        write every frame from this point on
-#   lua CODE                run Lua once at this point (W.rd/W.wr/W.rd16/W.wr16 from warp.lua)
-# Presses are held 8 frames; waits are generous so routes also work on translated builds.
+#   lua CODE                run Lua once at this point (helpers W.* in warp.lua)
+# Several steps may share a line, separated by ";". Presses are held 8 frames; waits are generous so the
+# routes also work on translated builds. RAM map and text ids per scene: docs/re/screens.md.
 
+# ---------------------------------------------------------------- title, menus
 [title]
-desc: title screen (連珠 logo, PUSH START), after the naxat logo and intro pan
+desc: title screen (連珠 logo, ©1994 NAXAT SOFT, PUSH START), after the naxat logo and intro pan
 1000 -
+
+[title_credits]
+desc: title staff roll, all 9 entries of table 81:AA12 (g07_09..g07_17); the game itself shows only the first 2
+lua W.all_credits()
+9000 -
 
 [mode_menu]
 desc: mode menu, 2x2 cards: 対局 / 詰め連珠 / 連珠辞典 / オプション (g01_12..16)
 base: title
-8 start
-300 -
+8 start; 300 -
+
+[debug_menu]
+desc: hidden れんじゅ ますたぁ debug menu (8-bit text): るっく ろむ 4/16 COLOR, おぶじぇ みる, まっぷ てすと (runtime patch, never reachable in the game)
+lua W.debug_menu()
+1000 -; 8 start; 400 -
+
+[debug_lookrom]
+desc: debug menu, るっく ろむ (16 COLOR) page (8-bit text: ふぁいる ばんごう / ぺーじ / ぱれっと / やめる)
+base: debug_menu
+8 down; 60 -; 8 a; 300 -
 
 [match_menu]
 desc: match menu (対局): cards フリー対局 (default) / 名人戦 (up); g01_17, g01_18
 base: mode_menu
-8 a
-300 -
+8 a; 300 -
 
+# ---------------------------------------------------------------- 名人戦 (tournament)
 [tournament_bracket]
-desc: 名人戦 bracket, round 1 (一回戦): 1P vs opponent, names のりひさ.. めいじん (g05_27, g01_xx)
+desc: 名人戦 bracket, round 1 (名人戦 / 一回戦 / VS, names ペス..めいじん)
 base: match_menu
-8 up
-60 -
-8 a
-500 -
+8 up; 60 -; 8 a; 500 -
 
 [tournament_game]
 desc: 名人戦 round-1 game in play (opening 直接1号 寒星), 5手目 黒番, 1P's turn
 base: tournament_bracket
-8 a
-450 -
-8 a
-200 -
-8 a
-600 -
+8 a; 450 -; 8 a; 200 -; 8 a; 600 -
 
-[puzzle_menu]
-desc: 詰め連珠 problem select: 問題を選んでください。 追い詰め / 二手勝ち / 四追勝ち / 実力認定, 問題01番, 決定
-base: mode_menu
-8 right
-60 -
-8 a
-600 -
+[tournament_round_win]
+desc: round result screen 名人戦 / 一回戦 / 1Pの勝ちです。 (black five forced: four stones poked on row 0)
+base: tournament_game
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0)
+10 -; 8 a; 600 -
 
-[puzzle_solving]
-desc: puzzle 追い詰め 問題01: 勝つまで打って下さい。 side panel 黒から / 打出し / 四三勝 / 問題01番
-base: puzzle_menu
-8 a
-60 -
-8 down
-60 -
-8 down
-60 -
-8 a
-60 -
-8 down
-60 -
-8 a
-700 -
+[tournament_round2]
+desc: bracket after round 1: 名人戦 / 二回戦
+base: tournament_round_win
+8 a; 500 -     # the result screen waits for A
 
+[tournament_final_bracket]
+desc: bracket 決勝戦 (round counter $0144 poked to 1 before winning, so the win is round 2's)
+base: tournament_game
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0); W.wr(0x7E0144, 1)
+10 -; 8 a; 700 -; 8 a; 500 -
+
+[tournament_victory]
+desc: final won: 決勝戦 1Pの勝ちです。 then the certificate scroll (graphics, no text ids)
+base: tournament_game
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0); W.wr(0x7E0144, 2)
+10 -; 8 a; 700 -; 8 a; 600 -
+
+[game_over]
+desc: tournament loss: 白の勝ちです, 一回戦 1Pの負けです。 げーむ おーばー (COM five forced: white four poked on row 0)
+base: tournament_game
+lua W.stones(2, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(14, 14)
+10 -; 8 a; 650 -
+
+# ---------------------------------------------------------------- free match settings
 [free_settings]
 desc: free-match settings: 対戦者 VS COM, レベル, 1Pの先後手, 勝利数, 満了, 連珠盤, 決定 (g06_07..)
 base: match_menu
-8 a
-400 -
+8 a; 400 -
 
+[free_opponent]
+desc: settings row 対戦者 cycled with right: COM / 2P (g03_14, g01_01)
+base: free_settings
+8 right; 60 -; 8 right; 60 -; 8 right; 60 -
+
+[free_level]
+desc: settings row レベル cycled through all 12 values: 級外, 十級..一級, 名人 (g06_14..25)
+base: free_settings
+8 down; 30 -
+8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -
+8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -
+
+[free_first]
+desc: settings row 1Pの先後手 cycled: 先手 / 後手 (g00_05, g00_06)
+base: free_settings
+8 down; 30 -; 8 down; 30 -; 8 right; 60 -; 8 right; 60 -
+
+[free_wins]
+desc: settings row 勝利数 cycled 1..9 勝先勝 (digits are drawn by the number routine, g06_13)
+base: free_settings
+8 down; 30 -; 8 down; 30 -; 8 down; 30 -
+8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -
+8 right; 45 -; 8 right; 45 -; 8 right; 45 -
+
+[free_movelimit]
+desc: settings row 満了 cycled: 150, 175, 200, 225, 75, 100, 125 手 (g06_27..g07_01)
+base: free_settings
+8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 down; 30 -
+8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -
+
+[free_board]
+desc: settings row 連珠盤 cycled: 木目一..五, 桜一, 桜二, 富士一, 富士二 (g00_27..29, g03_15..18, g07_25..26)
+base: free_settings
+8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 down; 30 -
+8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -; 8 right; 45 -
+8 right; 45 -; 8 right; 45 -; 8 right; 45 -
+
+# ---------------------------------------------------------------- free match game (1P black vs COM, 3 wins)
 [game_opening_select]
 desc: free match started (1P black vs COM): 珠型を選んでください。 直接型 / 間接型 / COMまかせ
 base: free_settings
-8 up
-30 -
-8 a
-450 -
+8 up; 30 -; 8 a; 450 -
 
 [game_opening_list]
 desc: opening list after 直接型: 珠型はどうしますか? scrolling names (山月 / 寒星 / 渓月 ...)
 base: game_opening_select
-8 a
-200 -
+8 a; 200 -
+
+[game_opening_indirect]
+desc: opening list after 間接型 (間接1号 長星 ...), scrolled down through all 12
+base: game_opening_select
+8 down; 40 -; 8 a; 200 -
+8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -
+8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -
+
+[game_opening_com]
+desc: opening COMまかせ: COM picks the opening, its name shown in the header (直接N号 xx)
+base: game_opening_select
+8 down; 40 -; 8 down; 40 -; 8 a; 600 -
 
 [game_board]
 desc: in play, 5手目 黒番, 1P's cursor on the board (opening 直接2号 渓月, COM has played move 4)
 base: game_opening_list
-8 down
-60 -
-8 a
-500 -
+8 down; 60 -; 8 a; 500 -
+
+[game_panel_menu]
+desc: cursor right off the board onto the side panel, A on the first icon: メニューを開きます, bar = 効果音 / 曲 / 曲選択 / 投了
+base: game_board
+8 right; 20 -; 8 right; 20 -; 8 right; 20 -; 8 right; 20 -; 8 right; 60 -; 8 a; 120 -
+
+[game_panel_sfx]
+desc: panel menu, A on 効果音: 効果音を消します, A again: 効果音を出します
+base: game_panel_menu
+8 a; 120 -; 8 a; 120 -
+
+[game_panel_music]
+desc: panel menu, A on 曲: 曲を消します, A again: 曲を出します
+base: game_panel_menu
+8 right; 40 -; 8 a; 120 -; 8 a; 120 -
+
+[game_panel_song]
+desc: panel menu, A on the song icon: 曲をかえますか? with list 楽曲 さくら / じんせい / たび (g05_11..13)
+base: game_panel_menu
+8 right; 40 -; 8 right; 40 -; 8 a; 150 -
+
+[game_panel_resign]
+desc: panel menu, A on 投了: 投了しますか / はい いいえ (g00_13, g00_21)
+base: game_panel_menu
+8 right; 40 -; 8 right; 40 -; 8 right; 40 -; 8 a; 150 -
+
+[game_resigned]
+desc: resign confirmed (はい): 投了 then 白の勝ちです, next game
+base: game_panel_resign
+8 a; 400 -
+
+[game_panel_stones]
+desc: panel hand icon: 碁石をどうしますか, bar = 1手前 / 再現 / 元に戻す / 始め; hovering an icon shows its caption (g00_15)
+base: game_board
+8 right; 20 -; 8 right; 20 -; 8 right; 20 -; 8 right; 20 -; 8 right; 40 -; 8 right; 60 -; 8 a; 150 -
+
+[game_panel_undo]
+desc: stones bar, first icon: caption 1手前に戻ります, A undoes one move
+base: game_panel_stones
+8 a; 200 -
+
+[game_panel_replay]
+desc: stones bar, second icon: caption 1手ずつ再現します, A steps the replay
+base: game_panel_stones
+8 right; 60 -; 8 a; 200 -
+
+[game_panel_redo]
+desc: stones bar, third icon: caption 元に戻します
+base: game_panel_stones
+8 right; 40 -; 8 right; 60 -; 8 a; 200 -
+
+[game_panel_tostart]
+desc: stones bar, 始 icon: caption 始めに戻ります
+base: game_panel_stones
+8 right; 40 -; 8 right; 40 -; 8 right; 60 -; 8 a; 200 -
+
+[game_win]
+desc: black (1P) five: 五連 then 黒の勝ちです, score 1勝, next game (four black stones poked on row 0)
+base: game_board
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0)
+10 -; 8 a; 330 -
+
+[game_lose]
+desc: COM (white) five: 五連 then 白の勝ちです (white four poked on row 0, 1P plays at 14,14)
+base: game_board
+lua W.stones(2, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(14, 14)
+10 -; 8 a; 450 -
+
+[game_overline]
+desc: black forbidden overline: 長連禁 then 白の勝ちです
+base: game_board
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4},{0,5}}); W.cursor(0, 0)
+10 -; 8 a; 330 -
+
+[game_double_four]
+desc: black forbidden double four: 四々禁 then 白の勝ちです
+base: game_board
+lua W.stones(1, {{0,1},{0,2},{0,3},{1,0},{2,0},{3,0}}); W.cursor(0, 0)
+10 -; 8 a; 330 -
+
+[game_double_three]
+desc: black forbidden double three: 三々禁 then 白の勝ちです
+base: game_board
+lua W.stones(1, {{11,12},{11,13},{12,11},{13,11}}); W.cursor(11, 11)
+10 -; 8 a; 330 -
+
+[game_move_limit]
+desc: move limit reached (満了 $013C poked to 5): 満局
+base: game_board
+poke 7E013C=05
+lua W.cursor(14, 14)
+10 -; 8 a; 330 -
+
+# ---------------------------------------------------------------- free match to the continue prompt (1 win)
+[free1_board]
+desc: free match with 勝利数 = 1勝先勝, in play at 5手目 (same opening as game_board)
+base: free_settings
+8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 left; 40 -; 8 left; 40 -
+8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 a; 450 -
+8 a; 200 -; 8 down; 60 -; 8 a; 500 -
+
+[continue_win]
+desc: free match won: 黒の勝ちです, then result screen 1Pの勝ちです。 + 続けますか? はい いいえ
+base: free1_board
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0)
+10 -; 8 a; 1000 -
+
+[continue_lose]
+desc: free match lost: 白の勝ちです, then COMの勝ちです。 + 続けますか? はい いいえ
+base: free1_board
+lua W.stones(2, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(14, 14)
+10 -; 8 a; 1100 -
+
+[free2p_board]
+desc: free match 1P vs 2P (controller 2 plays white), 勝利数 1, in play at 5手目 黒番
+base: free_settings
+8 right; 40 -
+8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 left; 40 -; 8 left; 40 -
+8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 a; 450 -
+8 a; 200 -; 8 down; 60 -; 8 a; 500 -
+
+[continue_2p]
+desc: 2P (white, controller 2) makes five: 白の勝ちです, then 2Pの勝ちです。 + 続けますか? (white four poked on row 0)
+base: free2p_board
+lua W.stones(2, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0)
+10 -
+lua W.pad2("a")
+1000 -
+
+# ---------------------------------------------------------------- 詰め連珠 (puzzles)
+[puzzle_menu]
+desc: 詰め連珠 problem select: 問題を選んでください。 追い詰め / 二手勝ち / 四追勝ち / 実力認定, 問題01番, 決定
+base: mode_menu
+8 right; 60 -; 8 a; 600 -
+
+[puzzle_solving]
+desc: puzzle 追い詰め 問題01: 勝つまで打って下さい。 side panel 黒から / 打出し / 四三勝 / 問題01番
+base: puzzle_menu
+8 a; 60 -; 8 down; 60 -; 8 down; 60 -; 8 a; 60 -; 8 down; 60 -; 8 a; 700 -
+
+[puzzle_panel]
+desc: puzzle side panel: cursor on the panel shows 何をしますか? (g04_10)
+base: puzzle_solving
+8 right; 20 -; 8 right; 20 -; 8 right; 20 -; 8 right; 20 -; 8 right; 20 -; 8 right; 20 -
+8 right; 20 -; 8 right; 20 -; 8 right; 20 -; 8 right; 60 -; 8 a; 150 -
+
+[puzzle_correct]
+desc: correct answer: 正解です。 then 続けますか? はい いいえ (black five forced on row 0)
+base: puzzle_solving
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0)
+10 -; 8 a; 400 -
+
+[puzzle_next]
+desc: はい after a correct answer: next problem 問題02番 (追詰勝)
+base: puzzle_correct
+8 a; 400 -
+
+[puzzle_wrong]
+desc: wrong answer (move limit $013C poked to the current move count): まちがいです。 then 続けますか?
+base: puzzle_solving
+poke 7E013C=12
+lua W.cursor(14, 14)
+10 -; 8 a; 400 -
+
+[puzzle_clear]
+desc: last 追い詰め problem solved with 5+ solved: certificate scroll (graphics, no text ids); poked $0133/$0134/$0138
+base: puzzle_solving
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0); W.wr(0x7E0133, 0); W.wr(0x7E0134, 5); W.wr(0x7E0138, 4)
+10 -; 8 a; 900 -
+
+[password_entry]
+desc: 実力認定 picked: パスワードをいれて下さい。 kana grid (g04_12, g04_15..20, g04_25), 決まり / 始めから
+base: puzzle_menu
+8 right; 60 -; 8 down; 60 -; 8 a; 300 -
+
+[password_wrong]
+desc: types あ then 決まり: パスワードがちがいます。 (g04_14); the game checks the input against every password string
+base: password_entry
+8 a; 30 -; 8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 down; 30 -
+8 right; 30 -; 8 right; 30 -; 8 right; 30 -; 8 right; 30 -; 8 right; 30 -; 8 a; 120 -
+
+[jitsuryoku_solving]
+desc: 実力認定 started with 始めから: problem 1, side panel 黒から / 打出し / 二手で / 四三勝
+base: password_entry
+8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 down; 30 -; 8 down; 30 -
+8 right; 30 -; 8 right; 30 -; 8 right; 30 -; 8 right; 30 -; 8 right; 30 -; 8 a; 1200 -
+
+[jitsuryoku_password]
+desc: 実力認定 quit after 3 problems: あなたのパスワードです。 + 8-kana password (here これはこまつた。, g04_22)
+base: puzzle_solving
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0); W.wr(0x7E0133, 2)
+10 -; 8 a; 82 -
+poke 7E0131=03   # category 実力認定, set after the answer was judged (it changes the judging)
+318 -; 8 right; 60 -; 8 a; 600 -
+
+[naxat_password]
+desc: 実力認定 complete (6 problems): あなたのパスワードです。 とぶにみようあり / このパスワードを NAXATまで おくってください。
+base: puzzle_solving
+lua W.stones(1, {{0,1},{0,2},{0,3},{0,4}}); W.cursor(0, 0); W.wr(0x7E0133, 5)
+10 -; 8 a; 82 -
+poke 7E0131=03
+700 -
+
+# ---------------------------------------------------------------- 連珠辞典 (dictionary)
+[dictionary_menu]
+desc: 連珠辞典 item list: 項目を選んでください。 (circular list ナツドメ / 連珠盤 / 五連 ..., g08_10..24)
+base: mode_menu
+8 down; 60 -; 8 a; 600 -
+
+[dict_board]
+desc: dictionary entry 連珠盤 (g07_27), typed pages advanced with A
+base: dictionary_menu
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_five]
+desc: dictionary entry 五連 (g07_28)
+base: dictionary_menu
+8 down; 40 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_overline]
+desc: dictionary entry 長連 (g07_29)
+base: dictionary_menu
+8 down; 40 -; 8 down; 40 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_three]
+desc: dictionary entry 三 (g07_30)
+base: dictionary_menu
+8 down; 40 -; 8 down; 40 -; 8 down; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_four]
+desc: dictionary entry 四 (5th item)
+base: dictionary_menu
+8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_tobi3]
+desc: dictionary entry トビ三 (5th item)
+base: dictionary_menu
+8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_tobi4]
+desc: dictionary entry トビ四 (7th item)
+base: dictionary_menu
+8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_43]
+desc: dictionary entry 四三 (8th item)
+base: dictionary_menu
+8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -; 8 down; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_44]
+desc: dictionary entry 四々 (9th item)
+base: dictionary_menu
+8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_33]
+desc: dictionary entry 三々 (10th item)
+base: dictionary_menu
+8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_false3]
+desc: dictionary entry ウソの三 (11th item)
+base: dictionary_menu
+8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_false43]
+desc: dictionary entry ウソの四三・三々 (12th item)
+base: dictionary_menu
+8 up; 40 -; 8 up; 40 -; 8 up; 40 -; 8 up; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_oite]
+desc: dictionary entry 追い手 (14th item)
+base: dictionary_menu
+8 up; 40 -; 8 up; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_foul]
+desc: dictionary entry 禁手 (12th item)
+base: dictionary_menu
+8 up; 40 -; 8 up; 40 -; 8 up; 40 -
+8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+[dict_natsudome]
+desc: dictionary entry ナツドメ (last item, up once)
+base: dictionary_menu
+8 up; 40 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -; 8 a; 250 -
+
+# ---------------------------------------------------------------- オプション (options)
+[options_menu]
+desc: オプション: 何をしますか? 音をいじる / 表示をいじる / 戻る
+base: mode_menu
+8 down; 30 -; 8 right; 60 -; 8 a; 600 -
+
+[options_sound]
+desc: 音をどうしますか? ステレオ / モノラル, 曲 01, 効果音 01, 戻る, スタート Aボタン, ストップ Bボタン
+base: options_menu
+8 a; 400 -
+
+[options_display]
+desc: 表示をどうしますか? 文字スピード 速い ふつう 遅い, カーソルスピード, 戻る
+base: options_menu
+8 down; 60 -; 8 a; 400 -
