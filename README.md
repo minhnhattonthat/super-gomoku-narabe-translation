@@ -29,3 +29,9 @@ cold boot in an emulator). See `CLAUDE.md` for the full command list.
 
 Translation, font and engine patch: minhnhattonthat, with AI assistance (Claude by Anthropic). Not affiliated with or
 endorsed by the rights holders.
+
+## Support
+
+If you enjoy this translation, you can support my work on Ko-fi:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/minhnhattonthat)
