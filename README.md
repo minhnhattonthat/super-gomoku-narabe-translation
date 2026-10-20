@@ -7,6 +7,9 @@ Naxat Soft, 1994).
 (`Super Gomoku Narabe - Renju (Japan).sfc`, 524,288 bytes, CRC32 `5621000D`, SHA-1
 `8d8387305b6d65d4e1fab77bcd197dd05891e664`) with Flips, beat or RomPatcher.js.
 
+**Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
+helps most.
+
 This repository contains source only (script, font, engine patch in 65816 assembly, build tools): no ROM data and no
 pre-patched ROMs.
 

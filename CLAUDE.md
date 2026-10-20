@@ -20,6 +20,7 @@ SK = .claude/skills/translate-retro-game/scripts
 - Pre-approved: keep going, report at end. English first, then Vietnamese. Credits translated. Graphics in scope.
 - Standard English renju terms (glossary.md); Vietnamese terms glossary_vi.md. Western name order, no honorifics.
 - Passwords and the kana password grid stay Japanese (compared with input). 連珠 calligraphy kept in the title logo.
+- Player bug reports: GitHub issues (`gh issue list --label bug`). Copy the attached save into `work/states/`, reproduce in the emulator, fix, commit with `Fixes #N`, and update the Status section.
 
 ## Gotchas
 - Never change DB outside $80-$BF in engine code (game IRQ writes PPU with absolute addressing).
