@@ -10,6 +10,22 @@ Naxat Soft, 1994).
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+Same for the English and Vietnamese patches.
+
+| Part | Status |
+|---|---|
+| Menus, game messages, options | Translated |
+| Tournament, renju puzzles, Renju Dictionary lessons | Translated |
+| Title logo | Translated (SUPER / GOMOKU replaces the katakana; the 連珠 calligraphy is kept) |
+| Certificates, side-panel icons, options card | Translated (kanji icons redrawn as pictures) |
+| Staff credits | Translated |
+| Puzzle passwords and the kana entry grid | Left in Japanese (the game compares them with what you enter) |
+| Debug menu | Left in Japanese (not reachable) |
+
+Known issues: none known (two staff-roll name readings are unverified); [report one](../../issues/new/choose).
+
 This repository contains source only (script, font, engine patch in 65816 assembly, build tools): no ROM data and no
 pre-patched ROMs.
 
